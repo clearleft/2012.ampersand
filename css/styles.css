@@ -1,0 +1,288 @@
+h1, h2, h3, h4, h5, p, ul, ol, li, div, blockquote {
+	font-weight: normal;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+body {
+	font-size:16px;
+	padding: 0;
+	margin: 1.5em 0;
+	/* #e7e8d2 */
+	background-color: #e7e8d2;
+	background-image: -moz-radial-gradient(#f6f7e1, #d7d8c5);
+	background-image: -webkit-radial-gradient(#f6f7e1, #d7d8c5);
+	background-image: -o-radial-gradient(#f6f7e1, #d7d8c5);
+	background-image: -ms-radial-gradient(#f6f7e1, #d7d8c5);
+	background-image: radial-gradient(#f6f7e1, #d7d8c5);
+	color: #220;
+	text-shadow: 0 0.125em 0 rgba(255, 255, 255, 0.4);
+	text-rendering: optimizeLegibility;
+	-moz-font-feature-settings:"kern=1, liga=1";
+	-webkit-font-feature-settings:"kern" 1, "liga" 1;
+	-ms-font-feature-settings:"kern" 1, "liga" 1;
+	-o-font-feature-settings:"kern" 1, "liga" 1;
+	font-feature-settings:"kern" 1, "liga" 1; 
+}
+
+.vevent {
+	margin: 0 auto;
+	width:50em;
+}
+
+@media screen and (max-width:55em){
+	body {
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:48em){
+	body {
+		font-size:12px;
+	}
+}
+
+@media screen and (max-width:41em){
+	body {
+		font-size:10px;
+	}
+}
+
+@media screen and (max-width:34em){
+	body {
+		font-size:8px;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: #8B0000;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+.wf-trilogyfatfaceexpanded-n4-loading .presents {
+	font-family: Georgia, serif;
+	font-weight: bold;
+}
+
+.presents {
+	font-family: "Trilogy Fatface Expanded", Georgia, serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.5em;
+	margin-bottom: 0.25em;
+}
+
+h1 {
+	font-family: "Trilogy Sans Compressed Heavy", Impact, "HelveticaNeue-CondensedBold", "Futura Condensed ExtraBold", "Arial Narrow", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 10.25em; /* 164px */
+	margin-bottom: -0.15em;
+	text-align: center;
+	letter-spacing: 0;
+}
+
+.wf-trilogysanscompressedheavy-n4-loading h1 { 
+	font-family:Impact, "HelveticaNeue-CondensedBold", "Futura Condensed ExtraBold", "Arial Narrow", sans-serif;
+	margin-bottom: -0.020979020979021em;
+	font-size: 8.9375em; /* 143px */
+	letter-spacing: 0.076923076923077em;
+}
+
+.wf-trilogysanscompressedheavy-n4-loading.iOS h1 { 
+	letter-spacing: 0.062937062937063em;
+}
+
+h2 {
+	font-family: "TrilogEgyptiaExpandeExtrBol", Rockwell, Cambria, Georgia, serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2.8125em; /* 45px */
+	text-align: center;
+	margin-top: 0;
+	border-bottom: 2px solid #000;
+	padding-bottom: 0.244444444444444em;
+	letter-spacing: 0;
+}
+
+.wf-trilogegyptiaexpandeextrbol-n4-loading h2 { 
+	font-family: "TrilogEgyptiaExpandeExtrBol", Rockwell, Cambria, Georgia, serif;
+	margin-top: -0.111111111111111em;
+	padding-bottom: 14px;
+	letter-spacing: 0.2em;
+	text-align: left;
+}
+
+h2 strong {
+	font-family: "Trilogy Egyptian Expanded Bold", Rockwell, Cambria, Georgia, serif;
+	font-weight: bold;
+	display: block;
+	font-size:1.777777777777778em; /* 80px */
+	margin-top: 0;
+	letter-spacing: 0;
+}
+
+.wf-trilogyegyptianexpandedbold-n4-loading h2 strong {
+	font-family: Rockwell, Cambria, Georgia, serif;
+	margin-top: -0.025em;
+	letter-spacing: 0.1625em;
+}
+
+h3 {
+	font-family:"Trilogy Sans Wide Regular", Verdana, sans-serif;
+	font-size: 1.5em /* 24px */;
+	display: block;
+	text-transform: uppercase;
+	margin:0.125em 0 0.5em 0;
+	padding-top: 1em;
+	border-top: 5px solid #000;
+}
+
+
+.wf-trilogysanswideregular-n4-loading h3 {
+	font-family:Verdana, sans-serif;
+	padding-top: 0.916666666666667em;
+}
+
+ul {
+	font-family: "Trilogy Fatface Regular", Georgia, serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 4.3125em /* 69px */;
+	padding-bottom: 0.34782608695652em;	/* 24px */
+	border-bottom: 5px solid #000;
+}
+
+.wf-trilogyfatfaceregular-n4-loading ul {
+	font-family: Georgia, serif;
+	font-weight: bold;
+	padding-bottom: 0.416666666666667em;
+}
+
+ul li {
+	font-style: italic;
+	font-weight: inherit;
+}
+
+.whenwhere {
+	font-family: "Trilogy Egyptian Bold", Rockwell, Georgia, serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 4.125em /* 66px */;	
+	text-align: center;
+	padding-top: 0.4em;
+	border-top: 2px solid #000;
+	margin-top: 0.03030303030303em;
+	letter-spacing: 0;
+}
+
+.wf-trilogyegyptianbold-n4-loading .whenwhere {
+	font-family: Rockwell, Georgia, serif;
+	padding-top: 0.363636363636364em;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.location {
+	font-family: "Trilogy Egyptian Expanded Bold", Rockwell, Georgia, serif;
+	font-weight: bold;
+	font-size: 1.121212121212121em; /* 74px */
+	letter-spacing: 0;
+
+}
+
+.wf-trilogyegyptianexpandedbold-n4-loading .location {
+	font-family: Rockwell, Georgia, serif;
+	margin-top: -0.013333333333333em;
+	font-size: 1.136363636363636em; /* 75px */
+	letter-spacing: 0.146666666666667em;
+}
+
+.dtstart {
+}
+
+.sup {
+	text-transform: none;
+}
+
+.wf-trilogysanswideregular-n4-loading .contact {
+	font-family:Verdana, sans-serif;
+}
+
+.contact {
+	font-family:"Trilogy Sans Wide Regular", Verdana, sans-serif;
+	font-size: 1.5em /* 24px */;
+	margin:1em 0 2.5em 0;
+}
+
+.wf-trilogyfatfacewide-n4-loading .contact a {
+	font-family:Georgia, serif;
+	font-weight: bold;
+}
+
+.contact a {
+	font-family: "Trilogy Fatface Wide", Georgia, serif;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+.wf-trilogyegyptianwidebold-n4-loading .contact a.email {
+	font-family:Rockwell, Georgia, serif;
+}
+
+.contact a.email {
+	font-family:"Trilogy Egyptian Wide Bold", Rockwell, Georgia, serif;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.follow {
+	margin-bottom: 0.25em;
+}
+
+.wf-trilogyegyptianwidebold-n4-loading .footer {
+	font-family:Rockwell, Georgia, serif;
+}
+
+.wf-trilogyegyptianwidebold-n4-loading .footer, .wf-trilogyegyptianwidebold-n4-inactive .footer {
+	visibility: hidden;
+}
+
+.footer {
+	font-size: 1em /* 16px */;
+	font-family: "Trilogy Egyptian Wide Bold", Rockwell, Georgia, serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.wf-trilogfatfacexpersubseregula-n4-loading .swsh {
+	font-family: Georgia, serif;
+}
+
+/* use expert subset for swashes */
+
+.swsh {
+	font-family:"TrilogFatfacExperSubseRegula", 'Trilogy Fatface Regular', Georgia, serif;
+}
+
+/* use OpenType feature instead of subset if font-feature-settings supported */
+
+.font-feature-settings .swsh {
+	font-family:inherit;
+	-moz-font-feature-settings:"swsh=1";
+	-webkit-font-feature-settings:"swsh" 1;
+	-ms-feature-settings:"swsh" 1;
+	-o-feature-settings:"swsh" 1;
+	font-feature-settings:"swsh" 1;
+}
+
