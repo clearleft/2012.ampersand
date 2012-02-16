@@ -52,7 +52,6 @@ if(
 <li>Jos<span class="swsh">é</span> Scaglion<span class="swsh">e</span></li>
 <li>Ellio<span class="swsh">t</span> Ja<span class="swsh">y</span> Stock<span class="swsh">s</span></li>
 <li>Veronik<span class="swsh">a</span> Buria<span class="swsh">n</span></li>
-<li>&amp; man<span class="swsh">y</span> othe<span class="swsh">r</span> expert<span class="swsh">s</span></li>
 </ul>
 
 <div class="whenwhere">
