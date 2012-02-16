@@ -220,7 +220,31 @@ ul li {
 .contact {
 	font-family:"Trilogy Sans Wide Regular", Verdana, sans-serif;
 	font-size: 1.5em /* 24px */;
-	margin:1em 0 2.5em 0;
+	margin:1em 0 1.5em 0;
+}
+
+.sponsors {
+	margin:0 0 2.5em 0;
+}
+
+.sponsors ul {
+	font-size: 1em;
+	padding: 0 0 0 4em;
+	border: none;
+}
+
+.sponsors li {
+	float: left;
+	padding: 1em 0 0 4em;
+	opacity: 0.9;
+}
+
+.sponsors .premier {
+	padding: 0 0 2.5em 0;
+}
+
+.sponsors li.knockback {
+	opacity: 0.75;
 }
 
 .wf-trilogyfatfacewide-n4-loading .contact a {
@@ -258,6 +282,7 @@ ul li {
 }
 
 .footer {
+	clear: both;
 	font-size: 1em /* 16px */;
 	font-family: "Trilogy Egyptian Wide Bold", Rockwell, Georgia, serif;
 	font-weight: bold;

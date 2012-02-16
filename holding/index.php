@@ -60,8 +60,19 @@ if(
 </div>
 
 <div class="contact">
+<p class="follow">Tickets go on sale 6th March 2012, priced &pound;125.</p>
 <p class="follow">Follow <a href="http://twitter.com/ampersandconf">@ampersandconf</a> for updates &amp; ticket news.</p>
 <p>Download our <a href="http://ampersand.s3.amazonaws.com/2012/Ampersand_Sponsor_Pack_2012.pdf" class="email">information pack</a> for sponsorship opportunities.</p>
+</div>
+
+<div class="sponsors">
+<ul>
+	<li class="premier knockback"><a href="http://fontdeck.com/?ampersand"><img src="i/sponsors/fontdeck.png" style="width:10.75em; height:7.25em" alt="Fontdeck"></a></li>
+	<li><a href="http://heartinternet.co.uk/?ampersand"><img src="i/sponsors/heartinternet.png" style="width:12.0625em; height:1.875em" alt="Heart Internet"></a></li>
+	<li><a href="http://typekit.com/?ampersand"><img src="i/sponsors/typekit.png" style="width:9.5625em; height:2.5em" alt="Typekit"></a></li>
+	<li class="knockback"><a href="http://webtype.com/?ampersand"><img src="i/sponsors/webtype.png" style="width:11.8125em; height:2em" alt="Webtype"></a></li>
+</ul>
+
 </div>
 
 <div class="footer">
