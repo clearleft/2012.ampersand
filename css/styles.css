@@ -53,7 +53,11 @@ table {
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
-/* Default Mobile View Styles */
+/* Author: Bevan Stephens
+
+*/
+
+/* Default Mobile First Styles */
 
 
 body {
@@ -70,12 +74,17 @@ body {
 
 a {
 	color: #953935;
-	font-weight: bold;
+	font-family:"Trilogy Sans Wide Bold", Verdana, sans-serif;  font-weight:bold; font-style:normal;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom: 1px dotted #993A36;
+}
+
+a:active {
+	position: relative;
+	top:1px;
 }
 
 h1 {
@@ -95,11 +104,15 @@ article h1 {
 }
 
 h2 {
-	font-family:"Trilogy Egyptian Bold", 'Times New Roman', Times, serif; font-size-adjust:0.48; font-weight:bold; font-style:normal;
+	font-family:"Trilogy Egyptian Bold", 'Times New Roman', Times, serif;  font-weight:bold; font-style:normal;
 	font-size: 1.69em;
 	line-height: 1.1em;
 	margin-bottom: 1em;
 	text-align: center;
+}
+
+h2 a {
+	font-family: inherit;
 }
 
 h3, h4 {
@@ -108,15 +121,17 @@ h3, h4 {
 	line-height: 1em;
 	margin-bottom: 10px;
 	letter-spacing: -0.05em;
+	
 }
 
 h4 {
 	font-size: 1.8em;
-	background: url(../img/dotted-rule-thin.png) repeat-x left 90%;
+	background: url(../img/dotted-rule-thin.png) repeat-x left 85%;
 }
 
 h4 span {
 	background: #F4F4DC;
+	padding-right: 10px;
 }
 
 h5 {
@@ -142,17 +157,6 @@ address {
 	padding: 0px 7% 20px 7%;
 }
 
-.texture-mask {
-	background: url(../img/text-texture.gif) repeat, #222;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	-moz-text-fill-color: transparent;
-	-moz-background-clip: text;
-	text-shadow: none;
-	display: block;
-}
-
-
 /* Header */
 
 header {
@@ -161,7 +165,7 @@ header {
 }
 
 header.section { margin-bottom: 10px; }
-.home header.section { margin-bottom: 0px; }
+.home header.section { margin-bottom: 0px;  }
 
 
 header .ampersand-logo img {
@@ -184,23 +188,23 @@ header h1 .char6 { letter-spacing: -0.02em;	}
 header h1 .char7 { letter-spacing: -0.02em;	}
 
 header h2 {
-	font-family:"Trilogy Egyptian Heavy", 'Times New Roman', Times, serif; font-size-adjust:0.49; font-weight:900; font-style:normal;
+	font-family:"Trilogy Egyptian Heavy", 'Times New Roman', Times, serif;  font-weight:900; font-style:normal;
 	margin: 0 0 0 0;
 	padding: 5px 0 7px 0;
 	letter-spacing: 1px;
 	font-size: 1.4em;
-	line-height: 1.4em;
+	line-height: 1.37em;
 	white-space: nowrap;
 }
 
 header h2 strong {
-	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif; font-size-adjust:0.49; font-weight:bold; font-style:normal;
+	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif;  font-weight:bold; font-style:normal;
 	font-size: 1.33em;
 	white-space: nowrap;
 }
 
 header time, header span.location {
-	font-family:"Trilogy Egyptian Heavy", 'Times New Roman', Times, serif; font-size-adjust:0.49; font-weight:900; font-style:normal; 
+	font-family:"Trilogy Egyptian Heavy", 'Times New Roman', Times, serif;  font-weight:900; font-style:normal; 
 	font-size: 1em;
 	line-height: 1.1em;
 	letter-spacing: 1px;
@@ -208,7 +212,7 @@ header time, header span.location {
 }
 
 header .tickets {
-	font-family:"Trilogy Sans Compressed Heavy", Verdana, sans-serif; font-size-adjust:0.49; font-weight:900; font-style:normal;
+	font-family:"Trilogy Sans Compressed Heavy", Verdana, sans-serif;  font-weight:normal; font-style:normal;
 	font-size: 1.4em;
 	margin: 0 0 2px 0;
 	padding: 5px 0 10px 0;
@@ -236,13 +240,13 @@ header .main-nav li {
 }
 
 header .main-nav {
-	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif; font-size-adjust:0.49; font-weight:bold; font-style:normal;
 	background: url(../img/noisy-double-1px-5px-rule.png) repeat-x;
 	margin: 0px 0 0px 0;
 	padding: 20px 0 0px 0;
 }
 
 header .main-nav li a {
+	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif;  font-weight:bold; font-style:normal;
 	display: block;
 	border-bottom:1px solid transparent;
 	background: rgba(0,0,0,0.1);
@@ -259,10 +263,11 @@ header .main-nav li a:hover {
 /* Footer */
 
 .footer-nav {
-	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif; font-size-adjust:0.49; font-weight:bold; font-style:normal;
 	text-transform: uppercase;
 	border-top:3px solid #111;
 	padding-top: 2px;
+	padding-bottom: 27px;
+	background: url(../img/footer-nav-fleuron.png) no-repeat center bottom;
 }
 
 .footer-nav ul {
@@ -275,6 +280,7 @@ header .main-nav li a:hover {
 }
 
 .footer-nav a {
+	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif;  font-weight:bold; font-style:normal;
 	font-size: 0.8em;
 	margin-right: 10px;
 	padding: 5px 15px 5px 0px;
@@ -290,6 +296,10 @@ header .main-nav li a:hover {
 	border: none;
 }
 
+.footer-nav li:last-child a {
+	padding-right: 0;
+}
+
 footer {
 	font-family: sans-serif;
 	color: #5A5A5A;
@@ -298,6 +308,7 @@ footer {
 	font-size: 0.8em;
 	line-height: 1.6em;
 	text-align: left;
+	border-top:1px solid #D6D6C0;
 	
 }
 
@@ -315,10 +326,11 @@ footer img {
 
 footer a {
 	color: #5A5A5A;
+	font-family: sans-serif;
 }
 
 footer a:hover {	
-	color: #9CB43B2;
+	color: #9CB43B;
 	border-bottom: none;
 }
 
@@ -328,6 +340,9 @@ footer a:hover {
 	text-shadow: none;
 	white-space: nowrap;
 	-webkit-font-smoothing: antialiased;
+	-webkit-mask-image: url(../img/text-texture.png);
+	-moz-mask-image: url(../img/text-texture.png);
+	mask-image: url(../img/text-texture.png);
 }
 
 .speakers h1 strong {
@@ -356,13 +371,13 @@ footer a:hover {
 
 .speakers li a {
 	font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
-	background: url(../img/speaker-name-rule-mask.gif) transparent repeat-x left bottom;
+	background: url(../img/speaker-name-rule-mask.gif) transparent repeat-x 0 85%;
 	padding-right: 5px;
-	-webkit-transition: color 0.5s ease-in-out;
-	-moz-transition: color 0.5s ease-in-out;
-	-o-transition: color 0.5s ease-in-out;
-	-ms-transition: color 0.5s ease-in-out;
-	transition: color 0.5s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
 }
 
 .speakers li a:hover {
@@ -383,7 +398,7 @@ footer a:hover {
 /* Home Page - Sponsors */ 
 
 section.sponsors h2 {
-	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif; font-size-adjust:0.49; font-weight:800; font-style:normal;
+	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif;  font-weight:800; font-style:normal;
 	background: url(../img/noisy-double-1px-3px-rule.png) repeat-x center bottom;
 	line-height: 1.2em;
 	padding-bottom: 10px;
@@ -391,6 +406,9 @@ section.sponsors h2 {
 	white-space: nowrap;
 	text-align: center;
 	text-transform: uppercase;
+	-webkit-mask-image: url(../img/text-texture.png);
+	-moz-mask-image: url(../img/text-texture.png);
+	mask-image: url(../img/text-texture.png);
 }
 
 section.sponsors h5 {
@@ -421,7 +439,11 @@ article.schedule table {
 	width: 100%;
 	background: url(../img/noisy-double-1px-3px-rule.png) repeat-x left bottom;
 	text-align: left;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
+}
+
+article.schedule table.friday {
+	margin-bottom: 20px;
 }
 
 article.schedule table th.time {
@@ -437,6 +459,10 @@ article.schedule table th.time {
 
 article.schedule table tr {
 	background: url(../img/noisy-double-1px-rule.png) repeat-x left top;
+}
+
+article.schedule table tr:last-child td {
+	padding-bottom: 4px;
 }
 
 article.schedule table.friday tr:first-child {
@@ -455,13 +481,14 @@ article.schedule table td div {
 
 article.schedule h3 {
 	font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
-	font-size: 2.2em;
+	font-size: 1.7em;
 	line-height: 1.1em;
 	letter-spacing: -0.09em; 
 	margin-bottom: 3px;
 }
 
 article.schedule h3 a {
+	font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
 	font-weight: normal;
 	-webkit-transition: color 0.5s ease-in-out;
 	-moz-transition: color 0.5s ease-in-out;
@@ -476,10 +503,10 @@ article.schedule h3 a:hover {
 }
 
 article.schedule h3 span {
-	font-family:"Trilogy Sans Wide Regular", Verdana, sans-serif; font-size-adjust:0.48; font-weight:normal; font-style:normal;
-	font-size: 0.5em;
+	font-family:"Trilogy Sans Wide Regular", Verdana, sans-serif; font-weight:normal; font-style:normal;
+	font-size: 0.7em;
 	letter-spacing: 0px;
-	padding-left: 10px;
+	display: block;
 }
 
 article.schedule table td p {
@@ -497,10 +524,10 @@ article.location .map {
 	text-align: center;
 }
 
-article.location .map iframe {
+article.location .map #map_canvas {
+	height: 250px;
 	border: 3px solid #222;
-	width: 98% !important;
-	margin: 1% 0.5% 0 0.5%;
+	margin: 1% 1% 1% 1%;
 }
 
 article.location strong {
@@ -513,15 +540,83 @@ article.location strong {
 	font-weight: bold;
 }
 
+article.location h3 {
+	font-size: 2.2em;
+}
+
+
 /* Session Page - Session */
 
 article.session {
 	text-align: justify;
 }
 
+article.session h1{
+	white-space: nowrap;
+}
+
+article.session p {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto; 
+	hyphens: auto; 
+}
+
 article.session aside {
 	background: url(../img/noisy-double-1px-rule.png) repeat-x;
-	padding: 20px 0 0 0;
+	padding: 20px 0 20px 0;
+}
+
+article.session aside h3 {
+	text-align: left;
+}
+
+article.session aside img {
+	display: none;
+	float: right;
+	margin-left: 30px;
+}
+
+article.session aside nav a {
+	background: url(../img/icon-speaker-website.gif) no-repeat left center;
+	padding-left: 25px;
+	border: none;
+}
+
+article.session aside nav a.twitter {
+	background: url(../img/icon-speaker-twitter.gif) no-repeat left center;
+	padding-left: 30px;
+}
+
+article.session aside nav a:hover {
+	color: #333;
+}
+
+article.session .all-speakers {
+	margin: 0 0 20px 0;
+}
+
+article.session .all-speakers h4 {
+	text-align: center;
+	font-family:"Trilogy Sans Wide Regular", Verdana, sans-serif; font-weight:normal; font-style:normal;
+	font-size: 1em;
+	letter-spacing: 1px;
+	background: url(../img/noisy-single-1px-solid-rule.png) repeat-x left center;
+	padding: 10px 0 10px 0;
+	margin: 20px 0px 5px 0px;
+}
+
+article.session .all-speakers h4 span {
+	padding: 0 20px;
+}
+
+article.session .all-speakers ul li  {
+	font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
+	font-size: 1.7em;
+	line-height: 1.3em;
+}
+
+article.session .all-speakers ul li a{
+	font-weight: normal;
 }
 
 
@@ -539,8 +634,9 @@ article.session aside {
 	
 	/* Header */
 	
-	header {
+	header.section {
 		position: relative;
+		padding-bottom: 0px;
 	}
 	
 	header .ampersand-logo {
@@ -563,7 +659,7 @@ article.session aside {
 	}
 	
 	header h1 {
-		width: 51.4;
+		font-size: 8.3em;
 		padding-left: 20%;
 		margin-left: 5%;
 		text-align: right;
@@ -585,7 +681,7 @@ article.session aside {
 	header h2 {
 		background: url(../img/noisy-1px-rule-short.png) no-repeat center bottom;
 		margin-bottom: 12px;
-		line-height: 1.4em;
+		line-height: 1.35em;
 	}
 	
 	header time, header span.location {
@@ -624,7 +720,7 @@ article.session aside {
 	header .tickets .buy .brace {
 		display: none;
 		position: absolute;
-		font-size: 2.8em;
+		font-size: 2.9em;
 		float: left;
 		top:4px;
 	}
@@ -635,31 +731,22 @@ article.session aside {
 	
 	header .tickets .buy strong {
 		display: block;
-		padding: 0 15%;
+		padding: 0 12%;
 	}
 	
 	header .main-nav {
 		padding-top: 20px;
 		clear: both;
 		width: 100%;
+		text-align: justify;
 	}
 	
 	header .main-nav ul {
-		display:-moz-box;
-        display:-webkit-box;
-        display: box;
-        -moz-box-pack: justify;
-        -webkit-box-pack: justify;
-        box-pack: justify;
+		display: inline;    
 	}
 	
 	header .main-nav li {
-		display:-moz-box;
-        display:-webkit-box;
-        display: box;
-		-moz-box-pack: center;
-        -webkit-box-pack:  center;
-        box-pack:  center;
+		display: inline;
 	}
 	
 	header .main-nav li a {
@@ -671,12 +758,27 @@ article.session aside {
 		-webkit-border-radius: 0px; 
 	    -moz-border-radius: 0px; 
 	    border-radius: 0px;
-	    color: #222; 
+	    color: #222;
+	    -webkit-transition: color 0.2s ease-in-out;
+		-moz-transition: color 0.2s ease-in-out;
+		-o-transition: color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out; 
 	}
 	
 	header .main-nav li a:hover {
 		background: none;
 		color: #953935;
+	}
+
+	
+	/* Flex Box didn't work */ 
+	
+	header .main-nav span {
+		width: 100%;
+		font-size: 1px;
+		height: 1px;
+		display: inline-block;	
 	}
 	
 	/* Active states */
@@ -688,11 +790,6 @@ article.session aside {
 		color: #953935;
 	}
 	
-	/*header .main-nav li a.home  { text-align: left; width: 22%; }
-	header .main-nav li a.schedule  { text-align: left; width: 30%; }
-	header .main-nav li a.location  { text-align: left; width: 25%; }
-	header .main-nav li a.sponsors  { text-align: right; width: 23%; }
-	*/
 	
 	/* Footer */
 	
@@ -706,7 +803,6 @@ article.session aside {
 		
 	}
 	.speakers li a {
-	
 		letter-spacing: -1px;
 	}
 	
@@ -729,12 +825,18 @@ article.session aside {
 	}
 	
 	section.sponsors .section div {
-		width: 50%;
+		width: 47%;
 		float: left;
 	}
 	
-	section.sponsors h5 {
-		margin-right: 10%;
+	section.sponsors .premiere,
+	section.sponsors .executive {
+		margin-right: 3%;
+	}
+	
+	section.sponsors .grass-roots,
+	section.sponsors .media-partners {
+		margin-left: 3%;
 	}
 	
 	section.sponsors h5 span {
@@ -751,6 +853,21 @@ article.session aside {
 		clear: left;
 	}
 	
+	/* Schedule Page - Schedule */
+	
+	article.schedule h3 {
+		font-size: 2.2em;
+		line-height: 1.1em;
+		letter-spacing: -0.09em; 
+	}
+	
+	article.schedule h3 span {
+		padding-left: 10px;
+		display: inline;
+		font-size: 0.5em;
+		line-height: 1em;
+	}
+	
 	
 	/* Location Page - Location */
 	
@@ -762,15 +879,8 @@ article.session aside {
 		text-align: left;
 	}
 	
-	article.location .location-a,
-	article.location .location-b,
-	article.location .location-c,
-	article.location .accommodation-a,
-	article.location .accommodation-b,
-	article.location .accommodation-c
-	 {
-		width: 33.2%;
-		float: left;
+	article.location br {
+		display: none;
 	}
 	
 	article.location .location-a,
@@ -778,6 +888,23 @@ article.session aside {
 	article.location .location-c {
 		background: url(../img/noisy-double-1px-5px-rule-shorter.png) no-repeat left bottom;
 		margin-bottom: 20px;
+	}
+	
+	article.location h3 {
+		font-size: 2.2em;
+		padding-left: 30px;
+	}
+	
+	article.location .location-a h3 {
+		background: url(../img/map-markers.png) no-repeat 0 0;
+	}
+	
+	article.location .location-b h3 {
+		background: url(../img/map-markers.png) no-repeat 0 -40px;
+	}
+	
+	article.location .location-c h3 {
+		background: url(../img/map-markers.png) no-repeat 0 -80px;
 	}
 	
 	article.location p {
@@ -791,28 +918,35 @@ article.session aside {
 		text-align: justify;
 	}
 	
-	article.sponsors .sponsorship-pack {
-		border: 1px solid #222;
-		float: right;
-		text-align: left;
-		width: 38%;
-		margin: 10px 0 5% 7%;
-		border: 2px solid #222;
-		padding: 20px 30px 0px 30px;
-		font-size: 1.1em;
-		-moz-box-shadow: #F4F4DC 0 1px 0 0, red 1px 1px 0 0;
-		-webkit-box-shadow: #F4F4DC 0 1px 0 10, red 1px 1px 0 0;
-		box-shadow: #F4F4DC 0 0 0 3px, #222 0 0 0 7px;
-		
+	article.sponsors p {
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto; 
+		hyphens: auto; 
 	}
 	
-	article.sponsors .sponsorship-pack .button {
+	
+	/* Session Page - Session */
+	
+	article.session aside img {
 		display: block;
-		background: url(../img/hand.png) no-repeat left center;
-		padding: 5px 0 0 80px;
-		font-family:"Trilogy Egyptian", 'Times New Roman', Times, serif; font-size-adjust:0.49; font-weight:900; font-style:normal;
-		font-size: 1.3em;
 	}
+	
+	article.session aside nav a {
+		font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
+		font-size: 1.2em;
+		display: block;
+		float: left;
+		width: 40%;
+	}
+	
+	article.session .all-speakers ul li  {
+		width: 50%;
+		display: block;
+		float: left;
+		font-size: 1.5em;
+	}
+	
+	
 }
 
 
@@ -840,6 +974,72 @@ article.session aside {
 		display: block;
 	}
 	
+	article.session aside nav a {
+		width: 25%;
+	}
+	
+
+	
+	article.sponsors .sponsorship-pack {
+		border: 1px solid #222;
+		float: right;
+		text-align: left;
+		width: 38%;
+		margin: 10px 0 5% 7%;
+		border: 2px solid #222;
+		padding: 20px 30px 0px 30px;
+		font-size: 1.1em;
+		-moz-box-shadow: #F4F4DC 0 1px 0 0, red 1px 1px 0 0;
+		-webkit-box-shadow: #F4F4DC 0 1px 0 10, red 1px 1px 0 0;
+		box-shadow: #F4F4DC 0 0 0 3px, #222 0 0 0 7px;
+		
+	}
+	
+	article.sponsors .sponsorship-pack .button {
+		display: block;
+		background: url(../img/hand.png) no-repeat left center;
+		padding: 5px 0 0 80px;
+		font-family:"Trilogy Egyptian", 'Times New Roman', Times, serif;  font-weight:900; font-style:normal;
+		font-size: 1.3em;
+	}
+	
+	article.sponsors .sponsorship-pack .button a {
+		font-family:"Trilogy Egyptian", 'Times New Roman', Times, serif;  font-weight:normal; font-style:normal;
+	}
+	
 	
 }
 
+/* Max Width  Styles */
+
+
+@media only screen and (min-width: 850px) {
+
+	header .tickets {
+		padding-bottom: 20px;
+	}
+
+	article.location h3 {
+		font-size: 2.4em;
+	}
+	
+	article.session .all-speakers ul li  {
+		width: 33%;
+		font-size: 1.5em;
+	}
+	
+	article.location .location-a,
+	article.location .location-b,
+	article.location .location-c,
+	article.location .accommodation-a,
+	article.location .accommodation-b,
+	article.location .accommodation-c
+	 {
+		width: 33.2%;
+		float: left;
+	}
+	
+	article.location br {
+		display: block;
+	}
+}

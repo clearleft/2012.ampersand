@@ -17,7 +17,7 @@
 	<!-- SPONSORS -->
 	<article class="section sponsors clearfix">
 		
-		<h1>Sponsors</h1>
+		<h1>Sponsors.</h1>
 		
 		<h2>Get your message to a creative, knowledgeable, and tech-savvy audience including everyone from creative directors and heads of design, 
 		to freelance web designers, front-end developers, illustrators and type designers.</h2>

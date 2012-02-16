@@ -16,9 +16,7 @@
 
 	<!-- SPEAKERS -->
 	<section class="section speakers">
-		<div class="texture-mask">
-			<h1>Combining the worlds of <strong>Web <span>&amp;</span> Type Design.</strong></h1>
-		</div>
+		<h1>Combining the worlds of <strong>Web <span>&amp;</span> Type Design.</strong></h1>
 		<ul class="speakers">
 			<li><a href="/eric-spiekerman">Eri<span class="swsh">k</span> Spiekerman<span class="swsh">n</span></a></li>
 			<li><a href="/jake-archibald">Jak<span class="swsh">e</span> Archibal<span class="swsh">d</span></a></li>

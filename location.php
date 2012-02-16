@@ -20,14 +20,14 @@
 		<h2>Brighton is one of the most vibrant, colourful and creative cities in Europe. It has a rich typographic history, including being the <a href="">birthplace of Eric Gill.</a></h2>
 		
 		<div class="map">
-			<iframe width="780" height="270" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?source=embed&amp;hl=en&amp;ie=UTF8&amp;q=corn+exchange,+brighton&amp;fb=1&amp;hq=corn+exchange,&amp;hnear=Brighton,+East+Sussex,+UK&amp;view=map&amp;cid=2326185885725850547&amp;t=m&amp;ll=50.824563,-0.138917&amp;spn=0.009488,0.034332&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+			<div id="map_canvas"></div>
 		</div>
 		
 		<div class="location-a">
 			<h3 >Pre-Party</h3>
 			<address>
 			[Sponsored by <a href="">MyFonts</a>]</br >
-			The Basement,</br > 24 Kensington Street,</br > 
+			<strong>The Basement,</strong></br > 24 Kensington Street,</br > 
 			Brighton,
 			BN1 4AJ, UK
 			</address>
@@ -36,7 +36,7 @@
 		<div class="location-b">
 			<h3 >Conference</h3>
 			<address>
-			Brighton Dome Corn <br />
+			<strong>Brighton Dome Corn</strong><br /> 
 			Exchange<br />
 			Church Street,<br /> 
 			Brighton, BN1 1UG, UK
@@ -46,7 +46,7 @@
 		<div class="location-c">
 			<h3 >After Party</h3>
 			<address>
-			Above Audio<br />
+			<strong>Above Audio</strong> <br />
 			10 Marine Parade, <br />
 			Brighton<br />
 			BN2 1TL, UK
@@ -81,6 +81,21 @@
 	
 		
 	<?php include("includes/footer.php"); ?>
+	
+	<script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBsKKks40lHQ0Bos_XjCqKqqSDfW8V54MA&sensor=false">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var myOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            myOptions);
+      }
+    </script>
 
 </body>
 </html>

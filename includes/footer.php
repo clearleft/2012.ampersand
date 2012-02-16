@@ -1,9 +1,7 @@
 	<!-- SPONSORS -->
 	<section class="sponsors">
 		<div class="section clearfix">
-			<span class="texture-mask">
-				<h2>Our Generous Sponsors</h2>
-			</span>
+			<h2>Our Generous Sponsors</h2>
 			<div class="premiere">
 				<h5><span>Premiere Sponsors</span></h5>
 				<img class="fontdeck" alt="Fontdeck" src="img/sponsors/fontdeck.png" />
@@ -34,7 +32,6 @@
 				<li><a class="accessibilty" href="/accessibilty" title="accessibilty">Accessibilty</a></li>
 			</ul>
 		</nav>
-		<img src="img/footer-nav-fleuron.png"  />
 	</div>
 
 	<!-- CLEARLEFT FOOTER -->
