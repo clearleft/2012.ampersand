@@ -12,7 +12,7 @@
 
 <body id="wrapper" class="vevent generic">
 
-	<?php include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SPONSORS -->
 	<article class="section clearfix">
@@ -53,7 +53,7 @@
 	</article>
 	
 		
-	<?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 </body>
 </html>

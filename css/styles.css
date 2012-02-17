@@ -105,7 +105,7 @@ article h1 {
 
 h2 {
 	font-family:"Trilogy Egyptian Bold", 'Times New Roman', Times, serif;  font-weight:bold; font-style:normal;
-	font-size: 1.69em;
+	font-size: 1.3em;
 	line-height: 1.1em;
 	margin-bottom: 1em;
 	text-align: center;
@@ -121,7 +121,6 @@ h3, h4 {
 	line-height: 1em;
 	margin-bottom: 10px;
 	letter-spacing: -0.05em;
-	
 }
 
 h4 {
@@ -610,13 +609,23 @@ article.session .all-speakers h4 span {
 }
 
 article.session .all-speakers ul li  {
-	font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
 	font-size: 1.7em;
 	line-height: 1.3em;
 }
 
-article.session .all-speakers ul li a{
+article.session .all-speakers ul li a {
 	font-weight: normal;
+	font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+article.session .all-speakers ul li a:hover {
+	border: none;
+	color: #222;
 }
 
 
@@ -630,6 +639,10 @@ article.session .all-speakers ul li a{
 	
 	h1 {
 		font-size: 3.3em;
+	}
+	
+	h2 {
+		font-size: 1.69em;
 	}
 	
 	/* Header */
@@ -896,15 +909,15 @@ article.session .all-speakers ul li a{
 	}
 	
 	article.location .location-a h3 {
-		background: url(../img/map-markers.png) no-repeat 0 0;
+		background: url(../img/map-marker-a.png) no-repeat 0 0;
 	}
 	
 	article.location .location-b h3 {
-		background: url(../img/map-markers.png) no-repeat 0 -40px;
+		background: url(../img/map-marker-b.png) no-repeat 0 0;
 	}
 	
 	article.location .location-c h3 {
-		background: url(../img/map-markers.png) no-repeat 0 -80px;
+		background: url(../img/map-marker-c.png) no-repeat 0 0;
 	}
 	
 	article.location p {
@@ -977,8 +990,6 @@ article.session .all-speakers ul li a{
 	article.session aside nav a {
 		width: 25%;
 	}
-	
-
 	
 	article.sponsors .sponsorship-pack {
 		border: 1px solid #222;

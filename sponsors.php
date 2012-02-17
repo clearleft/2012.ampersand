@@ -12,7 +12,7 @@
 
 <body id="wrapper" class="vevent sponsors">
 
-	<?php include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SPONSORS -->
 	<article class="section sponsors clearfix">
@@ -38,7 +38,7 @@ We’ve also introduced a special low cost grassroots sponsorship option especia
 	</article>
 	
 		
-	<?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 </body>
 </html>

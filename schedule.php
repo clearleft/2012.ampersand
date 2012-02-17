@@ -12,7 +12,7 @@
 
 <body id="wrapper" class="vevent schedule">
 
-	<?php include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SCHEDULE -->
 	<article class="section schedule">
@@ -87,7 +87,7 @@
 	
 	
 		
-	<?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 </body>
 </html>

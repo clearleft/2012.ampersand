@@ -12,7 +12,7 @@
 
 <body id="wrapper" class="vevent home">
 
-	<?php include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SPEAKERS -->
 	<section class="section speakers">
@@ -35,7 +35,7 @@
 		&amp; track who's attending on the social conference directory <a href="http://lanyrd.com/2012/ampersand/">Lanyrd.</a></p>
 	</section>
 		
-	<?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 </body>
 </html>

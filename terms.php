@@ -12,7 +12,7 @@
 
 <body id="wrapper" class="vevent generic">
 
-	<?php include("includes/header.php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SPONSORS -->
 	<article class="section clearfix">
@@ -35,7 +35,7 @@ If you require any further clarification of these terms please <a href="mailto:a
 	</article>
 	
 		
-	<?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 </body>
 </html>
