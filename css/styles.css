@@ -59,7 +59,6 @@ table {
 
 /* Default Mobile First Styles */
 
-
 body {
 	background: #F4F4DC url(../img/page-gradient.png) repeat-x;
 	font-family:"Trilogy Sans Wide Regular", Verdana, sans-serif; font-weight:normal; font-style:normal;
@@ -142,6 +141,10 @@ h3, h4 {
 	line-height: 1em;
 	margin-bottom: 10px;
 	letter-spacing: -0.05em;
+}
+
+.oldie h3, .oldie h4  {
+	font-style:normal;
 }
 
 h4 {
@@ -362,6 +365,7 @@ footer a:hover {
 /* Home Page - Speakers */
 
 .speakers h1 {
+	font-size: 2.5em;
 	text-shadow: none;
 	white-space: nowrap;
 	-webkit-font-smoothing: antialiased;
@@ -415,6 +419,11 @@ footer a:hover {
 	-o-font-feature-settings:"kern" 0;
 	-ms-font-feature-settings:"kern" 0;
 	font-feature-settings:"kern" 0;
+	border: none;
+}
+
+.oldie .speakers li a  {
+	font-style:normal;
 }
 
 .speakers li a:hover {
@@ -425,6 +434,12 @@ footer a:hover {
 .speakers li a .swsh {
 	font-family:"TrilogFatfacExperSubseRegula", 'Trilogy Fatface', serif; font-weight:normal; font-style:italic;
 }
+
+.oldie .speakers li a .swsh {
+	font-style: normal;
+}
+
+
 
 .speakers li a.jake-archibald .char1 {	letter-spacing: -0.1em;	}
 .speakers li a.jake-archibald .char6 {	letter-spacing: -0.05em;	}
@@ -446,6 +461,7 @@ footer a:hover {
 
 section.sponsors h2 {
 	font-family:"TrilogEgyptiaExpandeExtrBol", 'Times New Roman', Times, serif;  font-weight:800; font-style:normal;
+	font-size: 1.5em;
 	background: url(../img/noisy-double-1px-3px-rule.png) repeat-x center bottom;
 	line-height: 1.2em;
 	padding-bottom: 10px;
@@ -546,6 +562,10 @@ article.schedule h3 a {
 	-o-transition: color 0.5s ease-in-out;
 	-ms-transition: color 0.5s ease-in-out;
 	transition: color 0.5s ease-in-out;
+}
+
+.oldie article.schedule h3, .oldie article.schedule h3 a {
+	font-style: normal;
 }
 
 article.schedule h3 a:hover {
@@ -682,6 +702,10 @@ article.session .all-speakers ul li a {
 	-o-transition: color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out;
+}
+
+.oldie article.session .all-speakers ul li a {
+	font-style: normal;
 }
 
 article.session .all-speakers ul li a:hover {
@@ -889,6 +913,10 @@ article.session .all-speakers ul li a:hover {
 	
 	.social a {
 		font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
+	}
+	
+	.oldie .social a {
+		font-style: normal;
 	}
 	
 	/* Home Page - Sponsors */ 
