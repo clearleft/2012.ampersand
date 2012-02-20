@@ -631,10 +631,6 @@ article.session {
 	text-align: justify;
 }
 
-article.session h1{
-	white-space: nowrap;
-}
-
 article.session p {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto; 

@@ -7,7 +7,7 @@
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
-		<h1>On Web Typography.</h1>
+		<h1>The State of Web Typography.</h1>
 		
 		<h2>Achieving a thorough grasp of typography can take a lifetime, but moving beyond the basics is within your reach right now.</h2>
 		
@@ -16,7 +16,7 @@
 		
 		<aside class="speaker clearfix">
 			<img src="img/jason-temp.gif" alt="jason-temp" width="185" height="196" />
-			<h3>Jason Santa Maria</h3>
+			<h3>Erik Spiekerman</h3>
 			<p>Jason Santa Maria is the founder and principal of Mighty, a Brooklyn-based design studio. He is creative director of , a faculty member in the MFA Interaction Design program at SVA, vice president of AIGA/NY, co-founder of , founder of , a shared encyclopedia of typefaces online, and creative director for , a magazine for people who make websites.</p>   
 			<nav >
 				<ul >
