@@ -61,7 +61,7 @@ if(
 
 <div class="contact">
 <p class="follow">Tickets go on sale 6th March 2012, priced &pound;125.</p>
-<p class="follow">Follow <a href="http://twitter.com/ampersandconf">@ampersandconf</a> for updates &amp; ticket news.</p>
+<p class="follow">Follow <a href="http://twitter.com/ampersandconf">@ampersandconf</a> for updates &amp; join us on <a href="http://lanyrd.com/2012/ampersand" class="email">Lanyrd</a>.</p>
 <p>Download our <a href="http://ampersand.s3.amazonaws.com/2012/Ampersand_Sponsor_Pack_2012.pdf" class="email">information pack</a> for sponsorship opportunities.</p>
 </div>
 
