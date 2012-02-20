@@ -1,7 +1,7 @@
 	<!-- SPONSORS -->
 	<section class="sponsors">
 		<div class="section clearfix">
-			<h2>Our Generous Sponsors</h2>
+			<h2><span class="char1">O</span>ur Generous Sponsors</h2>
 			<div class="premiere">
 				<h5><span>Premiere Sponsors</span></h5>
 				<img class="fontdeck" alt="Fontdeck" src="img/sponsors/fontdeck.png" />

@@ -55,7 +55,7 @@
 		<p>Cosmopolitan, compact, energetic, unique, fun, lively, historic, young, exotic and free-spirited, Brighton is a city like no other. 
 		Why not spend the weekend here after the conference! More information is available from <a href="#">visitbrighton.com</a></p>
 		
-		<h4><span>Accommodation</span></h4>
+		<h4><span><span class="char1">A</span><span class="char1">c</span><span class="char1">c</span>ommodation</span></h4>
 		
 		<address class="accommodation-a">
 			<strong>myhotel</strong></br>
@@ -136,10 +136,15 @@
     		title:"Above Audio",
     		icon: MarkerImageC
 		});
-		
-		markerA.setMap(map);
-		markerB.setMap(map);
-		markerC.setMap(map);
+		setTimeout(function(){
+			markerA.setMap(map);
+		}, 1000);
+		setTimeout(function(){
+			markerB.setMap(map);
+		}, 1500);
+		setTimeout(function(){
+			markerC.setMap(map);
+		}, 2000);
 
 		map.mapTypes.set('victorian_map', victorianMapType);
   		map.setMapTypeId('victorian_map');
