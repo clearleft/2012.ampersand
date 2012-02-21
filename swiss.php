@@ -1,8 +1,8 @@
-<?php include("includes/head.php"); ?>
+<?php include("includes/head-swiss.php"); ?>
 
-<body id="wrapper" class="vevent home">
+<body id="wrapper" class="vevent home swiss">
 
-<?php include("includes/header.php"); ?>
+<?php include("includes/header-swiss.php"); ?>
 
 	<!-- SPEAKERS -->
 	<section class="section speakers">

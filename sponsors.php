@@ -16,7 +16,7 @@
 			<p>
 				For more information on the benefits, sponsorship options and pricing, download the 
 				<span class="button">
-					<a href="#">Sponsors Information Pack <small>(0.6Mb PDF)</small></a>  or <a href="/contact">contact us.</a> 
+					<a href="Ampersand_Sponsor_Pack_2011.pdf">Sponsors Information Pack <small>(0.6Mb PDF)</small></a>  or <a href="mailto:ampersand@clearleft.com">contact us.</a> 
 				</span>
 			</p>
 		</section>

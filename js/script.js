@@ -14,4 +14,7 @@
 
 
 
-
+	$(".goodie .swiss header h1").fitText(0.535);
+	$(".goodie .swiss header .event-info").fitText(1.5);
+	$(".goodie .swiss .speakers h1").fitText(1.8);
+	$(".goodie .swiss section.sponsors h2").fitText(1.6);

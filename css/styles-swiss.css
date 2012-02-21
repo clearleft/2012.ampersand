@@ -1,0 +1,287 @@
+body {
+	background: #C00629;
+	text-shadow: none;
+	color: #111;
+	div { font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal; }
+}
+
+a {
+	color: #fff;
+	font-family:"Trilogy Sans Wide Bold", Verdana, sans-serif;  font-weight:bold; font-style:normal;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: none;
+	color: #111;
+}
+
+.home header.section { margin-bottom: 10px;  }
+
+header h1 {
+	background: none;
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	font-size: 1.9em;;
+	letter-spacing: -0.09em;
+	color: #fff;
+	text-transform: none;
+	border-bottom: 2px solid #600314;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+header h1 .char1 { letter-spacing: -0.07em;	}
+header h1 .char2 { letter-spacing: -0.09em;	}
+header h1 .char3 { letter-spacing: -0.06em;	}
+header h1 .char5 { letter-spacing: -0.06em;	}
+header h1 .char6 { letter-spacing: -0.06em;	}
+header h1 .char7 { letter-spacing: -0.09em;	}
+header h1 .char9 { letter-spacing: -0.04em;	}
+
+header .event-info {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-align: left;
+	text-transform: none;
+}
+
+header h2 , header h2 strong {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-align: left;
+	text-transform: none;
+	letter-spacing: -0.07em;
+	line-height: 1em;
+	background: none;
+}
+
+header h2 {
+	margin-bottom: 0px;
+	margin-top: 4px;
+}
+
+header h2 strong {
+	font-size: 1em;
+}
+
+header time, header span.location {
+	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	font-size: 0.65em;
+	letter-spacing: 0px;
+}
+
+header .tickets {
+	background: none;
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-transform: none;
+	text-align: left;
+	padding-top: 21px;
+	padding-bottom: 16px;
+}
+
+header .tickets .price {
+	font-size: 1.4em;
+	letter-spacing: -0.1em;
+	margin-bottom: 5px;
+}
+
+header .tickets .price strong {
+		letter-spacing: -0.1em;
+}
+
+header .tickets .price em {
+	color: #fff;
+	padding: 0 3px;
+}
+
+header .tickets .buy .brace {
+	display: none;
+}
+
+header .tickets .buy {
+	color: #fff;
+	line-height: 1.35em;
+	padding-right: 10px;
+}
+
+header .tickets .buy strong  {
+	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	padding: 0;
+}
+
+header .main-nav {
+	background: none;
+	border-top:2px solid #600314;
+	padding-top: 9px;
+}
+
+header .main-nav li a {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	color: #111;
+}
+
+header .main-nav li a:hover {
+	color: #fff;
+}
+
+/* Active states */
+	
+.home header .main-nav li a.home,
+.schedule header .main-nav li a.schedule, 
+.location header .main-nav li a.location,
+.sponsors header .main-nav li a.sponsors {
+	color: #fff;
+}
+
+.speakers h1, .speakers h1 strong, .speakers h1 span.amp {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-transform: none;
+	background: none;
+	letter-spacing: -0.1em;
+	text-align: left;
+	line-height: 1em;
+}
+
+.speakers h1 {
+	color: #111;
+	border-bottom: 2px solid #600314;
+	-webkit-mask-image: none;
+	-moz-mask-image: none;
+	-o-mask-image: none;
+	mask-image: none;
+}
+
+.speakers h1 strong {
+ 	font-size: 1em;
+ 	padding-bottom: 8px;
+}
+
+.speakers h1 .full-stop-kern {
+	letter-spacing: -3px;
+}
+
+.speakers ul {
+	margin-top: 17px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #600314;
+}
+.speakers ul li {
+	background: url(../img/swiss-theme/big-fat-rule.gif) repeat-x 0 50%;
+	line-height: 1.15em;
+}
+
+.speakers li a {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	color: #fff;
+	background: url(../img/swiss-theme/big-fat-rule-mask.gif) repeat-x 0 53%;
+	-webkit
+}
+
+.speakers li a .swsh {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+}
+
+.speakers li a {
+	padding-right: 40px;
+	letter-spacing: -0.05em;
+	line-height: 1em;
+	display: inline-block;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.speakers li a:hover {
+	color: #111;
+}
+
+.speakers li a.jose-scaglione .swsh {
+	width: 0.6em;
+	display: inline-block;
+}
+
+.social {
+	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-style:normal;
+	font-size: 1em;
+}
+
+.social a {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+}
+
+section.sponsors {
+	background: #AC0525;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+section.sponsors h2 {
+	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-transform: none;
+	text-align: left;
+	background: none;
+	letter-spacing: -0.09em;
+	-webkit-mask-image: none;
+	-o-mask-image: none;
+	-moz-mask-image: none;
+	mask-image: none;
+}
+
+section.sponsors h5 {
+	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
+	background: url(../img/swiss-theme/1px-rule.gif) repeat-x left bottom;
+	line-height: 1em;
+}
+
+section.sponsors h5 span{
+	background: #AC0525;
+}
+
+.footer-nav {
+	background: 0px;
+	border: none;
+	padding:  0;
+}
+
+.footer-nav ul {
+	border: none;
+	text-align: left;
+	padding: 10px 0 0px 0;
+}
+
+.footer-nav li a {
+	border: none;
+	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	color: #fff;
+}
+
+.footer-nav li a:hover {
+	color: #111;
+}
+
+/* Desktop and Tablet View Styles */
+
+@media only screen and (min-width: 480px) {
+
+	header .ampersand-logo {
+		top: -23px;
+	}
+
+	header h1 {
+		margin-left: 29%;
+	
+	}
+	
+	header .event-info {
+		width: 43%;
+		padding-left: 29%;
+		padding-right: 1%;
+		margin: 0 2% 20px 0;
+	}
+
+	header .tickets {
+		border-left:2px solid #600314;
+		width: 22%;
+		padding-left: 2%;
+		padding-top: 21px;
+		padding-bottom: 16px;
+	}
+
+
+}

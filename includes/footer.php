@@ -44,6 +44,15 @@
 			<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. Set in flavours of <a href="http://fontdeck.com/typefaces/all/tags/superfamily:trilogy">Trilogy</a> 
 			served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
 			
+			<form method="get" action="/" id="skinselection">
+				<label for="skin">Select Language&hellip;</label><br />
+				<select name="skin" id="skin">
+					<option value="default" selected="selected">English</option>
+					<option value="swiss">Swiss</option>
+				</select>
+				<input type="submit" value="Go!" id="submitskin" />
+			</form>
+			
 		</div>
 	</footer>
 

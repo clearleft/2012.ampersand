@@ -7,19 +7,19 @@
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
-		<h1>The State of Web Typography.</h1>
+		<h1>Web Font Performance.</h1>
 		
 		<h2>Vestibulum id nisl non eros placerat elementum. Vestibulum porta lectus id felis tempus non consequat erat auctor. Curabitur hendrerit, est vitae auctor consequat, lorem lorem lacinia nibh, ut feugiat turpis mauris in risus.</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare venenatis felis vitae pellentesque. Cras volutpat luctus lorem. Etiam porttitor erat suscipit est dapibus et congue lectus dapibus. Fusce vel metus augue, eget rhoncus metus. Mauris accumsan erat sit amet tellus scelerisque sed gravida ipsum facilisis. Nam ornare auctor odio eget dictum. Etiam ipsum nibh, suscipit vel adipiscing vitae, posuere a arcu.</p>
 		
 		<aside class="speaker clearfix">
-			<img src="img/erik.gif" alt="Erik Spiekerman" width="185" height="196" />
-			<h3 class="eric-spiekerman" href="/eric-spiekerman">Eri<span class="swsh">k</span> Spiekerman<span class="swsh">n</span></h3>
+			<img src="img/jake.gif" alt="JAke Archibald" width="185" height="196" />
+			<h3>Jak<span class="swsh">e</span> Archibal<span class="swsh">d</span></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare venenatis felis vitae pellentesque. Cras volutpat luctus lorem. Etiam porttitor erat suscipit est dapibus et congue lectus dapibus. Fusce vel metus augue, eget rhoncus metus. Mauris accumsan erat sit amet tellus scelerisque sed gravida ipsum facilisis. Nam ornare auctor odio eget dictum. Etiam ipsum nibh, suscipit vel adipiscing vitae, posuere a arcu.</p>   
 			<nav >
 				<ul >
-					<li><a class="website" href="http://spiekermann.com">spiekermann.com</a></li>
-					<li><a class="twitter" href="http://twitter.com/#!/espiekermann">@espiekermann</a></li>
+					<li><a class="website" href="http://www.jakearchibald.com">jakearchibald.com</a></li>
+					<li><a class="twitter" href="http://twitter.com/#!/jaffathecake">@jaffathecake</a></li>
 				</ul>
 			</nav>                                
 			

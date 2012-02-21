@@ -7,14 +7,14 @@
 	<!-- LOCATION -->
 	<article class="section location clearfix">
 		
-		<h2>Brighton is one of the most vibrant, colourful and creative cities in Europe. It has a rich typographic history, including being the <a href="">birthplace of Eric Gill.</a></h2>
+		<h2>Brighton is one of the most vibrant, colourful and creative cities in Europe. It has a rich typographic history, including being the <a href="http://en.wikipedia.org/wiki/Eric_Gill#Life">birthplace of Eric Gill.</a></h2>
 		
 		<div class="map">
 			<div id="map_canvas"></div>
 		</div>
 		
 		<div class="location-a">
-			<h3 >Pre-Party</h3>
+			<h3 >Pre-Part<em class="swsh">y</em></h3>
 			<address>
 			[Sponsored by <a href="">MyFonts</a>]</br >
 			<strong>The Basement,</strong></br > 24 Kensington Street,</br > 
@@ -24,7 +24,7 @@
 		</div>
 		
 		<div class="location-b">
-			<h3 >Conference</h3>
+			<h3 >Con<em class="swsh">f</em>erence</h3>
 			<address>
 			<strong>Brighton Dome Corn <br />Exchange</strong><br /> 
 			Church Street,<br /> 
@@ -33,7 +33,7 @@
 		</div>
 		
 		<div class="location-c">
-			<h3 >After Party</h3>
+			<h3 >After Part<em class="swsh">y</em></h3>
 			<address>
 			<strong>Above Audio</strong> <br />
 			10 Marine Parade, <br />
@@ -43,29 +43,29 @@
 		</div>
 		
 		<p>Cosmopolitan, compact, energetic, unique, fun, lively, historic, young, exotic and free-spirited, Brighton is a city like no other. 
-		Why not spend the weekend here after the conference! More information is available from <a href="#">visitbrighton.com</a></p>
+		Why not spend the weekend here after the conference! More information is available from <a href="http://visitbrighton.com">visitbrighton.com</a></p>
 		
-		<h4><span><span class="char1">A</span><span class="char1">c</span><span class="char1">c</span>ommodation</span></h4>
+		<h4><span><span class="char1">A</span><span class="char1">c</span><span class="char1">c</span>ommodatio<em class="swsh">n</em></span></h4>
 		
 		<address class="accommodation-a">
 			<strong>myhotel</strong></br>
 			17 Jubilee Street, BN1 1GE</br>
 			+44 (0) 1273 900 300</br>
-			<a href="#">Website</a>
+			<a href="http://www.myhotels.com/my-hotel-brighton/index.html">Website</a>
 		</address>
 		
 		<address class="accommodation-b" >
 			<strong>Old Ship Hotel</strong></br>
 			31-38 Kings Road, BN1 1GE</br>
 			+44 (0)1273 329 001</br>
-			<a href="#">Website</a>
+			<a href="http://www.oldship-brighton.com/">Website</a>
 		</address>
 		
 		<address class="accommodation-c" >
 			<strong>Premier Inn</strong></br>
 			144 North Street, BN1 1GE</br>
 			+44 (0)87 0990 6340</br>
-			<a href="#">Website</a>
+			<a href="http://www.premierinn.com/en/hotel/BRIPTI/brighton-city-centre">Website</a>
 		</address>
 					
 	</article>

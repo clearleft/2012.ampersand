@@ -181,6 +181,17 @@ address {
 	padding: 0px 7% 20px 7%;
 }
 
+
+
+a.jake-archibald .char1 {	letter-spacing: -0.1em;	}
+a.jake-archibald .char6 {	letter-spacing: -0.05em;	}
+a.jake-archibald .char7 {	letter-spacing: -0.05em;	}
+a.yves-peters .char1 {	letter-spacing: -0.1em; }
+a.yves-peters .char5 {	letter-spacing: -0.1em; }
+a.jason-Smith .char1 {	letter-spacing: -0.1em; }
+a.jose-scaglione .char1 {	letter-spacing: -0.1em; }
+a.veronika-burian .char1 {	letter-spacing: -0.18em;	}
+
 /* Header */
 
 header {
@@ -431,24 +442,12 @@ footer a:hover {
 	color: #222;
 }
 
-.speakers li a .swsh {
-	font-family:"TrilogFatfacExperSubseRegula", 'Trilogy Fatface', serif; font-weight:normal; font-style:italic;
-}
+
 
 .oldie .speakers li a .swsh {
 	font-style: normal;
 }
 
-
-
-.speakers li a.jake-archibald .char1 {	letter-spacing: -0.1em;	}
-.speakers li a.jake-archibald .char6 {	letter-spacing: -0.05em;	}
-.speakers li a.jake-archibald .char7 {	letter-spacing: -0.05em;	}
-.speakers li a.yves-peters .char1 {	letter-spacing: -0.1em; }
-.speakers li a.yves-peters .char5 {	letter-spacing: -0.1em; }
-.speakers li a.jason-Smith .char1 {	letter-spacing: -0.1em; }
-.speakers li a.jose-scaglione .char1 {	letter-spacing: -0.1em; }
-.speakers li a.veronika-burian .char1 {	letter-spacing: -0.18em;	}
 
 
 /* Home Page - Social */ 
@@ -528,12 +527,35 @@ article.schedule table tr {
 	background: url(../img/noisy-double-1px-rule.png) repeat-x left top;
 }
 
+article.schedule table tr.type-in-20-2,
+article.schedule table tr.type-in-20-3 {
+	background: none;
+}
+
 article.schedule table tr:last-child td {
 	padding-bottom: 4px;
 }
 
 article.schedule table.friday tr:first-child {
 	background: none;
+}
+
+article.schedule table tr.break h3  {
+	font-family:"Trilogy Sans Wide Bold", Verdana, sans-serif; font-weight:normal; font-style:normal;
+	font-size: 1em;
+}
+
+article.schedule table tr.break h3 span {
+	font-size: inherit;
+	padding: 0px 0px 0px 5px;
+}
+
+article.schedule table tr.break h3 .swsh {
+	font-family:"Trilogy Sans Wide Bold", Verdana, sans-serif; font-weight:normal; font-style:normal;
+}
+
+article.schedule table .break th.time {
+	padding: 12px 0 10px 0;
 }
 
 article.schedule table td {
@@ -550,7 +572,6 @@ article.schedule h3 {
 	font-family:"Trilogy Fatface Regular", 'Times New Roman', Times, serif; font-weight:normal; font-style:italic;
 	font-size: 1.7em;
 	line-height: 1.1em;
-	letter-spacing: -0.09em; 
 	margin-bottom: 3px;
 }
 
@@ -583,6 +604,8 @@ article.schedule h3 span {
 article.schedule table td p {
 	padding: 0;
 }
+
+
 
 
 
@@ -640,6 +663,10 @@ article.session p {
 article.session aside {
 	background: url(../img/noisy-double-1px-rule.png) repeat-x;
 	padding: 20px 0 20px 0;
+}
+
+article.session aside.no-rule {
+	background: none;;
 }
 
 article.session aside h3 {
@@ -798,7 +825,7 @@ article.session .all-speakers ul li a:hover {
 		display: block;
 		font-size: 1em;
 		line-height: 1.2em;
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 	}
 	
 	header .tickets .price strong {
@@ -956,13 +983,13 @@ article.session .all-speakers ul li a:hover {
 	article.schedule h3 {
 		font-size: 2.2em;
 		line-height: 1.1em;
-		letter-spacing: -0.09em; 
+		 
 	}
 	
 	article.schedule h3 span {
 		padding-left: 10px;
 		display: inline;
-		font-size: 0.5em;
+		font-size: 0.45em;
 		line-height: 1em;
 	}
 	
