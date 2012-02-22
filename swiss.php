@@ -1,8 +1,10 @@
-<?php include("includes/head-swiss.php"); ?>
+<?php include("includes/language-switcher.php");  ?>
 
-<body id="wrapper" class="vevent home swiss">
+<?php include("includes/head-".$lang.".php"); ?>
 
-<?php include("includes/header-swiss.php"); ?>
+<body id="wrapper" class="vevent home <?php echo $lang; ?>">
+
+<?php include("includes/header-".$lang.".php"); ?>
 
 	<!-- SPEAKERS -->
 	<section class="section speakers">

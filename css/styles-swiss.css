@@ -2,18 +2,70 @@ body {
 	background: #C00629;
 	text-shadow: none;
 	color: #111;
-	div { font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal; }
 }
 
 a {
 	color: #fff;
-	font-family:"Trilogy Sans Wide Bold", Verdana, sans-serif;  font-weight:bold; font-style:normal;
+	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom: none;
 	color: #111;
+}
+
+article {
+	text-align: left;
+}
+
+article h1 {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	background: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	-webkit-mask-image:none;
+	-moz-mask-image:none;
+	-o-mask-image:none;
+	mask-image:none;
+	letter-spacing: -0.09em;
+	color: #fff;
+}
+
+h2 {
+	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-align: left;
+	font-size: 1.3em;
+	padding: 0 0 0px 0;
+	margin: 0 0 20px 0;
+	-webkit-hyphens:auto;
+	-moz-hyphens:auto;
+	-o-hyphens:auto;
+	hyphens:auto;
+}
+
+h3 {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-align: left;
+	font-size: 1.3em;
+	padding: 0 0 0px 0;
+
+}
+
+h5 {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	margin-bottom: 0px;
+}
+
+article p,
+article address {
+	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
+}
+
+.swsh {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
 .home header.section { margin-bottom: 10px;  }
@@ -51,6 +103,7 @@ header h2 , header h2 strong {
 	letter-spacing: -0.07em;
 	line-height: 1em;
 	background: none;
+	border: none;
 }
 
 header h2 {
@@ -212,7 +265,7 @@ section.sponsors {
 }
 
 section.sponsors h2 {
-	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-transform: none;
 	text-align: left;
 	background: none;
@@ -221,6 +274,7 @@ section.sponsors h2 {
 	-o-mask-image: none;
 	-moz-mask-image: none;
 	mask-image: none;
+	border: none;
 }
 
 section.sponsors h5 {
@@ -255,9 +309,242 @@ section.sponsors h5 span{
 	color: #111;
 }
 
+/* Schedule Page - Schedule */
+
+article.schedule table tr {
+	background: none;
+}
+
+article.schedule table td div {
+	background: none;
+	padding: 0 0 0px 5%;
+	margin: 0 0 0 0;
+}
+
+article.schedule table  {
+	background: none;
+}
+
+.schedule article.schedule table * {
+	font-size: 1em;
+	line-height: 1.2em;
+	text-transform: none;
+	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
+	padding-top:0;
+}
+
+.schedule article.schedule table * a, 
+.schedule article.schedule table * a .swsh,
+.schedule article.schedule table tr.break h3,
+.schedule article.schedule table h3,
+.schedule article.schedule table h3 em {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+}
+
+article.schedule table th {
+	padding: 0px;
+	vertical-align: top;
+}
+
+article.schedule table th.time, article.schedule table .break th.time  {
+	text-align: right;
+	width: 26%;	
+	min-width: 100px;
+}
+
+.schedule article.schedule table th, 
+.schedule article.schedule table td,
+.schedule article.schedule table th.time {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+.schedule article.schedule table .break th.time,
+.schedule article.schedule table .break th,  
+.schedule article.schedule table .break td {
+	background: rgba(0,0,0,0.1);
+}
+
+.schedule article.schedule table.thursday th.time,
+.schedule article.schedule table.thursday th,  
+.schedule article.schedule table.thursday td {
+	border: none;
+	padding-bottom: 20px;
+}
+
+
+.schedule article.schedule table h3 {
+	font-size: 1.1em;
+	line-height: 1em;
+}
+
+.schedule article.schedule table h3 span {
+	font-size: 1em;
+}
+
+.schedule article.schedule table.friday,
+.schedule article.schedule table .after-party td,
+.schedule article.schedule table .after-party th {
+	border-top:2px solid rgba(0,0,0,0.5);
+}
+
+
+
+
+/* Location Page - Location */
+
+article.location h3 {
+	font-size: 2.1em;
+	padding-top: 7px;
+	padding-bottom: 0.6px;
+	margin-bottom: 3px;
+}
+
+article.location .location-a, article.location .location-b, article.location .location-c {
+	background: none;
+}
+
+article.location .map {
+	border: 12px solid #fff;
+	-webkit-mask-image:none;
+	-moz-mask-image:none;
+	-o-mask-image:none;
+	mask-image:none;
+}
+
+article.location .map #map_canvas {
+	margin: 0;
+	border: 1px solid #ccc;
+}
+
+article.location h3,
+article.location h3 .swsh,
+article.location h4,
+article.location h4 .swsh {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	background: none;
+}
+
+article.location h4 {
+	padding-top: 10px;
+}
+
+article.location h4 span{
+	background: none;
+}
+
+/* Sponsors Pages - Sponsors */
+
+article.sponsors {
+	text-align: left;
+}
+
+article.sponsors .sponsorship-pack { 
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	padding: 0px;
+	margin-top: 0px;
+	font-size: 1em;
+}
+
+article.sponsors .sponsorship-pack { 
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	-webkit-mask-image:none;
+	-moz-mask-image:none;
+	-o-mask-image:none;
+	mask-image:none;
+}
+
+article.sponsors .sponsorship-pack .button {
+	background: none;
+	font-family: inherit;
+	-webkit-mask-image:none;
+	-moz-mask-image:none;
+	-o-mask-image:none;
+	mask-image:none;
+}
+
+article.sponsors .sponsorship-pack .button a {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+}
+
+article.location .location-a, article.location .location-b, article.location .location-c {
+	margin-bottom: 0px;
+}
+
+/* Session Pages */
+
+article.session {
+	text-align: left;
+}
+
+article.session aside {
+	background: none;
+	border-top: 2px solid #600314;
+}
+
+article.session aside nav a {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	font-size: 1.1em;
+}
+
+article.session aside nav a:hover {
+	color: #111;
+}
+
+article.session aside nav a.website {
+	background-image: url(../img/icon-speaker-website-sw.png);
+}
+
+article.session aside nav a.twitter {
+	background-image: url(../img/icon-speaker-twitter-sw.png);
+}
+
+article.session .all-speakers h4 {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	text-align: left;
+	background: none;
+	text-transform: none;
+	border-top: 2px solid #600314;
+	padding-top: 20px;
+}
+
+article.session .all-speakers h4 span {
+	background: none;
+	padding: 0;
+	text-transform: none;
+}
+
+article.session .all-speakers ul li a {
+	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	color: #fff;
+	letter-spacing: -0.05em;
+}
+
+article.session .all-speakers ul li a:hover {
+	color: #111;
+}
+
+
+
 /* Desktop and Tablet View Styles */
 
 @media only screen and (min-width: 480px) {
+
+	h2 {
+		font-size: 1.8em;
+		letter-spacing: -0.07em;
+		text-align: left;
+	}
+
 
 	header .ampersand-logo {
 		top: -23px;
@@ -282,6 +569,36 @@ section.sponsors h5 span{
 		padding-top: 21px;
 		padding-bottom: 16px;
 	}
+	
+	article.location .location-a h3 {
+		background: url(../img/map-marker-sw-alt-a.png) no-repeat 0 0;
+	}
 
+	article.location .location-b h3 {
+		background: url(../img/map-marker-sw-alt-b.png) no-repeat 0 0;
+	}
+	
+	article.location .location-c h3 {
+		background: url(../img/map-marker-sw-alt-c.png) no-repeat 0 0;
+	}
+
+}
+
+
+/* Desktop Only Styles */
+
+@media only screen and (min-width: 640px) {
+
+article.sponsors .sponsorship-pack {
+	width: 46%;
+}
+
+article.sponsors .sponsorship-pack .button {
+	background: url(../img/arrow.png) no-repeat left center;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	padding-top: 0px;
+	margin-top: 10px;
+}
 
 }

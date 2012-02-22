@@ -1,8 +1,10 @@
-<?php include("includes/head.php"); ?>
+<?php include("includes/language-switcher.php");  ?>
 
-<body id="wrapper" class="vevent session">
+<?php include("includes/head-".$lang.".php"); ?>
 
-	<?php include("includes/header.php"); ?>
+<body id="wrapper" class="vevent home <?php echo $lang; ?>">
+
+<?php include("includes/header-".$lang.".php"); ?>
 
 	<!-- SESSION -->
 	<article class="section session clearfix">

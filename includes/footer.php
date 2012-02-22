@@ -45,10 +45,10 @@
 			served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
 			
 			<form method="get" action="/" id="skinselection">
-				<label for="skin">Select Language&hellip;</label><br />
-				<select name="skin" id="skin">
-					<option value="default" selected="selected">English</option>
-					<option value="swiss">Swiss</option>
+				<label for="skin">Language: </label>
+				<select name="lang" id="language">
+					<option value="en" <?php if($lang=='en'){echo 'selected';} ?> >English</option>
+					<option value="sw" <?php if($lang=='sw'){echo 'selected';} ?> >Swiss</option>
 				</select>
 				<input type="submit" value="Go!" id="submitskin" />
 			</form>

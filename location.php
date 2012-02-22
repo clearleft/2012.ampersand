@@ -1,8 +1,10 @@
-<?php include("includes/head.php"); ?>
+<?php include("includes/language-switcher.php");  ?>
 
-<body id="wrapper" class="vevent location">
+<?php include("includes/head-".$lang.".php"); ?>
 
-<?php include("includes/header.php"); ?>
+<body id="wrapper" class="vevent location <?php echo $lang; ?>">
+
+<?php include("includes/header-".$lang.".php"); ?>
 
 	<!-- LOCATION -->
 	<article class="section location clearfix">
@@ -102,9 +104,9 @@
         var map = new google.maps.Map(document.getElementById("map_canvas"),
             myOptions);
             
-        var MarkerImageA = 'img/map-marker-a.png';
-        var MarkerImageB = 'img/map-marker-b.png';
-		var MarkerImageC = 'img/map-marker-c.png';
+        var MarkerImageA = 'img/map-marker-<?php echo $lang; ?>-a.png';
+        var MarkerImageB = 'img/map-marker-<?php echo $lang; ?>-b.png';
+		var MarkerImageC = 'img/map-marker-<?php echo $lang; ?>-c.png';
             
         var markerA = new google.maps.Marker({
     		position: new google.maps.LatLng(50.82624, -0.13821),

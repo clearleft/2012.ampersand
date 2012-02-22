@@ -1,8 +1,10 @@
-<?php include("includes/head.php"); ?>
+<?php include("includes/language-switcher.php");  ?>
 
-<body id="wrapper" class="vevent session">
+<?php include("includes/head-".$lang.".php"); ?>
 
-	<?php include("includes/header.php"); ?>
+<body id="wrapper" class="vevent home <?php echo $lang; ?>">
+
+<?php include("includes/header-".$lang.".php"); ?>
 
 	<!-- SESSION -->
 	<article class="section session clearfix">
@@ -13,7 +15,7 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare venenatis felis vitae pellentesque. Cras volutpat luctus lorem. Etiam porttitor erat suscipit est dapibus et congue lectus dapibus. Fusce vel metus augue, eget rhoncus metus. Mauris accumsan erat sit amet tellus scelerisque sed gravida ipsum facilisis. Nam ornare auctor odio eget dictum. Etiam ipsum nibh, suscipit vel adipiscing vitae, posuere a arcu.</p>
 		
 		<aside class="speaker clearfix">
-			<img src="img/erik.gif" alt="Erik Spiekerman" width="185" height="196" />
+			<img src="img/erik-<?php echo $lang; ?>.gif" alt="Erik Spiekerman" width="185" height="196" />
 			<h3 class="eric-spiekerman" href="/eric-spiekerman">Eri<span class="swsh">k</span> Spiekerman<span class="swsh">n</span></h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare venenatis felis vitae pellentesque. Cras volutpat luctus lorem. Etiam porttitor erat suscipit est dapibus et congue lectus dapibus. Fusce vel metus augue, eget rhoncus metus. Mauris accumsan erat sit amet tellus scelerisque sed gravida ipsum facilisis. Nam ornare auctor odio eget dictum. Etiam ipsum nibh, suscipit vel adipiscing vitae, posuere a arcu.</p>   
 			<nav >

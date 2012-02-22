@@ -1,8 +1,10 @@
-<?php include("includes/head.php"); ?>
+<?php include("includes/language-switcher.php");  ?>
 
-<body id="wrapper" class="vevent schedule">
+<?php include("includes/head-".$lang.".php"); ?>
 
-<?php include("includes/header.php"); ?>
+<body id="wrapper" class="vevent schedule <?php echo $lang; ?>">
+
+<?php include("includes/header-".$lang.".php"); ?>
 
 	<!-- SCHEDULE -->
 	<article class="section schedule">
@@ -142,7 +144,7 @@
                    		</div>
                    	</td>
                 </tr>
-                <tr class="vevent">
+                <tr class="vevent after-party">
                     <th class="time"><time class="dtstart" title="2012-06-15T18:30:00">19.30</time> &ndash; <time class="dtend" title="2012-06-15T18:45:00">19.45</time></th>
                     <td >
                     	<div>
@@ -152,6 +154,8 @@
                    	</td>
                 </tr>
             </table>
+            
+            
             
            
             

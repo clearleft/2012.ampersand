@@ -181,7 +181,9 @@ address {
 	padding: 0px 7% 20px 7%;
 }
 
-
+.swsh {
+	font-family:"TrilogFatfacExperSubseRegula", 'Trilogy Fatface', serif; font-weight:normal; font-style:italic;
+}
 
 a.jake-archibald .char1 {	letter-spacing: -0.1em;	}
 a.jake-archibald .char6 {	letter-spacing: -0.05em;	}
@@ -373,6 +375,21 @@ footer a:hover {
 	border-bottom: none;
 }
 
+footer form {
+	background: #E3E3E3;
+	display: inline-block;
+	margin: 6px 0 0 0;
+	padding: 3px 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+footer form select {
+	margin-left: 10px;
+}
+
 /* Home Page - Speakers */
 
 .speakers h1 {
@@ -383,6 +400,7 @@ footer a:hover {
 	-webkit-mask-image: url(../img/text-texture.png);
 	-moz-mask-image: url(../img/text-texture.png);
 	mask-image: url(../img/text-texture.png);
+	overflow: visible;
 }
 
 .speakers h1 .char13 {
@@ -391,7 +409,7 @@ footer a:hover {
 
 .speakers h1 strong {
 	display: block;
-	font-size: 1.37em;
+	font-size: 1.39em;
 	padding-bottom: 12px;
 	background: url(../img/noisy-double-1px-5px-rule-short.png) no-repeat center bottom;
 	white-space: nowrap;
@@ -604,9 +622,6 @@ article.schedule h3 span {
 article.schedule table td p {
 	padding: 0;
 }
-
-
-
 
 
 /* Location Page - Location */
@@ -825,7 +840,7 @@ article.session .all-speakers ul li a:hover {
 		display: block;
 		font-size: 1em;
 		line-height: 1.2em;
-		margin-bottom: 10px;
+		margin-bottom: 13px;
 	}
 	
 	header .tickets .price strong {
@@ -983,7 +998,6 @@ article.session .all-speakers ul li a:hover {
 	article.schedule h3 {
 		font-size: 2.2em;
 		line-height: 1.1em;
-		 
 	}
 	
 	article.schedule h3 span {
@@ -995,10 +1009,6 @@ article.session .all-speakers ul li a:hover {
 	
 	
 	/* Location Page - Location */
-	
-	article.location h2{
-		text-align: center;
-	}
 	
 	article.location {
 		text-align: left;
@@ -1031,7 +1041,6 @@ article.session .all-speakers ul li a:hover {
 	article.location .location-c h3 {
 		background: url(../img/map-marker-c.png) no-repeat 0 0;
 	}
-	
 	
 	article.location p {
 		clear: left;
@@ -1140,7 +1149,7 @@ article.session .all-speakers ul li a:hover {
 @media only screen and (min-width: 850px) {
 
 	header .tickets {
-		padding-bottom: 20px;
+		padding-bottom: 17px;
 	}
 
 	article.location h3 {

@@ -1,12 +1,14 @@
-<?php include("includes/head.php"); ?>
+<?php include("includes/language-switcher.php");  ?>
 
-<body id="wrapper" class="vevent home">
+<?php include("includes/head-".$lang.".php"); ?>
 
-<?php include("includes/header.php"); ?>
+<body id="wrapper" class="vevent home <?php echo $lang; ?>">
+
+<?php include("includes/header-".$lang.".php"); ?>
 
 	<!-- SPEAKERS -->
 	<section class="section speakers">
-		<h1>Combining the <span class="char13">w</span>orlds of <strong>Web <span class="amp">&amp;</span> Type Desig<span class="full-stop-kern">n</span>.</strong></h1>
+		<h1>Combining the <span class="char13">w</span>orlds of <strong>Web <span class="amp">&amp;</span> Type Desig<span class="full-stop-kern">n</span><span class="full-stop-kern">.</span></strong></h1>
 		<ul class="speakers">
 			<?php include("includes/speakers-list.php"); ?>
 		</ul>
