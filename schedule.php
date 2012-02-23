@@ -1,10 +1,10 @@
 <?php include("includes/language-switcher.php");  ?>
 
-<?php include("includes/head-".$lang.".php"); ?>
+<?php include("includes/head.php"); ?>
 
 <body id="wrapper" class="vevent schedule <?php echo $lang; ?>">
 
-<?php include("includes/header-".$lang.".php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SCHEDULE -->
 	<article class="section schedule">
@@ -17,7 +17,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time></th>
                     <td >
                     	<div>
-                    		<h3 class="summary">Pre-Part<em class="swsh">y</em> <span>(sponsored by MyFonts)</span></h3>
+                    		<h3 class="summary">Pre-Part<em class="swsh">y</em></h3>
                     		<p class="vcard"><a href="location" class="fn url">The Basement</a></p>	
                     	</div>
                     </td>
@@ -56,7 +56,7 @@
                     	<th class="time"><time class="dtstart" title="2012-06-15T10:45:00">10.45</time> &ndash; <time class="dtend" title="2012-06-15T11:15:00">11.15</time></th>
                     	<td >
                     		<div>
-                    			<h3 class="summary">Brea<em class="swsh">k</em> <span>(refreshments courtesy Hoefler &amp; Frere-Jones)</span></h3>
+                    			<h3 class="summary">Brea<em class="swsh">k</em></h3>
                    			</div>
                     	<td >
                 </tr>
@@ -73,8 +73,8 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T12:00:00">12.00</time> &ndash; <time class="dtend" title="2012-06-15T12:45:00">12.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="jake-archibald" class="fn url"><em class="swsh">S</em>pecial Guest</a></h3>
-                    		<p class="summary">TBC</p>
+                    		<h3 class="vcard"><a href="jose-scaglione-and-veronika-burian" class="veronika-burian" class="fn url"><em class="char1">V</em>eronik<em class="swsh">a</em> Buria<em class="swsh">n</em></a> &amp; <a href="jose-scaglione-and-veronika-burian" class="fn url">Jos&eacute;&nbsp;Scaglione</a></h3>
+                    		<p class="summary">Typographic Matchmaking</p>
                     	</div>
                     </td>
                 </tr> 
@@ -93,7 +93,7 @@
                     <td >
                     	<div>
                     		<p class="summary">Type in 20</p>
-                    		<h3 class="vcard"><a href="doug-wilson" class="fn url"><em class="swsh">D</em>oug Wilson</a><span>Linotype the Film Q&A</span></h3>
+                    		<h3 class="vcard"><a href="douglas-wilson" class="fn url"><em class="swsh">D</em>oug Wilson</a><span>Linotype the Film Q&A</span></h3>
                     		<h3 class="vcard"><a href="jason-smith" class="fn url"><em class="swsh">J</em>ason Smith</a><span>Designing Fonts For Screens</span></h3>
                     		<h3 class="vcard"><a href="#" class="fn url"><em class="swsh">S</em>pecial Guest</a><span>TBC</span></h3>
                     	</div>
@@ -104,8 +104,8 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T15:45:00">15.45</time> &ndash; <time class="dtend" title="2012-06-15T16:30:00">16.30</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="jake-archibald" class="fn url">Jake Archibal<em class="swsh">d</em></a></h3>
-                    		<p class="summary">Web Font Performance</p>
+                    		<h3 class="vcard"><a href="lucas-de-groot" class="fn url">Luc(as<em class="swsh">)</em> de Groo<em class="swsh">t</em></a></h3>
+                    		<p class="summary">On Hinting</p>
                     	</div>
                     </td>
                 </tr> 
@@ -114,7 +114,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T16:30:00">16.30</time> &ndash; <time class="dtend" title="2012-06-15T17:00:00">17.00</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard">Brea<em class="swsh">k</em><span>(refreshments courtesy Hoefler &amp; Frere-Jones)</span></h3>
+                    		<h3 class="vcard">Brea<em class="swsh">k</em></h3>
                     	</div>
                     </td>
                 </tr> 
@@ -122,8 +122,8 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T17:00:00">17.00</time> &ndash; <time class="dtend" title="2012-06-15T17:45:00">17.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="jose-scaglione-and-veronika-burian" class="veronika-burian" class="fn url"><em class="char1">V</em>eronik<em class="swsh">a</em> Buria<em class="swsh">n</em></a> &amp; <a href="jose-scaglione-and-veronika-burian" class="fn url">Jos&eacute; Scaglione</a></h3>
-                    		<p class="summary">Typographic Matchmaking</p>
+                    		<h3 class="vcard"><a href="jake-archibald" class="fn url">Jake Archibal<em class="swsh">d</em></a></h3>
+                    		<p class="summary">Web Font Performance</p>
                     	</div>
                     </td>
                 </tr> 
@@ -131,7 +131,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T17:45:00">17.45</time> &ndash; <time class="dtend" title="2012-06-15T18:30:00">18.30</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="jake-archibald" class="fn url">Elliot Ja<em class="swsh">y</em> Stocks</a></h3>
+                    		<h3 class="vcard"><a href="elliot-jay-stocks" class="fn url">Elliot Ja<em class="swsh">y</em> Stocks</a></h3>
                     		<p class="summary">Enhancing the Future</p>
                     	</div>
                     </td>
@@ -148,7 +148,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T18:30:00">19.30</time> &ndash; <time class="dtend" title="2012-06-15T18:45:00">19.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="summary">A<em class="swsh">f</em>ter-Part<em class="swsh">y</em> <span>(sponsored by Typekit)</span></h3>
+                    		<h3 class="summary">A<em class="swsh">f</em>ter-Part<em class="swsh">y</em></h3>
                     		<p class="vcard"><a href="location" class="fn url">Above Audio</a></p>	
                    		</div>
                    	</td>

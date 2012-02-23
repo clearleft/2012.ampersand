@@ -1,10 +1,10 @@
 <?php include("includes/language-switcher.php");  ?>
 
-<?php include("includes/head-".$lang.".php"); ?>
+<?php include("includes/head.php"); ?>
 
 <body id="wrapper" class="vevent sponsors <?php echo $lang; ?>">
 
-<?php include("includes/header-".$lang.".php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SPONSORS -->
 	<article class="section sponsors clearfix">

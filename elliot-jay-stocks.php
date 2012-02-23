@@ -1,23 +1,22 @@
 <?php include("includes/language-switcher.php");  ?>
 
-<?php include("includes/head-".$lang.".php"); ?>
+<?php include("includes/head.php"); ?>
 
 <body id="wrapper" class="vevent home <?php echo $lang; ?>">
 
-<?php include("includes/header-".$lang.".php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
-		<h1>Enhancing the Future.</h1>
+		<h1 class="no-rule">Enhancing the Future.</h1>
 		
-		<h2>Vestibulum id nisl non eros placerat elementum. Vestibulum porta lectus id felis tempus non consequat erat auctor. Curabitur hendrerit, est vitae auctor consequat, lorem lorem lacinia nibh, ut feugiat turpis mauris in risus.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare venenatis felis vitae pellentesque. Cras volutpat luctus lorem. Etiam porttitor erat suscipit est dapibus et congue lectus dapibus. Fusce vel metus augue, eget rhoncus metus. Mauris accumsan erat sit amet tellus scelerisque sed gravida ipsum facilisis. Nam ornare auctor odio eget dictum. Etiam ipsum nibh, suscipit vel adipiscing vitae, posuere a arcu.</p>
+		
 		
 		<aside class="speaker clearfix">
-			<img src="img/elliot.gif" alt="Elliot Jay Stocks" width="185" height="196" />
+			<img src="img/elliot-<?php echo $lang; ?>.gif" alt="Elliot Jay Stocks" width="185" height="196" />
 			<h3>Ellio<span class="swsh">t</span> Ja<span class="swsh">y</span> Stock<span class="swsh">s</span></h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare venenatis felis vitae pellentesque. Cras volutpat luctus lorem. Etiam porttitor erat suscipit est dapibus et congue lectus dapibus. Fusce vel metus augue, eget rhoncus metus. Mauris accumsan erat sit amet tellus scelerisque sed gravida ipsum facilisis. Nam ornare auctor odio eget dictum. Etiam ipsum nibh, suscipit vel adipiscing vitae, posuere a arcu.</p>   
+			<p>Elliot is a designer, speaker, and author whose work can often be found in books, blogs, and magazines, with a portfolio containing clients like Virgin, Microsoft, Brooklyn Beta, Founders Fund, and MailChimp. He gives talks at events including An Event Apart, TYPO Berlin, South by Southwest, and Web Directions, and writes for publications such as Codex: The Journal of Typography, .Net, and Computer Arts. In 2012 Elliot has given up client work to focus on his role as Editor and Creative Director of 8 Faces, and to create a number of digital and analogue products as one half of Viewport Industries. <br/>(Photo credit: Marc Thiele)</p>   
 			<nav >
 				<ul >
 					<li><a class="website" href="http://www.elliotjaystocks.com">elliotjaystocks.com</a></li>

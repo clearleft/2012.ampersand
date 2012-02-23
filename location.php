@@ -1,10 +1,10 @@
 <?php include("includes/language-switcher.php");  ?>
 
-<?php include("includes/head-".$lang.".php"); ?>
+<?php include("includes/head.php"); ?>
 
 <body id="wrapper" class="vevent location <?php echo $lang; ?>">
 
-<?php include("includes/header-".$lang.".php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- LOCATION -->
 	<article class="section location clearfix">
@@ -18,9 +18,8 @@
 		<div class="location-a">
 			<h3 >Pre-Part<em class="swsh">y</em></h3>
 			<address>
-			[Sponsored by <a href="">MyFonts</a>]</br >
-			<strong>The Basement,</strong></br > 24 Kensington Street,</br > 
-			Brighton,
+			<strong>The Basement,</strong><br /> 24 Kensington Street,<br /> 
+			Brighton,<br />
 			BN1 4AJ, UK
 			</address>
 		</div>

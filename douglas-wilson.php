@@ -1,23 +1,23 @@
 <?php include("includes/language-switcher.php");  ?>
 
-<?php include("includes/head-".$lang.".php"); ?>
+<?php include("includes/head.php"); ?>
 
-<body id="wrapper" class="vevent home <?php echo $lang; ?>">
+<body id="wrapper" class="vevent session <?php echo $lang; ?>">
 
-<?php include("includes/header-".$lang.".php"); ?>
+<?php include("includes/header.php"); ?>
 
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
 		<h1>Linotype the Film.</h1>
 		
-		<h2>Vestibulum id nisl non eros placerat elementum. Vestibulum porta lectus id felis tempus non consequat erat auctor. Curabitur hendrerit, est vitae auctor consequat, lorem lorem lacinia nibh, ut feugiat turpis mauris in risus.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare venenatis felis vitae pellentesque. Cras volutpat luctus lorem. Etiam porttitor erat suscipit est dapibus et congue lectus dapibus. Fusce vel metus augue, eget rhoncus metus. Mauris accumsan erat sit amet tellus scelerisque sed gravida ipsum facilisis. Nam ornare auctor odio eget dictum. Etiam ipsum nibh, suscipit vel adipiscing vitae, posuere a arcu.</p>
+		<h2>&ldquo;Linotype: The Film&rdquo; is a new documentary film about printing, journalism and the 8th Wonder of the World.</h2>
+		<p>The film is a feature-length documentary centred around the Linotype type casting machine. Called the &ldquo;Eighth Wonder of the World&rdquo; by Thomas Edison, it revolutionised printing and society. The film tells the surprisingly emotional story of the people connected to the Linotype and how it impacted the world.</p>
 		
 		<aside class="speaker clearfix">
-			<img src="img/doug.gif" alt="Douglas Wilson" width="185" height="196" />
+			<img src="img/doug-<?php echo $lang; ?>.gif" alt="Douglas Wilson" width="185" height="196" />
 			<h3>Dougla<span class="swsh">s</span> Wilso<span class="swsh">n</h3>
-			<p>Doug Wilson is a designer, filmmaker, art director and teacher that has a passion for letterpress. With a love of hand-painted signs and a Polaroid camera, he has documented vernacular typography all across the United States. He is proprietor of The Scarlet Letter Press - printing posters on his Vandercook SP-20 Proof Press. He has taught typography as an adjunct professor and worked at an advertising agency. Doug is now directing a feature-length documentary, Linotype: The Film.</p>   
+			<p>Director Doug Wilson comes to the film from a background of graphic design and letterpress printing. He has a BFA in Graphic Design and has worked as a university typography instructor. He loves travel and long walks on the beach. This is his first film.</p>   
 			<nav >
 				<ul >
 					<li><a class="website" href="http://onpaperwings.com/">onpaperwings.com</a></li>

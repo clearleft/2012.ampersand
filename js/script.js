@@ -9,7 +9,10 @@
 	$(".goodie .speakers li").fitText(1.4);
 	$(".goodie .tickets").fitText(1.1);
 	$(".goodie section.sponsors h2").fitText(2.01);
-	//$(".goodie article.session h1").fitText(1.69);
+	$(".goodie .en article.session h1").fitText(1.69);
+	//$(".goodie .en.jake article.session h1").fitText(2.03);
+	//$(".goodie .en.jason article.session h1").fitText(1.93);
+	//$(".goodie .en.jose article.session h1").fitText(2.32);
 
 
 	$(".goodie .sw header h1").fitText(0.535);

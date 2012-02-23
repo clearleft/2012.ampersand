@@ -2,13 +2,13 @@
 
 // LANGUAGE SWITCHER
 
-// See if language has changed
+// See if language has changed via url variable
 if(isset($_GET['lang'])){
 	setcookie("lang", $_GET['lang']);
-	header("Location:". $_SERVER['SCRIPT_NAME']);
+	header("Location: http://".$_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF']);
 }
 
-// Check language from cookie
+// Get language from cookie
 if(isset($_COOKIE['lang'])){
 	$lang = $_COOKIE['lang'];
 }else {
