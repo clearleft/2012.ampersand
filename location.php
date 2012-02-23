@@ -49,23 +49,23 @@
 		<h4><span><span class="char1">A</span><span class="char1">c</span><span class="char1">c</span>ommodatio<em class="swsh">n</em></span></h4>
 		
 		<address class="accommodation-a">
-			<strong>myhotel</strong></br>
-			17 Jubilee Street, BN1 1GE</br>
-			+44 (0) 1273 900 300</br>
+			<strong>myhotel</strong><br/>
+			17 Jubilee Street, BN1 1GE<br/>
+			+44 (0) 1273 900 300<br/>
 			<a href="http://www.myhotels.com/my-hotel-brighton/index.html">Website</a>
 		</address>
 		
 		<address class="accommodation-b" >
-			<strong>Old Ship Hotel</strong></br>
-			31-38 Kings Road, BN1 1GE</br>
-			+44 (0)1273 329 001</br>
+			<strong>Old Ship Hotel</strong><br/>
+			31-38 Kings Road, BN1 1GE<br/>
+			+44 (0)1273 329 001<br/>
 			<a href="http://www.oldship-brighton.com/">Website</a>
 		</address>
 		
 		<address class="accommodation-c" >
-			<strong>Premier Inn</strong></br>
-			144 North Street, BN1 1GE</br>
-			+44 (0)87 0990 6340</br>
+			<strong>Premier Inn</strong><br/>
+			144 North Street, BN1 1GE<br/>
+			+44 (0)87 0990 6340<br/>
 			<a href="http://www.premierinn.com/en/hotel/BRIPTI/brighton-city-centre">Website</a>
 		</address>
 					

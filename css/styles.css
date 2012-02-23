@@ -282,7 +282,7 @@ header .tickets .buy, header .tickets .price {
 	line-height: 1.1em;
 }
 
-header .tickets .buy, header .tickets .price .pound{
+header .tickets .buy{
 	font-size: 1.8em;
 }
 
@@ -886,6 +886,11 @@ article.session .all-speakers ul li a:hover {
 		position: relative;
 		font-size: 1.2em;
 	}
+	
+	header .tickets .price .pound{
+		font-size: 1.8em;
+	}
+
 	
 	header .tickets .buy .brace {
 		display: none;

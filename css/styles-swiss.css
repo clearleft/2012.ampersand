@@ -1,25 +1,25 @@
-body {
-	background: #C00629;
+body.sw  {
+	background: #C00629 url(../img/swiss-theme/bg-texture.gif);
 	text-shadow: none;
 	color: #111;
 }
 
-a {
+.sw a {
 	color: #fff;
 	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-decoration: none;
 }
 
-a:hover {
+.sw a:hover {
 	border-bottom: none;
 	color: #111;
 }
 
-article {
+.sw article {
 	text-align: left;
 }
 
-article h1 {
+.sw article h1 {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	background: none;
 	text-align: left;
@@ -46,37 +46,37 @@ h2 {
 	hyphens:auto;
 }
 
-h3 {
+.sw h3 {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-align: left;
 	font-size: 1.3em;
 	padding: 0 0 0px 0;
 }
 
-h5 {
+.sw h5 {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	margin-bottom: 0px;
 }
 
-article p,
-article address {
+.sw article p,
+.sw article address {
 	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
 }
 
-.swsh {
+.sw .swsh {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
-p strong, address strong {
+.sw p strong, address strong {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
-.home header.section { margin-bottom: 10px;  }
+.sw.home header.section { margin-bottom: 10px;  }
 
-header h1 {
+.sw header h1 {
 	background: none;
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
-	font-size: 1.9em;;
+	font-size: 1.9em;
 	letter-spacing: -0.09em;
 	color: #fff;
 	text-transform: none;
@@ -85,21 +85,21 @@ header h1 {
 	padding-bottom: 10px;
 }
 
-header h1 .char1 { letter-spacing: -0.07em;	}
-header h1 .char2 { letter-spacing: -0.09em;	}
-header h1 .char3 { letter-spacing: -0.06em;	}
-header h1 .char5 { letter-spacing: -0.06em;	}
-header h1 .char6 { letter-spacing: -0.06em;	}
-header h1 .char7 { letter-spacing: -0.09em;	}
-header h1 .char9 { letter-spacing: -0.04em;	}
+.sw header h1 .char1 { letter-spacing: -0.07em;	}
+.sw header h1 .char2 { letter-spacing: -0.09em;	}
+.sw header h1 .char3 { letter-spacing: -0.06em;	}
+.sw header h1 .char5 { letter-spacing: -0.06em;	}
+.sw header h1 .char6 { letter-spacing: -0.06em;	}
+.sw header h1 .char7 { letter-spacing: -0.09em;	}
+.sw header h1 .char9 { letter-spacing: -0.04em;	}
 
-header .event-info {
+.sw header .event-info {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-align: left;
 	text-transform: none;
 }
 
-header h2 , header h2 strong {
+.sw header h2 , header h2 strong {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-align: left;
 	text-transform: none;
@@ -109,17 +109,17 @@ header h2 , header h2 strong {
 	border: none;
 }
 
-header h2 {
+.sw header h2 {
 	margin-bottom: 10px;
 	margin-top: 4px;
 	border-bottom: 2px solid #600314;
 }
 
-header h2 strong {
+.sw header h2 strong {
 	font-size: 1em;
 }
 
-header time, header span.location {
+.sw header time, header span.location {
 	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	font-size: 0.9em;
 	line-height: 1.1em;
@@ -127,7 +127,7 @@ header time, header span.location {
 	display: inline;
 }
 
-header .tickets {
+.sw header .tickets {
 	background: none;
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-transform: none;
@@ -136,60 +136,60 @@ header .tickets {
 	padding-bottom: 16px;
 }
 
-header .tickets .price {
+.sw header .tickets .price {
 	font-size: 0.8em;
 }
 
-header .tickets .price strong {
+.sw header .tickets .price strong {
 	letter-spacing: -0.1em;
 }
 
-header .tickets .price em {
+.sw header .tickets .price em {
 	color: #fff;
 	padding: 0 3px;
 }
 
-header .tickets .buy .brace {
+.sw header .tickets .buy .brace {
 	display: none;
 }
 
-header .tickets .buy {
+.sw header .tickets .buy {
 	color: #fff;
 	font-size: 0.5em;
 	line-height: 1.35em;
 	padding-right: 10px;
 }
 
-header .tickets .buy strong  {
+.sw header .tickets .buy strong  {
 	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	padding: 0;
 }
 
-header .main-nav {
+.sw header .main-nav {
 	background: none;
 	padding-top: 0px;
 }
 
-header .main-nav li a {
+.sw header .main-nav li a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	color: #111;
 }
 
-header .main-nav li a:hover {
+.sw header .main-nav li a:hover {
 	color: #fff;
 	background: rgba(0,0,0,0.2);
 }
 
 /* Active states */
 	
-.home header .main-nav li a.home,
-.schedule header .main-nav li a.schedule, 
-.location header .main-nav li a.location,
-.sponsors header .main-nav li a.sponsors {
+.sw.home header .main-nav li a.home,
+.sw.schedule header .main-nav li a.schedule, 
+.sw.location header .main-nav li a.location,
+.sw.sponsors header .main-nav li a.sponsors {
 	color: #fff;
 }
 
-.speakers h1, .speakers h1 strong, .speakers h1 span.amp {
+.sw .speakers h1, .sw .speakers h1 strong, .sw .speakers h1 span.amp {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-transform: none;
 	background: none;
@@ -198,7 +198,7 @@ header .main-nav li a:hover {
 	line-height: 1em;
 }
 
-.speakers h1 {
+.sw .speakers h1 {
 	color: #111;
 	border-bottom: 2px solid #600314;
 	-webkit-mask-image: none;
@@ -207,37 +207,38 @@ header .main-nav li a:hover {
 	mask-image: none;
 }
 
-.speakers h1 strong {
+.sw .speakers h1 strong {
  	font-size: 1em;
  	padding-bottom: 8px;
 }
 
-.speakers h1 .full-stop-kern {
+.sw .speakers h1 .full-stop-kern {
 	letter-spacing: -3px;
 }
 
-.speakers ul {
+.sw .speakers ul {
 	margin-top: 17px;
 	padding-bottom: 15px;
 	border-bottom: 2px solid #600314;
 }
-.speakers ul li {
+
+.sw .speakers ul li {
 	background: url(../img/swiss-theme/small-fat-rule.gif) repeat-x 0 50%;
 	line-height: 1.15em;
 }
 
-.speakers li a {
+.sw .speakers li a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	color: #fff;
-	background: url(../img/swiss-theme/big-fat-rule-mask.gif) repeat-x 0 53%;
+	background: url(../img/swiss-theme/big-fat-rule-mask-textured.png) repeat-x 0 53%;
 	-webkit
 }
 
-.speakers li a .swsh {
+.sw .speakers li a .swsh {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
-.speakers li a {
+.sw .speakers li a {
 	padding-right: 40px;
 	letter-spacing: -0.05em;
 	line-height: 1em;
@@ -245,31 +246,31 @@ header .main-nav li a:hover {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
-.speakers li a:hover {
+.sw .speakers li a:hover {
 	color: #111;
 }
 
-.speakers li a.jose-scaglione .swsh {
+.sw .speakers li a.jose-scaglione .swsh {
 	width: 0.6em;
 	display: inline-block;
 }
 
-.social {
+.sw .social {
 	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-style:normal;
 	font-size: 1em;
 }
 
-.social a {
+.sw .social a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
-section.sponsors {
+.sw section.sponsors {
 	background: #AC0525;
 	margin-top: 10px;
 	padding-top: 10px;
 }
 
-section.sponsors h2 {
+.sw section.sponsors h2 {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-transform: none;
 	text-align: left;
@@ -282,55 +283,55 @@ section.sponsors h2 {
 	border: none;
 }
 
-section.sponsors h5 {
+.sw section.sponsors h5 {
 	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
 	background: url(../img/swiss-theme/1px-rule.gif) repeat-x left bottom;
 	line-height: 1em;
 }
 
-section.sponsors h5 span{
+.sw section.sponsors h5 span{
 	background: #AC0525;
 }
 
-.footer-nav {
+.sw .footer-nav {
 	background: 0px;
 	border: none;
 	padding:  0;
 }
 
-.footer-nav ul {
+.sw .footer-nav ul {
 	border: none;
 	text-align: left;
 	padding: 10px 0 0px 0;
 }
 
-.footer-nav li a {
+.sw .footer-nav li a {
 	border: none;
 	font-family:"Clobber Grotesk DemiBold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	color: #fff;
 }
 
-.footer-nav li a:hover {
+.sw .footer-nav li a:hover {
 	color: #111;
 }
 
 /* Schedule Page - Schedule */
 
-article.schedule table tr {
+.sw article.schedule table tr {
 	background: none;
 }
 
-article.schedule table td div {
+.sw article.schedule table td div {
 	background: none;
 	padding: 0 0 0px 5%;
 	margin: 0 0 0 0;
 }
 
-article.schedule table  {
+.sw article.schedule table  {
 	background: none;
 }
 
-.schedule article.schedule table * {
+.sw.schedule article.schedule table * {
 	font-size: 1em;
 	line-height: 1.2em;
 	text-transform: none;
@@ -338,77 +339,77 @@ article.schedule table  {
 	padding-top:0;
 }
 
-.schedule article.schedule table * a, 
-.schedule article.schedule table * a .swsh,
-.schedule article.schedule table tr.break h3,
-.schedule article.schedule table h3,
-.schedule article.schedule table h3 em {
+.sw.schedule article.schedule table * a, 
+.sw.schedule article.schedule table * a .swsh,
+.sw.schedule article.schedule table tr.break h3,
+.sw.schedule article.schedule table h3,
+.sw.schedule article.schedule table h3 em {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
-article.schedule table th {
+.sw article.schedule table th {
 	padding: 0px;
 	vertical-align: top;
 }
 
-article.schedule table th.time, article.schedule table .break th.time  {
+.sw article.schedule table th.time, .sw article.schedule table .break th.time  {
 	text-align: right;
 	width: 26%;	
 	min-width: 100px;
 }
 
-.schedule article.schedule table th, 
-.schedule article.schedule table td,
-.schedule article.schedule table th.time {
+.sw.schedule article.schedule table th, 
+.sw.schedule article.schedule table td,
+.sw.schedule article.schedule table th.time {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	
 }
 
-.schedule article.schedule table .break th.time,
-.schedule article.schedule table .break th,  
-.schedule article.schedule table .break td {
+.sw.schedule article.schedule table .break th.time,
+.sw.schedule article.schedule table .break th,  
+.sw.schedule article.schedule table .break td {
 	background: rgba(0,0,0,0.1);
 }
 
-.schedule article.schedule table.thursday th.time,
-.schedule article.schedule table.thursday th,  
-.schedule article.schedule table.thursday td {
+.sw.schedule article.schedule table.thursday th.time,
+.sw.schedule article.schedule table.thursday th,  
+.sw.schedule article.schedule table.thursday td {
 	border: none;
 	padding-bottom: 20px;
 }
 
 
-.schedule article.schedule table h3 {
+.sw.schedule article.schedule table h3 {
 	font-size: 1.1em;
 	line-height: 1em;
 }
 
-.schedule article.schedule table h3 span {
+.sw.schedule article.schedule table h3 span {
 	font-size: 1em;
 }
 
-.schedule article.schedule table.friday,
-.schedule article.schedule table .after-party td,
-.schedule article.schedule table .after-party th {
+.sw.schedule article.schedule table.friday,
+.sw.schedule article.schedule table .after-party td,
+.sw.schedule article.schedule table .after-party th {
 	border-top:2px solid rgba(0,0,0,0.5);
 }
 
 
 /* Location Page - Location */
 
-article.location h3 {
+.sw article.location h3 {
 	font-size: 2.1em;
 	padding-top: 7px;
 	padding-bottom: 0.6px;
 	margin-bottom: 3px;
 }
 
-article.location .location-a, article.location .location-b, article.location .location-c {
+.sw article.location .location-a,.sw  article.location .location-b, .sw article.location .location-c {
 	background: none;
 }
 
-article.location .map {
+.sw article.location .map {
 	border: 12px solid #fff;
 	-webkit-mask-image:none;
 	-moz-mask-image:none;
@@ -416,34 +417,34 @@ article.location .map {
 	mask-image:none;
 }
 
-article.location .map #map_canvas {
+.sw article.location .map #map_canvas {
 	margin: 0;
 	border: 1px solid #ccc;
 }
 
-article.location h3,
-article.location h3 .swsh,
-article.location h4,
-article.location h4 .swsh {
+.sw article.location h3,
+.sw article.location h3 .swsh,
+.sw article.location h4,
+.sw article.location h4 .swsh {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	background: none;
 }
 
-article.location h4 {
+.sw article.location h4 {
 	padding-top: 10px;
 }
 
-article.location h4 span{
+.sw article.location h4 span{
 	background: none;
 }
 
 /* Sponsors Pages - Sponsors */
 
-article.sponsors {
+.sw article.sponsors {
 	text-align: left;
 }
 
-article.sponsors .sponsorship-pack { 
+.sw article.sponsors .sponsorship-pack { 
 	border: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -454,7 +455,7 @@ article.sponsors .sponsorship-pack {
 	font-size: 1em;
 }
 
-article.sponsors .sponsorship-pack { 
+.sw article.sponsors .sponsorship-pack { 
 	border: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -466,7 +467,7 @@ article.sponsors .sponsorship-pack {
 	mask-image:none;
 }
 
-article.sponsors .sponsorship-pack .button {
+.sw article.sponsors .sponsorship-pack .button {
 	background: none;
 	font-family: inherit;
 	-webkit-mask-image:none;
@@ -475,43 +476,43 @@ article.sponsors .sponsorship-pack .button {
 	mask-image:none;
 }
 
-article.sponsors .sponsorship-pack .button a {
+.sw article.sponsors .sponsorship-pack .button a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
-article.location .location-a, article.location .location-b, article.location .location-c {
+.sw article.location .location-a, article.location .location-b, article.location .location-c {
 	margin-bottom: 0px;
 }
 
 /* Session Pages */
 
-article.session {
+.sw article.session {
 	text-align: left;
 }
 
-article.session aside {
+.sw article.session aside {
 	background: none;
 	border-top: 2px solid #600314;
 }
 
-article.session aside nav a {
+.sw article.session aside nav a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	font-size: 1.1em;
 }
 
-article.session aside nav a:hover {
+.sw article.session aside nav a:hover {
 	color: #111;
 }
 
-article.session aside nav a.website {
+.sw article.session aside nav a.website {
 	background-image: url(../img/icon-speaker-website-sw.png);
 }
 
-article.session aside nav a.twitter {
+.sw article.session aside nav a.twitter {
 	background-image: url(../img/icon-speaker-twitter-sw.png);
 }
 
-article.session .all-speakers h4 {
+.sw article.session .all-speakers h4 {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	text-align: left;
 	background: none;
@@ -520,23 +521,23 @@ article.session .all-speakers h4 {
 	padding-top: 20px;
 }
 
-article.session .all-speakers h4 span {
+.sw article.session .all-speakers h4 span {
 	background: none;
 	padding: 0;
 	text-transform: none;
 }
 
-article.session .all-speakers ul li a {
+.sw article.session .all-speakers ul li a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	color: #fff;
 	letter-spacing: -0.05em;
 }
 
-article.session .all-speakers ul li a:hover {
+.sw article.session .all-speakers ul li a:hover {
 	color: #111;
 }
 
-article.session aside img {
+.sw article.session aside img {
 	margin-top: 17px;
 }
 
@@ -552,72 +553,80 @@ article.session aside img {
 	}
 
 
-	header .ampersand-logo {
+	.sw header .ampersand-logo {
 		top: -0px;
 	}
 
-	header h1 {
+	.sw header h1 {
+		font-size: 7.1em;
 		margin-left: 29%;
 		padding-bottom: 0px;
 	
 	}
 	
-	header h2 {
+	.sw header h2 {
 		border-bottom: none;
 		margin-bottom: 0px;
+		font-size: 1.3em;
 	}
 
 	
-	header .event-info {
+	.sw header .event-info {
 		width: 43%;
 		padding-left: 29%;
 		padding-right: 1%;
 		margin: 0 2% 20px 0;
+		font-size: 1.5em;
 	}
 
-	header .tickets {
+	.sw header .tickets {
 		border-left:2px solid #600314;
 		width: 22%;
 		padding-left: 2%;
 		padding-top: 21px;
 		padding-bottom: 16px;
 		padding-top: 20px;
+		font-size: 1em;
 	}
 	
-	header .tickets .price {
+	.sw header .tickets .price {
 		font-size: 1.4em;
 		letter-spacing: -0.1em;
 		margin-bottom: 5px;
 	}
 
 	
-	header .tickets .buy {
+	.sw header .tickets .buy {
 		font-size: 0.9em;
 	}
 	
-	header .main-nav {
+	.sw header .main-nav {
 		border-top:2px solid #600314;
 		padding-top: 9px;
 	}
 	
-	header .main-nav li a:hover {
+	.sw header .main-nav li a:hover {
 		background: none;
+	}
+	
+	.sw section.sponsors h2 {
+		font-size: 3.4em;
 	}
 
 	
-	article.location .location-a h3 {
+	.sw article.location .location-a h3 {
 		background: url(../img/map-marker-sw-alt-a.png) no-repeat 0 0;
 	}
 
-	article.location .location-b h3 {
+	.sw article.location .location-b h3 {
 		background: url(../img/map-marker-sw-alt-b.png) no-repeat 0 0;
 	}
 	
-	article.location .location-c h3 {
+	.sw article.location .location-c h3 {
 		background: url(../img/map-marker-sw-alt-c.png) no-repeat 0 0;
 	}
 	
-	.speakers ul li {
+	.sw .speakers ul li {
 			background: url(../img/swiss-theme/medium-fat-rule.gif) repeat-x 0 50%;
 			line-height: 1.15em;
 	}
@@ -629,19 +638,19 @@ article.session aside img {
 
 @media only screen and (min-width: 640px) {
 
-	header .ampersand-logo {
+	.sw header .ampersand-logo {
 		top: -23px;
 	}
 
-	header time, header span.location {
+	.sw header time, header span.location {
 		font-size: 0.65em;
 	}
 
-	article.sponsors .sponsorship-pack {
+	.sw article.sponsors .sponsorship-pack {
 		width: 46%;
 	}
 	
-	article.sponsors .sponsorship-pack .button {
+	.sw article.sponsors .sponsorship-pack .button {
 		background: url(../img/arrow.png) no-repeat left center;
 		font-size: 1.1em;
 		line-height: 1.1em;
@@ -649,7 +658,7 @@ article.session aside img {
 		margin-top: 10px;
 	}
 	
-	.speakers ul li {
+	.sw .speakers ul li {
 			background: url(../img/swiss-theme/big-fat-rule.gif) repeat-x 0 50%;
 			line-height: 1.15em;
 	}

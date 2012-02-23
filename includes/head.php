@@ -11,7 +11,7 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/css3-media-queries.js"></script><![endif]-->
+<!--[if (gte IE 8)&(lt IE 9)]><script src="js/css3-media-queries.js"></script><![endif]-->
 <link rel="stylesheet" href="http://f.fontdeck.com/s/css/uYeecfgxZsRY9yoFdZP/14nD1k8/2012.ampersandconf.dev/11761.css" type="text/css" />
 <link rel="stylesheet" href="css/styles.css">
 <?php if($lang=='sw'){ ?>
