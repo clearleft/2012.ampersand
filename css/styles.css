@@ -708,6 +708,7 @@ article.session {
 article.session p {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto; 
+	-ms-hyphens: auto;
 	hyphens: auto; 
 }
 
@@ -1100,6 +1101,7 @@ article.session .all-speakers ul li a:hover {
 	article.sponsors p {
 		-webkit-hyphens: auto;
 		-moz-hyphens: auto; 
+		-ms-hyphens: auto;
 		hyphens: auto; 
 	}
 	

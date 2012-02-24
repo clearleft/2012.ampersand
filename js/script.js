@@ -30,7 +30,7 @@
 	});
 	
 	// GOOGLE FONT LOADER
-	
+	/*
 	WebFontConfig = {
 	  custom: { families: ['TrilogFatfacExperSubseRegula', 'Trilogy Fatface Wide', 'Trilogy Egyptian Bold', 'Trilogy Fatface Expanded', 'Trilogy Sans Wide Regular', 'Trilogy Sans Compressed Heavy', 'TrilogEgyptiaExpandeExtrBol', 'Trilogy Egyptian Wide Bold', 'Trilogy Egyptian Expanded Bold', 'Trilogy Fatface Regular', 'Clobber Grotesk Regular', 'Clobber Grotesk Bold', 'Clobber Grotesk Demi-Bold' ],
 	    urls: [ 'http://f.fontdeck.com/s/css/uYeecfgxZsRY9yoFdZP/14nD1k8/2012.ampersandconf.com/11761.css' ] }
@@ -45,3 +45,4 @@
 	    var s = document.getElementsByTagName('script')[0];
 	    s.parentNode.insertBefore(wf, s);
 	})();
+	*/

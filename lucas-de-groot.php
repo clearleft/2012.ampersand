@@ -16,7 +16,7 @@ include("includes/head.php");
 		<aside class="speaker clearfix">
 			<img src="img/lucas-<?php echo $lang; ?>.gif" alt="Luc(as) de Groot" width="185" height="196" />
 			<h3 class="lucas-de-groot" >Luc(as<span class="swsh">)</span> de Groo<span class="swsh">t</span></h3>
-			<p>Berlin-based Dutch type designer Luc(as) de Groot has worked with and for many well-known companies and publications. He has made custom fonts for prestigious newspapers such as Folha de S.Paulo, Le Monde, Metro and Der Spiegel in addition to creating corporate type for international companies including Sun Microsystems, Bell South, Heineken, Siemens and Miele. He designed two font families for Microsoft: the ‘monospaced’ font family Consolas, the new alternative to Courier; and Calibri, the new default typeface in MS Word.
+			<p>Berlin-based Dutch type designer Luc(as) de Groot has worked with and for many well-known companies and publications. He has made custom fonts for prestigious newspapers such as Folha de S.Paulo, Le Monde, Metro and Der Spiegel in addition to creating corporate type for international companies including Sun Microsystems, Bell South, Heineken, Siemens and Miele. He designed two font families for Microsoft: the ‘monospaced’ font family Consolas, the new alternative to Courier; and Calibri, the new default typeface in Microsoft Word.
 </p> 
 
 			
