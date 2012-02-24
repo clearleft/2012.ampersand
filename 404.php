@@ -1,6 +1,6 @@
 <?php include("includes/language-switcher.php");  ?>
 <?php
-$title = "Privacy";
+$title = "404 &ndash; not found";
 include("includes/head.php"); 
 ?>
 
@@ -13,7 +13,7 @@ include("includes/head.php");
 		
 		<h1>Missing! Have you seen this page?</h1>
 		
-		<h2>404 &mdash; Page not found.</h2>
+		<h2>404 &ndash; page not found.</h2>
 		
 				
 		<p>Sorry but the page you are looking for is not at this address, <br />perhaps you would like to return to the <a href="/">home page</a> and try again.</p>
