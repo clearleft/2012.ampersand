@@ -1,6 +1,8 @@
 <?php include("includes/language-switcher.php");  ?>
-
-<?php include("includes/head.php"); ?>
+<?php
+$title = "Jos&eacute; Scaglione &amp; Veronika Burian";
+include("includes/head.php"); 
+?>
 
 <body id="wrapper" class="vevent session <?php echo $lang; ?> jose">
 
@@ -13,8 +15,8 @@
 		
 		<aside class="speaker clearfix">
 			<img src="img/jose-<?php echo $lang; ?>.gif" alt="José Scaglione" width="185" height="196" />
-			<h3><span class="char1">J</span>os<span class="swsh">é</span> Scaglion<span class="swsh">e</span></h3>
-			<p>Jos&eacute; Scaglione is a graphic and a typeface designer and he is a partner of the independent type foundry TypeTogether. He teaches typography at the National University of Rosario and at the University of Buenos Aires, Argentina, and he is frequently invited to lecture about typography and to lead workshops of typeface design at international conferences and academic institutions. He is a member of the Board of the Association Typographique Internationale since 2007 and he was the chairman of the Letter.2 type design competition and conference. </p>   
+			<h3><span class="char1">J</span>os<span class="swsh"><span class="swsh jose-e-fix">&eacute;</span></span> Scaglion<span class="swsh">e</span></h3>
+			<p>Jos<span class="jose-e-fix">&eacute;</span> Scaglione is a graphic and a typeface designer and he is a partner of the independent type foundry TypeTogether. He teaches typography at the National University of Rosario and at the University of Buenos Aires, Argentina, and he is frequently invited to lecture about typography and to lead workshops of typeface design at international conferences and academic institutions. He is a member of the Board of the Association Typographique Internationale since 2007 and he was the chairman of the Letter.2 type design competition and conference. </p>   
 			<nav >
 				<ul >
 					<li><a class="website" href="http://www.type-together.com">type-together.com</a></li>

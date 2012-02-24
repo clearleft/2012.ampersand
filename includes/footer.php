@@ -15,6 +15,7 @@
 				<a href="http://typekit.com"><img class="typekit" alt="Typekit" src="img/sponsors/typekit.png" /></a>
 				<a href="http://www.webtype.com/"><img class="webtype" alt="Webtype" src="img/sponsors/webtype.png"  /></a>
 				<a href="http://www.heartinternet.co.uk/"><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
+				<a href="http://lanyrd.com/2012/ampersand/"><img class="lanyrd" alt="Lanyrd" src="img/sponsors/lanyrd.png" /></a>
 			</div>
 			<div class="media-partners">
 				<h5><span>Media Partners</span></h5>
@@ -41,7 +42,15 @@
 			<p>Presented by <a href="http://clearleft.com" title="Clearleft" >Clearleft</a>, a user experience design consultancy based in Brighton, UK.
 			Email us on <a href="mailto:ampersand@clearleft.com" title="ampersand@clearleft.com">ampersand@clearleft.com</a>
 			</p>
-			<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. Set in flavours of <a href="http://fontdeck.com/typefaces/all/tags/superfamily:trilogy">Trilogy</a> 
+			<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. 
+			<?php if($lang=='sw') { ?>
+				Set in <a href="http://fontdeck.com/typeface/clobbergrotesk">Clobber Grotesk</a> 
+			<?php }else { ?>
+				Set in flavours of <a href="http://fontdeck.com/typefaces/all/tags/superfamily:trilogy">Trilogy</a> 
+			<?php } ?>
+			
+			
+			
 			served by <a href="http://fontdeck.com/">Fontdeck.</a></small>
 			
 			<form method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="skinselection">

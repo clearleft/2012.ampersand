@@ -1,6 +1,8 @@
 <?php include("includes/language-switcher.php");  ?>
-
-<?php include("includes/head.php"); ?>
+<?php
+$title = "Elliot Jay Stocks";
+include("includes/head.php"); 
+?>
 
 <body id="wrapper" class="vevent home <?php echo $lang; ?>">
 

@@ -2,7 +2,7 @@
 			<div class="ampersand-logo">
 				<img src="img/ampersand-logo-<?php echo $lang; ?>.png" alt="Ampersand logo" />
 			</div>
-			<h1 class="summary">A<span class="char2">m</span><span class="char3">p</span>er<span class="char6">s</span><span class="char7">a</span>nd</span>
+			<h1 class="summary">A<span class="char2">m</span><span class="char3">p</span>e<span class="char5">r</span><span class="char6">s</span><span class="char7">a</span>nd</span>
 			</h1>
 			<div class="event-info">
 				<h2 class="description">The Web Typography<br /><strong>Confere<span class="char8">n</span>ce</strong></h2>

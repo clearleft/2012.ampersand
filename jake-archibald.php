@@ -1,6 +1,8 @@
 <?php include("includes/language-switcher.php");  ?>
-
-<?php include("includes/head.php"); ?>
+<?php
+$title = "Jake Archibald";
+include("includes/head.php"); 
+?>
 
 <body id="wrapper" class="vevent session <?php echo $lang; ?> jake">
 

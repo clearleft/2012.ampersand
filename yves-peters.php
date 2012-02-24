@@ -1,5 +1,8 @@
 <?php include("includes/language-switcher.php");  ?>
-
+<?php
+$title = "Detail in Web Typography.";
+include("includes/head.php"); 
+?>
 <?php include("includes/head.php"); ?>
 
 <body id="wrapper" class="vevent session <?php echo $lang; ?>">

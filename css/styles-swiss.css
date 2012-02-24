@@ -67,6 +67,22 @@ h2 {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
+.jose-e-fix {
+	font-family:"Helvetica", Arial, sans-serif; font-weight:bold; font-style:normal;
+	width: 0.5em;
+	display: inline-block;
+	font-size: 0.98em;
+}
+
+a.jake-archibald .char1 {	letter-spacing: -0.08em;	}
+a.jake-archibald .char6 {	letter-spacing: -0.05em;	}
+a.jake-archibald .char7 {	letter-spacing: -0.05em;	}
+a.yves-peters .char1 {	letter-spacing: -0.1em; }
+a.yves-peters .char5 {	letter-spacing: -0.1em; }
+a.jason-Smith .char1 {	letter-spacing: -0.08em; }
+a.jose-scaglione .char1 {	letter-spacing: -0.08em; }
+a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
+
 .sw p strong, address strong {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
@@ -230,8 +246,7 @@ h2 {
 .sw .speakers li a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 	color: #fff;
-	background: url(../img/swiss-theme/big-fat-rule-mask-textured.png) repeat-x 0 53%;
-	-webkit
+	background: url(../img/swiss-theme/big-fat-rule-mask-textured.gif) repeat-x left bottom;
 }
 
 .sw .speakers li a .swsh {
@@ -323,7 +338,7 @@ h2 {
 
 .sw article.schedule table td div {
 	background: none;
-	padding: 0 0 0px 5%;
+	padding: 2px 0 0px 5%;
 	margin: 0 0 0 0;
 }
 
@@ -331,9 +346,8 @@ h2 {
 	background: none;
 }
 
-.sw.schedule article.schedule table * {
+.sw.schedule article.schedule table  {
 	font-size: 1em;
-	line-height: 1.2em;
 	text-transform: none;
 	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
 	padding-top:0;
@@ -369,6 +383,7 @@ h2 {
 .sw.schedule article.schedule table .break th.time,
 .sw.schedule article.schedule table .break th,  
 .sw.schedule article.schedule table .break td {
+	background-color: #AC0525;
 	background: rgba(0,0,0,0.1);
 }
 
@@ -386,7 +401,8 @@ h2 {
 }
 
 .sw.schedule article.schedule table h3 span {
-	font-size: 1em;
+	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
+	font-size: 0.9em;
 }
 
 .sw.schedule article.schedule table.friday,
@@ -478,6 +494,7 @@ h2 {
 
 .sw article.sponsors .sponsorship-pack .button a {
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
+	line-height: 1.4em;
 }
 
 .sw article.location .location-a, article.location .location-b, article.location .location-c {
@@ -541,6 +558,27 @@ h2 {
 	margin-top: 17px;
 }
 
+.sw article.session p .jose-e-fix {
+	font-family:"Clobber Grotesk Regular", Arial, sans-serif; font-weight:normal; font-style:normal;
+	width: 0.5em;
+	display: inline-block;
+}
+
+.sw article.session h3 .jose-e-fix {
+	font-family:Helvetica, Arial, sans-serif; font-weight:Bold; font-style:normal;
+	width: 0.5em;
+	display: inline-block;
+}
+
+.sw article.session .all-speakers ul li a .jose-e-fix{
+	width: 0.7em;
+}
+
+.sw footer a {
+	color: #5A5A5A;
+	font-family: sans-serif;
+}
+
 
 /* Desktop and Tablet View Styles */
 
@@ -561,7 +599,11 @@ h2 {
 		font-size: 7.1em;
 		margin-left: 29%;
 		padding-bottom: 0px;
+	}
 	
+	.ie9 .sw header h1, .oldie .sw header h1 {
+		padding-bottom: 10px;
+		padding-right: 5px;
 	}
 	
 	.sw header h2 {
@@ -611,6 +653,14 @@ h2 {
 	
 	.sw section.sponsors h2 {
 		font-size: 3.4em;
+	}
+	
+	section.sponsors a img{
+		opacity: 0.6;
+	}
+
+	section.sponsors a:hover img {
+		opacity: 1;
 	}
 
 	

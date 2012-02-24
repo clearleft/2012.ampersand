@@ -1,6 +1,8 @@
 <?php include("includes/language-switcher.php");  ?>
-
-<?php include("includes/head.php"); ?>
+<?php
+$title = "Schedule";
+include("includes/head.php"); 
+?>
 
 <body id="wrapper" class="vevent schedule <?php echo $lang; ?>">
 
@@ -73,7 +75,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T12:00:00">12.00</time> &ndash; <time class="dtend" title="2012-06-15T12:45:00">12.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="jose-scaglione-and-veronika-burian" class="veronika-burian" class="fn url"><em class="char1">V</em>eronik<em class="swsh">a</em> Buria<em class="swsh">n</em></a> &amp; <a href="jose-scaglione-and-veronika-burian" class="fn url">Jos&eacute;&nbsp;Scaglione</a></h3>
+                    		<h3 class="vcard"><a href="jose-scaglione-and-veronika-burian" class="veronika-burian" class="fn url"><em class="char1">V</em>eronik<em class="swsh">a</em> Buria<em class="swsh">n</em></a> &amp; <a href="jose-scaglione-and-veronika-burian" class="fn url">Jos<strong class="jose-e-fix">&eacute;</strong>&nbsp;Scaglion<em class="swsh">e</em></a></h3>
                     		<p class="summary">Typographic Matchmaking</p>
                     	</div>
                     </td>
@@ -93,9 +95,9 @@
                     <td >
                     	<div>
                     		<p class="summary">Type in 20</p>
-                    		<h3 class="vcard"><a href="douglas-wilson" class="fn url"><em class="swsh">D</em>oug Wilson</a><span>Linotype the Film Q&A</span></h3>
-                    		<h3 class="vcard"><a href="jason-smith" class="fn url"><em class="swsh">J</em>ason Smith</a><span>Designing Fonts For Screens</span></h3>
-                    		<h3 class="vcard"><a href="#" class="fn url"><em class="swsh">S</em>pecial Guest</a><span>TBC</span></h3>
+                    		<h3 class="vcard"><a href="douglas-wilson" class="fn url">Dougla<em class="swsh">s</em> Wilso<em class="swsh">n</em></a><span>Linotype the Film Q&A</span></h3>
+                    		<h3 class="vcard"><a href="jason-smith" class="fn url">Jaso<em class="swsh">n</em> Smit<em class="swsh">h</em></a><span>Designing Fonts For Screens</span></h3>
+                    		<h3 class="vcard"><a href="#" class="fn url">Specia<em class="swsh">l</em> Gues<em class="swsh">t</em></a><span>TBC</span></h3>
                     	</div>
                     </td>
                 </tr> 
@@ -104,7 +106,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T15:45:00">15.45</time> &ndash; <time class="dtend" title="2012-06-15T16:30:00">16.30</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="lucas-de-groot" class="fn url">Luc(as<em class="swsh">)</em> de Groo<em class="swsh">t</em></a></h3>
+                    		<h3 class="vcard"><a href="lucas-de-groot" class="fn url">Luc(a<em class="swsh">s</em>) de Groo<em class="swsh">t</em></a></h3>
                     		<p class="summary">On Hinting</p>
                     	</div>
                     </td>
@@ -122,7 +124,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T17:00:00">17.00</time> &ndash; <time class="dtend" title="2012-06-15T17:45:00">17.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="jake-archibald" class="fn url">Jake Archibal<em class="swsh">d</em></a></h3>
+                    		<h3 class="vcard"><a href="jake-archibald" class="fn url">Jak<em class="swsh">e</em> Archibal<em class="swsh">d</em></a></h3>
                     		<p class="summary">Web Font Performance</p>
                     	</div>
                     </td>
@@ -131,7 +133,7 @@
                     <th class="time"><time class="dtstart" title="2012-06-15T17:45:00">17.45</time> &ndash; <time class="dtend" title="2012-06-15T18:30:00">18.30</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="elliot-jay-stocks" class="fn url">Elliot Ja<em class="swsh">y</em> Stocks</a></h3>
+                    		<h3 class="vcard"><a href="elliot-jay-stocks" class="fn url">Ellio<em class="swsh">t</em> Ja<em class="swsh">y</em> Stock<em class="swsh">s</em></a></h3>
                     		<p class="summary">Enhancing the Future</p>
                     	</div>
                     </td>

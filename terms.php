@@ -1,6 +1,8 @@
 <?php include("includes/language-switcher.php");  ?>
-
-<?php include("includes/head.php"); ?>
+<?php
+$title = "Terms &amp; Conditions";
+include("includes/head.php"); 
+?>
 
 <body id="wrapper" class="vevent generic <?php echo $lang; ?>">
 
