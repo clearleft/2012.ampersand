@@ -13,6 +13,7 @@
 <title>Ampersand 2012 &middot; The Web Typography Conference</title>
 <?php } ?>
 <title>Ampersand 2012 &middot; The Web Typography Conference</title>
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 <meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 15 June 2012." />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
