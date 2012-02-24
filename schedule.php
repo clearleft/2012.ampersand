@@ -125,7 +125,7 @@ include("includes/head.php");
                     <td >
                     	<div>
                     		<h3 class="vcard"><a href="jake-archibald" class="fn url">Jak<em class="swsh">e</em> Archibal<em class="swsh">d</em></a></h3>
-                    		<p class="summary">Web Font Performance</p>
+                    		<p class="summary">In your @font-face</p>
                     	</div>
                     </td>
                 </tr> 
