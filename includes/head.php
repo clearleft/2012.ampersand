@@ -8,9 +8,9 @@
 <head>
 <meta charset="utf-8" />
 <?php if(isset($title)){ ?>
-	<title>Ampersand 2012 &middot; <?php echo $title ?></title>
+<title>Ampersand 2012 &middot; <?php echo $title ?></title>
 <?php }else{ ?>
-	<title>Ampersand 2012 &middot; The Web Typography Conference</title>
+<title>Ampersand 2012 &middot; The Web Typography Conference</title>
 <?php } ?>
 <title>Ampersand 2012 &middot; The Web Typography Conference</title>
 <meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 15 June 2012." />
