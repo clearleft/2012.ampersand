@@ -19,7 +19,7 @@
 <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 <!--[if (gte IE 8)&(lt IE 9)]><script src="js/css3-media-queries.js"></script><![endif]-->
 <link rel="stylesheet" href="http://f.fontdeck.com/s/css/yOkR4W6YJZOSX98WrI1tmpAD3OY/2012.ampersand.dev/11761.css" type="text/css" />
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css?v=2">
 <?php if($lang=='sw'){ ?>
 	<link rel="stylesheet" href="css/styles-swiss.css">
 <?php } ?>
