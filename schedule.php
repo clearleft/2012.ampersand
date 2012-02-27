@@ -147,7 +147,7 @@ include("includes/head.php");
                    	</td>
                 </tr>
                 <tr class="vevent after-party">
-                    <th class="time"><time class="dtstart" title="2012-06-15T18:30:00">19.30</time> &ndash; <time class="dtend" title="2012-06-15T18:45:00">19.45</time></th>
+                    <th class="time"><time class="dtstart" title="2012-06-15T19:30:00">19.30</time> &ndash; <time class="dtend" >Late</time></th>
                     <td >
                     	<div>
                     		<h3 class="summary">A<em class="swsh">f</em>ter-Part<em class="swsh">y</em></h3>
