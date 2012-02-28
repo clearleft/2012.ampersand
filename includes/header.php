@@ -11,7 +11,7 @@
 			</div>
 			<div class="tickets clearfix">
 				<span class="price"><span class="pound">&pound;</span><strong>125</strong><em>+</em>VAT</span>
-				<span class="buy"><span class="brace brace1">{</span><strong>Tickets go on sale 7th March 2012</strong><span class="brace brace2">}</span></span>
+				<span class="buy"><span class="brace brace1">{</span><strong>Tickets go on sale 6th March 2012</strong><span class="brace brace2">}</span></span>
 			</div>
 			<nav class="main-nav clearfix">
 				<ul>
