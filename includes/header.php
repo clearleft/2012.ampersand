@@ -1,6 +1,6 @@
 	<header class="section clearfix" >
 			<div class="ampersand-logo">
-				<img src="img/ampersand-logo-<?php echo $lang; ?>.png" alt="Ampersand logo" />
+				<a href="/"><img src="img/ampersand-logo-<?php echo $lang; ?>.png" alt="Ampersand" /></a>
 			</div>
 			<h1 class="summary">A<span class="char2">m</span><span class="char3">p</span>e<span class="char5">r</span><span class="char6">s</span><span class="char7">a</span>nd</span>
 			</h1>
