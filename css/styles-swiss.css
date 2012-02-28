@@ -43,6 +43,7 @@ h2 {
 	-webkit-hyphens:auto;
 	-moz-hyphens:auto;
 	-o-hyphens:auto;
+	-ms-hyphens:auto;
 	hyphens:auto;
 }
 
@@ -219,6 +220,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	border-bottom: 2px solid #600314;
 	-webkit-mask-image: none;
 	-moz-mask-image: none;
+	-ms-mask-image: none;
 	-o-mask-image: none;
 	mask-image: none;
 }
@@ -292,6 +294,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	background: none;
 	letter-spacing: -0.09em;
 	-webkit-mask-image: none;
+	-ms-mask-image: none;
 	-o-mask-image: none;
 	-moz-mask-image: none;
 	mask-image: none;
@@ -429,6 +432,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	border: 12px solid #fff;
 	-webkit-mask-image:none;
 	-moz-mask-image:none;
+	-ms-mask-image: none;
 	-o-mask-image:none;
 	mask-image:none;
 }
@@ -464,6 +468,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	border: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
+	-ms-mask-image: none;
 	-o-box-shadow: none;
 	box-shadow: none;
 	padding: 0px;
@@ -475,10 +480,12 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	border: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
+	-ms-mask-image: none;
 	-o-box-shadow: none;
 	box-shadow: none;
 	-webkit-mask-image:none;
 	-moz-mask-image:none;
+	-ms-mask-image: none;
 	-o-mask-image:none;
 	mask-image:none;
 }
@@ -488,6 +495,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	font-family: inherit;
 	-webkit-mask-image:none;
 	-moz-mask-image:none;
+	-ms-mask-image: none;
 	-o-mask-image:none;
 	mask-image:none;
 }
