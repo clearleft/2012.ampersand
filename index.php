@@ -16,7 +16,7 @@
 	<!-- SOCIAL -->
 	<section class="section social">
 		<p>Follow Ampersand on Twitter <a href="http://twitter.com/ampersandconf">@ampersandconf</a> <a href="https://twitter.com/#!/search/realtime/ampconf">#ampconf</a> 
-		&amp; track who's attending on the social conference directory <a href="http://lanyrd.com/2012/ampersand/">Lanyrd.</a></p>
+		&amp; track who&#8217;s attending on the social conference directory <a href="http://lanyrd.com/2012/ampersand/">Lanyrd.</a></p>
 	</section>
 		
 <?php include("includes/footer.php"); ?>
