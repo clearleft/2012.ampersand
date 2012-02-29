@@ -1,7 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if lt IE 9]><html class="no-js oldie" lang="en"><![endif]-->
 <!--[if IE 9]><html class="no-js ie9 goodie" lang="en"> <!--<![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js goodie" lang="en"> <!--<![endif]-->
 <html lang="en">
@@ -13,7 +11,7 @@
 <title>Ampersand 2012 &middot; The Web Typography Conference</title>
 <?php } ?>
 <title>Ampersand 2012 &middot; The Web Typography Conference</title>
-<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
 <meta name="description" content="Ampersand is an affordable one-day event for knowledgable web designers and typography enthusiasts, held in Brighton on 15 June 2012." />
 <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
 <link rel="shortcut icon" href="/favicon.ico" />
