@@ -12,7 +12,7 @@ include("includes/head.php");
 	<article class="section session clearfix">
 		
 		<hgroup>
-			<h1 class="no-rule">&ldquo;Typographic Matchmaking&rdquo;</h1>
+			<h1 id="sessionTitle" class="no-rule">&ldquo;Typographic Matchmaking&rdquo;</h1>
 			<h2>Combining types in the digital era.</h2>
 		</hgroup>
 		

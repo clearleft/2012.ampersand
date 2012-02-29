@@ -7,8 +7,8 @@
 
 	<!-- SPEAKERS -->
 	<section class="section speakers">
-		<h1>Combining the <span class="char13">w</span>orlds of <strong>Web <span class="amp">&amp;</span> Type Desig<span class="full-stop-kern">n</span><span class="full-stop-kern">.</span></strong></h1>
-		<ul class="speakers">
+		<h1 id="speakersTitle">Combining the <span class="char13">w</span>orlds of <strong>Web <span class="amp">&amp;</span> Type Desig<span class="full-stop-kern">n</span><span class="full-stop-kern">.</span></strong></h1>
+		<ul id="speakersList" class="speakers">
 			<?php include("includes/speakers-list.php"); ?>
 		</ul>
 	</section>

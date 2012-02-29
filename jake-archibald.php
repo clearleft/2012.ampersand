@@ -12,7 +12,7 @@ include("includes/head.php");
 	<article class="section session clearfix">
 		
 		<hgroup>
-			<h1 class="no-rule">In your @font-face.</h1>
+			<h1 id="sessionTitle" class="no-rule">In your @font-face.</h1>
 		</hgroup>
 		
 		<h2>We finally have the ability to serve custom fonts to all popular browsers. However, as with everything browser-based, to succeed with web fonts we must navigate a minefield of gotchas and peculiarities between browsers, devices, and operating systems.</h2>

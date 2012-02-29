@@ -260,7 +260,7 @@ header h2 {
 	margin: 0 0 0 0;
 	padding: 5px 0 7px 0;
 	letter-spacing: 1px;
-	font-size: 1.4em;
+	font-size: 1.45em;
 	line-height: 1.37em;
 	white-space: nowrap;
 	color: #000;
@@ -473,7 +473,7 @@ footer form select {
 .oldie .speakers h1 .amp { font-style:normal; }
 
 .speakers h1 .full-stop-kern {
-	letter-spacing: -6px;
+	letter-spacing: -2px;
 }
 
 .speakers ul {
@@ -483,7 +483,7 @@ footer form select {
 
 .speakers ul li {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGEAAAALCAYAAABvaeOfAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK8AAACvABQqw0mAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAVdEVYdENyZWF0aW9uIFRpbWUAMTQvMi8xMmmlQxMAAAHcSURBVFiF7ZM9q+JAFIbfbAwWke0UIReMbGVlUKw0MBibuCqo2Cl+xA8sRJAIEVthgpLKgJq/kx+WbS5yc5Ow3W6KPPU8c+bMew5M0yQAKAACII0vzGYzUZZlTZKk5XA4/IVvsCxLOI6jAMjtdvO5uq6LLMtqjuMsAQTcz3qhdRmGEfv9vqbreqSby+XofD4PuABEABqAUPd4PJJMJhNa92/u6/UiACjP8wFXkqS3u16vI/ttNBo+N5VKATzP00Kh4KmqSgH8/GpdLhcFgAvA7XQ6v7/fWiwWKQDvfD4HXADKbrdzB4OBu9/vA67jONS2bQ8A7XQ6Ptc0TQWAyzCMCyDglstlCsADQJvNps9lGEYB4NZqtVDXsqy3m81mfa4gCO9+6/V6wAVADcPwSqUSFQQh0C8At1qtutPpNOC2Wi3a7Xa97XYb/Kter0fS6TR9Pp9EluXIyZhMJoF0Pz4+iKIooVN1Op1EVVUjp2q1WhF8bsJoNPK5hmG86x4Oh8ipCtsEy7JEAFq73Q6tm8/nCQD6eDzIZrMJ7fd+v4e6i8WC2LYduUXj8VgDsOQ4LvLNlUrF516vVzCe54WcT/iX/PjfD0hIQogFSQgxIAkhBiQhxIAkhBiQhBAD/gBiB4OvpgGyAgAAAABJRU5ErkJggg%3D%3D) repeat-x 0 90%;
-	font-size: 3.4em;
+	font-size: 3.8em;
 	line-height: 1.1em;
 }
 
@@ -825,7 +825,7 @@ article.session .all-speakers ul li a:hover {
 
 /* Desktop and Tablet View Styles */
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 33em) {
 
 	body {
 		padding-top: 50px;
@@ -888,7 +888,7 @@ article.session .all-speakers ul li a:hover {
 	header h2 {
 		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAABCAYAAABAKImFAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK8AAACvABQqw0mAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAVdEVYdENyZWF0aW9uIFRpbWUAMTQvMi8xMmmlQxMAAAEeSURBVBiVPchNS8JgAMDx/3SSF3HCc5jGfJkRlsQGGb1YYHbyU/W5OhZCmpMoBbcubZXKo4WJEuUIu/U7/pTN/M7l0B/UqrUGi8WCRCKBlJLxeEypVKLrOOyWy6iqymO3SVIYzN9fqRzX8TwP27ZptVqEXx/sH52zWq2YzWaEYch6vWYy9BHpLLlcjm67DYrCnm3T6/Ug/CadLTB+8QCFaFwjn88jpWQ5n5MSgtkkQKRNhBC4rouqqhSLRTRNo9/vY5omUkpisRhD3yWykcSyLO7vmhye1ul0OhiGQSaT4fbmisK2xfPTA1bljCAI+Jy+oRtbRCIRRoFLNJ5C13WG/gCIAr8AVGsNHMfhZzn9/4OTCxzHQdd1FEVhFPjXf3PMdIqzHpZUAAAAAElFTkSuQmCC) no-repeat center bottom;
 		margin-bottom: 12px;
-		line-height: 1.35em;
+		line-height: 1.3em;
 	}
 	
 	header time, header span.location {
@@ -984,6 +984,7 @@ article.session .all-speakers ul li a:hover {
 		color: #953935;
 	}
 	
+	
 	/* Flex Box didn't work - Gecko doesnt support box-pack: justify yet */ 
 	
 	header .main-nav span {
@@ -1042,6 +1043,10 @@ article.session .all-speakers ul li a:hover {
 		text-align: left;
 	}
 	
+	section.sponsors h2 {
+		font-size: 2.69em;
+	}
+	
 	section.sponsors .section div {
 		width: 47%;
 		float: left;
@@ -1069,6 +1074,10 @@ article.session .all-speakers ul li a:hover {
 	
 	section.sponsors .executive {
 		clear: left;
+	}
+	
+	.speakers h1 .full-stop-kern {
+		letter-spacing: -6px;
 	}
 	
 	/* Schedule Page - Schedule */

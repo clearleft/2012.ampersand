@@ -582,7 +582,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 
 /* Desktop and Tablet View Styles */
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 33em) {
 
 	h2 {
 		font-size: 1.8em;
