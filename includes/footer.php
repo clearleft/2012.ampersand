@@ -30,7 +30,7 @@
 			<ul>
 				<li ><a class="privacy" href="/privacy" title="Privacy Policy">Privacy</a></li>
 				<li><a class="terms" href="/terms" title="Terms and Conditions">Terms &amp; Conditions</a></li>
-				<li><a class="accessibilty" href="/accessibilty" title="accessibilty">Accessibilty</a></li>
+				<li><a class="accessibilty" href="/accessibility" title="accessibility">Accessibility</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -65,7 +65,7 @@
 		</div>
 	</footer>
 
-	<script src="js/script.js"></script>
+	<script src="js/script-<?php echo $lang ?>.js"></script>
 	<script>
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-132181-13']);
