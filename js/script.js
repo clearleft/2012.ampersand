@@ -1,48 +1,81 @@
-/* Author: Bevan Stephens */
+/*!	
+* FitText.js 1.0 jQuery free version
+*
+* Copyright 2011, Dave Rupert http://daverupert.com 
+* Released under the WTFPL license 
+* http://sam.zoy.org/wtfpl/
+* Modified by Slawomir Kolodziej http://slawekk.info
+*
+* Date: Tue Aug 09 2011 10:45:54 GMT+0200 (CEST)
+*/
+(function(){
+  var css = function (el, prop) {
+    return window.getComputedStyle ? getComputedStyle(el).getPropertyValue(prop) : el.currentStyle[prop];
+  };
+  
+  var addEvent = function (el, type, fn) {
+    if (el.addEventListener)
+      el.addEventListener(type, fn, false);
+		else
+			el.attachEvent('on'+type, fn);
+  };
+
+  window.fitText = function (el, kompressor) {
+
+    var fit = function (el) {
+      var origFontSize = parseFloat( css(el, 'font-size') ),
+          compressor = kompressor || 1;
+
+      var resizer = function () {
+        el.style.fontSize = Math.min(el.clientWidth / (compressor * 10), origFontSize) + 'px';
+      };
+
+      // Call once to set.
+      resizer();
+
+      // Bind events
+      // If you have any js library which support Events, replace this part
+      // and remove addEvent function (or use original jQuery version)
+      addEvent(window, 'resize', resizer);
+    };
+
+    if (el.length)
+      for(var i=0; i<el.length; i++)
+        fit(el[i]);
+    else
+      fit(el);
+
+    // return set of elements
+    return el;
+  };
+})();
 
 
-	// FITTEXT - TEXT RESIZING 
+// FITTEXT - TEXT RESIZING 
+
+fitText(document.getElementById('mainTitle'), 0.6);
+fitText(document.getElementById('description'), 1.5);
+fitText(document.getElementById('whereWhen'), 2);
+fitText(document.getElementById('ticketInfo'), 1.1);
+if(document.getElementById('speakersTitle')){
+	fitText(document.getElementById('speakersTitle'), 2.15);
+}
+if(document.getElementById('speakersList')){
+	fitText(document.getElementById('speakersList'), 5);
+}
+fitText(document.getElementById('sponsorsTitle'), 2);
+
+if(document.getElementById('sessionTitle')){
+	fitText(document.getElementById('sessionTitle'), 1.4);
+}
+
+// LANGUAGE SWITCHER FORM ENHANCEMENT 
 	
-	$(".goodie header h1").fitText(0.475);
-	$(".goodie header .event-info").fitText(2);
-	$(".goodie .speakers h1").fitText(2.131);
-	$(".goodie .speakers li").fitText(1.4);
-	$(".goodie .tickets").fitText(1.1);
-	$(".goodie section.sponsors h2").fitText(2.01);
-	$(".goodie .en article.session h1").fitText(1.69);
-	//$(".goodie .en.jake article.session h1").fitText(2.03);
-	//$(".goodie .en.jason article.session h1").fitText(1.93);
-	//$(".goodie .en.jose article.session h1").fitText(2.32);
-
-
-	$(".goodie .sw header h1").fitText(0.535);
-	$(".goodie .sw header .event-info").fitText(1.5);
-	$(".goodie .sw .speakers h1").fitText(1.8);
-	$(".goodie .sw section.sponsors h2").fitText(1.6);
-
-
-	// LANGUAGE SWITCHER FORM ENHANCEMENT 
+document.getElementById('languageSubmit').style.display='none';
 	
-	$('#skinselection #submitskin').hide();
+		
 	
-	$('#skinselection select').change(function() {
-    	$(this).closest("form").submit();
-	});
 	
-	// GOOGLE FONT LOADER
-	/*
-	WebFontConfig = {
-	  custom: { families: ['TrilogFatfacExperSubseRegula', 'Trilogy Fatface Wide', 'Trilogy Egyptian Bold', 'Trilogy Fatface Expanded', 'Trilogy Sans Wide Regular', 'Trilogy Sans Compressed Heavy', 'TrilogEgyptiaExpandeExtrBol', 'Trilogy Egyptian Wide Bold', 'Trilogy Egyptian Expanded Bold', 'Trilogy Fatface Regular', 'Clobber Grotesk Regular', 'Clobber Grotesk Bold', 'Clobber Grotesk Demi-Bold' ],
-	    urls: [ 'http://f.fontdeck.com/s/css/uYeecfgxZsRY9yoFdZP/14nD1k8/2012.ampersandconf.com/11761.css' ] }
-	};
 	
-	(function() {
-	    document.getElementsByTagName("html")[0].className += " wf-loading";
-	    var wf = document.createElement('script');
-	    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-	    wf.type = 'text/javascript';
-	    wf.async = 'true';
-	    var s = document.getElementsByTagName('script')[0];
-	    s.parentNode.insertBefore(wf, s);
-	})();
-	*/
+	
+	

@@ -12,7 +12,7 @@ include("includes/head.php");
 	<article class="section session clearfix">
 		
 		<hgroup>
-			<h1>Linotype the Film Q&amp;A.</h1>
+			<h1 id="sessionTitle" >Linotype the Film Q&amp;A.</h1>
 			<h2>&ldquo;Linotype: The Film&rdquo; is a new documentary film about printing, journalism and the 8th Wonder of the World.</h2>
 		</hgroup>
 		<p>Directed by Doug Wilson, the film is a feature-length documentary centred around the Linotype type casting machine. Called the &ldquo;Eighth Wonder of the World&rdquo; by Thomas Edison, it revolutionised printing and society. The film tells the surprisingly emotional story of the people connected to the Linotype and how it impacted the world. &ldquo;Linotype: The Film&rdquo; will be screened exclusively for Ampersand attendees at the <a href="/location">pre-party</a> and during the conference lunch break.</p>

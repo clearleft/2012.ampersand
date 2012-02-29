@@ -12,7 +12,7 @@ include("includes/head.php");
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
-		<h1 class="no-rule">Detail in Web Typography.</h1>
+		<h1 id="sessionTitle" class="no-rule">Detail in Web Typography.</h1>
 		
 		<aside class="speaker clearfix">
 			<img src="img/yves-<?php echo $lang; ?>.gif" alt="Yves Peters" width="185" height="196" />

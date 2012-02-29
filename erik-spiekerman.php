@@ -12,7 +12,7 @@ include("includes/head.php");
 	<article class="section session clearfix">
 		
 		<hgroup>
-			<h1 class="no-rule">The State of Web Typography.</h1>
+			<h1 id="sessionTitle" class="no-rule">The State of Web Typography.</h1>
 		</hgroup>
 				
 		<aside class="speaker clearfix">

@@ -1,7 +1,7 @@
 	<!-- SPONSORS -->
 	<section class="sponsors">
 		<div class="section clearfix">
-			<h2><span class="char1">O</span>ur Gener<span class="char1">o</span>us Sponsors</h2>
+			<h2 id="sponsorsTitle"><span class="char1">O</span>ur Gener<span class="char1">o</span>us Sponsors</h2>
 			<div class="premiere">
 				<h5><span>Premiere Sponsors</span></h5>
 				<a href="http://fontdeck.com"><img class="fontdeck" alt="Fontdeck" src="img/sponsors/fontdeck.png" /></a>
@@ -55,20 +55,16 @@
 			
 			<form method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="skinselection">
 				<label for="skin">Language: </label>
-				<select name="lang" id="language">
+				<select name="lang" id="language" onchange="javascript:this.form.submit();">
 					<option value="en" <?php if($lang=='en'){echo 'selected';} ?> >English</option>
 					<option value="sw" <?php if($lang=='sw'){echo 'selected';} ?> >Swiss</option>
 				</select>
-				<input type="submit" value="Go!" id="submitskin" />
+				<input id="languageSubmit" type="submit" value="Go!" />
 			</form>
 			
 		</div>
 	</footer>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-	
-	<script src="js/plugins.js"></script>
 	<script src="js/script.js"></script>
 	<script>
 		var _gaq = _gaq || [];
