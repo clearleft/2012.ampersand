@@ -508,6 +508,7 @@ footer form select {
 
 .oldie .speakers li a  {
 	font-style:normal;
+	font-weight: normal;
 }
 
 .speakers li a:hover {
@@ -767,6 +768,10 @@ article.session aside nav a {
 	background: url(data:image/gif;base64,R0lGODlhEQASAMQAAJk6Nte6qLV0afT03J5FQMyik+ndx6pcVcaXiePRvcGLfu7o0tKunq9oX93Fsrt/dKRRSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAHAP8ALAAAAAARABIAAAWd4CCKTmGQ5qgOCAAQBuPCq9i4QHG7SD0IOB2OoVIQBIaDywEEKAINQULmOiwegASCEEgQXJAW7jF4GAqJxRdnWLsKA4NhocQ14giGY78QJfYMCAV9Cg0ND4J9Aw4IjQ0KC1QzCWkJZTgADWJLXiwMdJgJQwFfAwoACF4udwYIDpIGO1IKCIoimA5uAT5uCRBDPgxfCgNUBz4+BpYqIQA7) no-repeat left center;
 	padding-left: 25px;
 	border: none;
+}
+
+.oldie article.session aside nav a {
+	font-style: normal;
 }
 
 article.session aside nav a.twitter {

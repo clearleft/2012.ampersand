@@ -92,7 +92,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 .sw header h1 {
 	background: none;
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
-	font-size: 1.9em;
+	font-size: 4em;
 	letter-spacing: -0.09em;
 	color: #fff;
 	text-transform: none;
@@ -150,6 +150,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	text-align: left;
 	padding-top: 3px;
 	padding-bottom: 16px;
+	
 }
 
 .sw header .tickets .price {
@@ -171,7 +172,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 
 .sw header .tickets .buy {
 	color: #fff;
-	font-size: 0.5em;
+	font-size: 0.8em;
 	line-height: 1.35em;
 	padding-right: 10px;
 }
@@ -215,6 +216,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 }
 
 .sw .speakers h1 {
+	font-size: 2.9em;
 	color: #111;
 	border-bottom: 2px solid #600314;
 	-webkit-mask-image: none;
@@ -296,6 +298,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	-moz-mask-image: none;
 	mask-image: none;
 	border: none;
+	font-size: 1.8em;
 }
 
 .sw section.sponsors h5 {
@@ -639,7 +642,7 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 
 	
 	.sw header .tickets .buy {
-		font-size: 0.9em;
+		font-size: 1.1em;
 	}
 	
 	.sw header .main-nav {
@@ -694,6 +697,10 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 
 	.sw header time, header span.location {
 		font-size: 0.65em;
+	}
+	
+	.sw header .tickets .buy {
+		font-size: 0.9em;
 	}
 
 	.sw article.sponsors .sponsorship-pack {
