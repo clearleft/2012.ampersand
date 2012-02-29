@@ -11,8 +11,9 @@ include("includes/head.php");
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
-		<h1 class="no-rule">The State of Web Typography.</h1>
-		
+		<hgroup>
+			<h1 class="no-rule">The State of Web Typography.</h1>
+		</hgroup>
 				
 		<aside class="speaker clearfix">
 			<img src="img/erik-<?php echo $lang; ?>.gif" alt="Erik Spiekerman" width="185" height="196" />
@@ -29,14 +30,12 @@ include("includes/head.php");
 			</nav>                                
 			
 		</aside>
-		<section class="all-speakers clearfix">
+		<nav class="all-speakers clearfix">
 			<h4><span>ALL SPEAKERS</span></h4>
-			<nav>
-				<ul >
-					<?php include("includes/speakers-list.php"); ?>
-				</ul>
-			</nav>
-		</section>
+			<ul >
+				<?php include("includes/speakers-list.php"); ?>
+			</ul>
+		</nav>
 		
 	</article>
 	

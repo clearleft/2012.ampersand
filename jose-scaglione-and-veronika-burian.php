@@ -11,8 +11,11 @@ include("includes/head.php");
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
-		<h1 class="no-rule">&ldquo;Typographic Matchmaking&rdquo;</h1>
-		<h2>Combining types in the digital era.</h2>
+		<hgroup>
+			<h1 class="no-rule">&ldquo;Typographic Matchmaking&rdquo;</h1>
+			<h2>Combining types in the digital era.</h2>
+		</hgroup>
+		
 		<p>When starting a new project, one of the many tasks a designer encounters, is the selection of typefaces. Choosing and combining type families appropiately is crucial to the success of a project. In this context, the new typographic possibilities in the field of web design, and the broader use of mobile devices have created exiting challenges for the daily work of designers, developers and typographers.</p>
 		
 		<p>This presentation deals with such fundamental issues and offers guidance on how to approach the delicate matter of love and hate relationships that often exist between typefaces. The discussion is illustrated with examples of &ldquo;typographic couples&rdquo;, both good and bad.</p>
@@ -43,14 +46,12 @@ include("includes/head.php");
 			</nav>                                
 		</aside>
 		
-		<section class="all-speakers clearfix">
+		<nav class="all-speakers clearfix">
 			<h4><span>ALL SPEAKERS</span></h4>
-			<nav>
-				<ul >
-					<?php include("includes/speakers-list.php"); ?>
-				</ul>
-			</nav>
-		</section>
+			<ul >
+				<?php include("includes/speakers-list.php"); ?>
+			</ul>
+		</nav>
 		
 	</article>
 	

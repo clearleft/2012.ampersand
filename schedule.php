@@ -49,7 +49,7 @@ include("includes/head.php");
                     <th class="time"><time class="dtstart" title="2012-06-15T10:00:00">10.00</time> &ndash; <time class="dtend" title="2012-06-15T10:45:00">10.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="erik-spiekerman" class="erik-spiekerman" class="fn url">Eri<em class="swsh">k</em> Spiekerman<em class="swsh">n</em></a></h3>
+                    		<h3 class="vcard"><a href="erik-spiekerman" class="erik-spiekerman fn" >Eri<em class="swsh">k</em> Spiekerman<em class="swsh">n</em></a></h3>
                     		<p class="summary">Keynote: The State of Web Typography</p>
                     	</div>
                     </td>
@@ -75,7 +75,7 @@ include("includes/head.php");
                     <th class="time"><time class="dtstart" title="2012-06-15T12:00:00">12.00</time> &ndash; <time class="dtend" title="2012-06-15T12:45:00">12.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="jose-scaglione-and-veronika-burian" class="veronika-burian" class="fn url"><em class="char1">V</em>eronik<em class="swsh">a</em> Buria<em class="swsh">n</em></a> &amp; <a href="jose-scaglione-and-veronika-burian" class="fn url">Jos<strong class="jose-e-fix">&eacute;</strong>&nbsp;Scaglion<em class="swsh">e</em></a></h3>
+                    		<h3 class="vcard"><a href="jose-scaglione-and-veronika-burian" class="veronika-burian fn" ><em class="char1">V</em>eronik<em class="swsh">a</em> Buria<em class="swsh">n</em></a> &amp; <a href="jose-scaglione-and-veronika-burian" class="fn url">Jos<strong class="jose-e-fix">&eacute;</strong>&nbsp;Scaglion<em class="swsh">e</em></a></h3>
                     		<p class="summary">Typographic Matchmaking</p>
                     	</div>
                     </td>

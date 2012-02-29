@@ -26,14 +26,12 @@ include("includes/head.php");
 			</nav>                                
 		</aside>
 		
-		<section class="all-speakers clearfix">
+		<nav class="all-speakers clearfix">
 			<h4><span>ALL SPEAKERS</span></h4>
-			<nav>
 				<ul >
 					<?php include("includes/speakers-list.php"); ?>
 				</ul>
-			</nav>
-		</section>
+		</nav>
 		
 	</article>
 	
