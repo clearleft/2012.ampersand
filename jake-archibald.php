@@ -11,7 +11,9 @@ include("includes/head.php");
 	<!-- SESSION -->
 	<article class="section session clearfix">
 		
-		<h1 class="no-rule">In your @font-face.</h1>
+		<hgroup>
+			<h1 class="no-rule">In your @font-face.</h1>
+		</hgroup>
 		
 		<h2>We finally have the ability to serve custom fonts to all popular browsers. However, as with everything browser-based, to succeed with web fonts we must navigate a minefield of gotchas and peculiarities between browsers, devices, and operating systems.</h2>
 
@@ -32,14 +34,12 @@ Outside of the web, he likes the taste of beer, watches Formula One, and likes <
 			</nav>                                
 			
 		</aside>
-		<section class="all-speakers clearfix">
+		<nav class="all-speakers clearfix">
 			<h4><span>ALL SPEAKERS</span></h4>
-			<nav>
 				<ul >
 					<?php include("includes/speakers-list.php"); ?>
 				</ul>
-			</nav>
-		</section>
+		</nav>
 		
 	</article>
 	
