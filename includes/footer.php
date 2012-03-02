@@ -9,7 +9,7 @@
 			<div class="grass-roots">
 				<h5><span>Grass Roots Sponsors</span></h5>
 				<a href="http://8faces.com/" title="8 Faces"><img class="8faces" alt="8 Faces" src="img/sponsors/8faces.png" /></a>
-				<a href="http://lettercaseapp.com/" title="Lettercase App"><img class="lettercaseapp" alt="Letter Case" src="img/sponsors/lettercase.png" /></a>
+				<a href="http://itunes.apple.com/gb/app/fontcase/id403095673?mt=12" title="Fontcase App"><img class="fontcaseapp" alt="Fontcase" src="img/sponsors/fontcase.png" /></a>
 			</div>
 			<div class="executive">
 				<h5><span>Executive Sponsors</span></h5>
