@@ -16,6 +16,8 @@
 				<a href="http://www.webtype.com/"><img class="webtype" alt="Webtype" src="img/sponsors/webtype.png"  /></a>
 				<a href="http://www.heartinternet.co.uk/"><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
 				<a href="http://lanyrd.com/2012/ampersand/"><img class="lanyrd" alt="Lanyrd" src="img/sponsors/lanyrd.png" /></a>
+				<a href="http://www.fontshop.com/"><img class="fontshop" alt="FontShop" src="img/sponsors/fontshop.png" /></a>
+				<a href="https://www.fontfont.com/"><img class="fontfont" alt="FontFont" src="img/sponsors/fontfont.png" /></a>
 			</div>
 			<div class="media-partners">
 				<h5><span>Media Partners</span></h5>
