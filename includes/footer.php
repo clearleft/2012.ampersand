@@ -4,24 +4,25 @@
 			<h2 id="sponsorsTitle"><span class="char1">O</span>ur Gener<span class="char1">o</span>us Sponsors</h2>
 			<div class="premiere">
 				<h5><span>Premiere Sponsors</span></h5>
-				<a href="http://fontdeck.com"><img class="fontdeck" alt="Fontdeck" src="img/sponsors/fontdeck.png" /></a>
+				<a href="http://fontdeck.com" title="Fontdeck"><img class="fontdeck" alt="Fontdeck" src="img/sponsors/fontdeck.png" /></a>
 			</div>
 			<div class="grass-roots">
 				<h5><span>Grass Roots Sponsors</span></h5>
-				<a href="http://8faces.com/"><img class="8faces" alt="8 Faces" src="img/sponsors/8faces.png" /></a>
+				<a href="http://8faces.com/" title="8 Faces"><img class="8faces" alt="8 Faces" src="img/sponsors/8faces.png" /></a>
+				<a href="http://lettercaseapp.com/" title="Lettercase App"><img class="lettercaseapp" alt="Letter Case" src="img/sponsors/lettercase.png" /></a>
 			</div>
 			<div class="executive">
 				<h5><span>Executive Sponsors</span></h5>
-				<a href="http://typekit.com"><img class="typekit" alt="Typekit" src="img/sponsors/typekit.png" /></a>
-				<a href="http://www.webtype.com/"><img class="webtype" alt="Webtype" src="img/sponsors/webtype.png"  /></a>
-				<a href="http://www.heartinternet.co.uk/"><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
-				<a href="http://lanyrd.com/2012/ampersand/"><img class="lanyrd" alt="Lanyrd" src="img/sponsors/lanyrd.png" /></a>
-				<a href="http://www.fontshop.com/"><img class="fontshop" alt="FontShop" src="img/sponsors/fontshop.png" /></a>
-				<a href="https://www.fontfont.com/"><img class="fontfont" alt="FontFont" src="img/sponsors/fontfont.png" /></a>
+				<a href="http://typekit.com" title="Typekit"><img class="typekit" alt="Typekit" src="img/sponsors/typekit.png" /></a>
+				<a href="http://www.webtype.com/" title="Webtype"><img class="webtype" alt="Webtype" src="img/sponsors/webtype.png"  /></a>
+				<a href="http://www.heartinternet.co.uk/" title="Heart Internet" ><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
+				<a href="http://www.fontshop.com/" title="Fontshop" ><img class="fontshop" alt="FontShop" src="img/sponsors/fontshop.png" /></a>
+				<a href="https://www.fontfont.com/" title="FontFont"><img class="fontfont" alt="FontFont" src="img/sponsors/fontfont.png" /></a>
 			</div>
 			<div class="media-partners">
 				<h5><span>Media Partners</span></h5>
-				<a href="http://www.eyemagazine.com/"><img class="eye" alt="Eye Magazine" src="img/sponsors/eye.png" /></a>
+				<a href="http://www.eyemagazine.com/" title="Eye Magazine"><img class="eye" alt="Eye Magazine" src="img/sponsors/eye.png" /></a>
+				<a href="http://lanyrd.com/2012/ampersand/" title="Lanyrd"><img class="lanyrd" alt="Lanyrd" src="img/sponsors/lanyrd.png" /></a>
 			</div>
 		</div>
 	</section>

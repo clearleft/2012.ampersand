@@ -88,6 +88,10 @@ a.veronika-burian .char1 {	letter-spacing: -0.13em;	}
 	font-family:"Clobber Grotesk Bold", Arial, sans-serif; font-weight:bold; font-style:normal;
 }
 
+body.sw div#qTip {
+	color: #fff;	
+}
+
 .sw.home header.section { margin-bottom: 10px;  }
 
 .sw header h1 {

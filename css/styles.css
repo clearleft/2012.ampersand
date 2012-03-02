@@ -221,6 +221,26 @@ a.jason-Smith .char1 {	letter-spacing: -0.1em; }
 a.jose-scaglione .char1 {	letter-spacing: -0.1em; }
 a.veronika-burian .char1 {	letter-spacing: -0.18em;	}
 
+body div#qTip {
+	font-size: 0.7em !important;
+	padding: 5px 10px 6px 10px;
+	display: none;
+	background: #111;
+	color: #D7C049;
+	text-shadow: none;
+	font: bold 9px Verdana, Arial, sans-serif;
+	text-align: left;
+	position: absolute;
+	z-index: 1000;
+	-webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -ms-border-radius: 4px; 
+    -o-border-radius: 4px; 
+    border-radius: 4px;
+	
+}
+
+
 /* Header */
 
 header {
@@ -523,6 +543,7 @@ footer form select {
 
 .oldie .speakers li a .swsh {
 	font-style: normal;
+	font-weight: normal;
 }
 
 
@@ -1290,6 +1311,7 @@ article.session .all-speakers ul li a:hover {
 		display: block;
 	}
 }
+
 
 /* Firefox is fat */
 
