@@ -19,10 +19,10 @@
 			</div>
 			<nav class="main-nav clearfix">
 				<ul>
-					<li><a class="home" href="/" title="Home">Home</a></li>
-					<li><a class="schedule" href="/schedule" title="Schedule">Schedule</a></li>
-					<li><a class="location" href="/location" title="location">Location</a></li>
-					<li><a class="sponsors" href="/sponsors" title="Sponsors">Sponsors</a></li>
+					<li><a class="home" href="/" >Home</a></li>
+					<li><a class="schedule" href="/schedule" >Schedule</a></li>
+					<li><a class="location" href="/location" >Location</a></li>
+					<li><a class="sponsors" href="/sponsors" >Sponsors</a></li>
 				</ul>
 				<span></span>
 			</nav>
