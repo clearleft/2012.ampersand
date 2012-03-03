@@ -31,9 +31,9 @@
 	<div class="section">
 		<nav class="footer-nav clearfix" >
 			<ul>
-				<li ><a class="privacy" href="/privacy" title="Privacy Policy">Privacy</a></li>
-				<li><a class="terms" href="/terms" title="Terms and Conditions">Terms &amp; Conditions</a></li>
-				<li><a class="accessibilty" href="/accessibility" title="accessibility">Accessibility</a></li>
+				<li ><a class="privacy" href="/privacy" >Privacy</a></li>
+				<li><a class="terms" href="/terms" >Terms &amp; Conditions</a></li>
+				<li><a class="accessibilty" href="/accessibility" >Accessibility</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -42,8 +42,8 @@
 	<footer >
 		<div class="section">
 			<a href="http://clearleft.com"><img class="clearleft" alt="Clearleft Logo" src="img/clearleft.png" /></a>
-			<p>Presented by <a href="http://clearleft.com" title="Clearleft" >Clearleft</a>, a user experience design consultancy based in Brighton, UK.
-			Email us on <a href="mailto:ampersand@clearleft.com" title="ampersand@clearleft.com">ampersand@clearleft.com</a>
+			<p>Presented by <a href="http://clearleft.com"  >Clearleft</a>, a user experience design consultancy based in Brighton, UK.
+			Email us on <a href="mailto:ampersand@clearleft.com" >ampersand@clearleft.com</a>
 			</p>
 			<small>Ampersand &copy; 2011 Clearleft Ltd. All rights reserved. 
 			<?php if($lang=='sw') { ?>
