@@ -341,6 +341,28 @@ header .tickets .buy .brace {
 	font-weight: 100;
 }
 
+header .tickets .buy .register-button {
+		font-family: "Trilogy Sans Compressed Heavy", Impact, "HelveticaNeue-CondensedBold", "Futura Condensed ExtraBold", "Arial Narrow", sans-serif; 
+		line-height: 1em;
+		background: #B2A55C;
+		color: #FFFFE6;
+		text-shadow: -1px -1px 0 rgba(0,0,0,0.1);
+		display: inline-block;
+		padding: 8px 15px 6px 15px;
+		-webkit-transition: background 0.2s ease-in-out;
+		-moz-transition: background 0.2s ease-in-out;
+		-o-transition: background 0.2s ease-in-out;
+		-ms-transition: background 0.2s ease-in-out;
+		transition: background 0.2s ease-in-out;
+		border: none;
+		-webkit-border-radius: 4px; 
+	    -moz-border-radius: 4px; 
+	    -ms-border-radius: 4px; 
+	    -o-border-radius: 4px; 
+	    border-radius: 4px;
+	    margin-top: 10px;
+	}
+
 header .main-nav li {
 	display: inline;
 }
@@ -960,6 +982,13 @@ article.session .all-speakers ul li a:hover {
 		font-size: 1.2em;
 	}
 	
+	
+	
+	header .tickets .buy .register-button:hover {
+		background: #9F8D35;
+		text-decoration: none;
+	}
+	
 	header .tickets .price .pound{
 		font-size: 1.8em;
 	}
@@ -980,6 +1009,10 @@ article.session .all-speakers ul li a:hover {
 	header .tickets .buy strong {
 		display: block;
 		padding: 0 12%;
+	}
+	
+	header .tickets .buy .register-button {
+		margin-top: 0px;
 	}
 	
 	header .main-nav {
@@ -1230,6 +1263,23 @@ article.session .all-speakers ul li a:hover {
 		font-size: 0.9em;
 		line-height: 1.1em;
 		letter-spacing: 1px;
+	}
+	
+	header .tickets .buy .register-button {
+		position: relative;	
+		padding: 10px 22px 8px 58px;
+		margin-left: 10px;
+		white-space: nowrap;
+	}
+	
+	header .tickets .buy .register-button span {
+		display: inline-block;
+		background: url(../img/hand-small.png) no-repeat;
+		width: 59px;
+		height: 28px;
+		position: absolute;
+		left: -10px;
+		top:6px;
 	}
 	
 	header .tickets .buy .brace {

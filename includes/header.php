@@ -14,7 +14,15 @@
 			<div class="tickets clearfix">
 				<div id="ticketInfo">
 					<span class="price"><span class="pound">&pound;</span><strong>125</strong><em>+</em>VAT</span>
-					<span class="buy"><span class="brace brace1">{</span><strong>Tickets go on sale 6th March 2012</strong><span class="brace brace2">}</span></span>
+					<?php
+					
+					DATE_DEFAULT_TIMEZONE_SET('GMT');  
+					if ( time( ) > strtotime( "03/06/2012 09:59AM" ) ) {
+    				
+					?>
+					<span class="buy"><a class="register-button" href="#"><span></span>Register Now</a></span>
+					<?php }else { ?>
+					<span class="buy"><span class="brace brace1">{</span><strong>Tickets go on sale 6th March 2012</strong><span class="brace brace2">}</span></span>		<?php } ?>
 				</div>
 			</div>
 			<nav class="main-nav clearfix">
