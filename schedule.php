@@ -11,8 +11,7 @@ include("includes/head.php");
 	<!-- SCHEDULE -->
 	<article class="section schedule">
 		
-		<h2>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting & font usage, 
-			browser implementations, and with glimpses of a bright typographic future.</h2>
+		<h2>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting &amp; font usage, browser implementations and web design.</h2>
 			
 			<table class="thursday" summary="Ampersand schedule for 14 June 2012">       
                 <tr class="vevent last">
@@ -20,7 +19,7 @@ include("includes/head.php");
                     <td >
                     	<div>
                     		<h3 class="summary">Pre-Part<em class="swsh">y</em></h3>
-                    		<p class="vcard"><a href="location" class="fn url">The Basement</a></p>	
+                    		<p class="vcard"><a href="location" class="fn url">The Basement</a> (Screening: Linotype the Film)</p>	
                     	</div>
                     </td>
                 </tr>
