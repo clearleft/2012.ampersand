@@ -18,6 +18,7 @@
 				<a href="http://www.heartinternet.co.uk/" title="Heart Internet" ><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
 				<a href="http://www.fontshop.com/" title="Fontshop" ><img class="fontshop" alt="FontShop" src="img/sponsors/fontshop.png" /></a>
 				<a href="https://www.fontfont.com/" title="FontFont"><img class="fontfont" alt="FontFont" src="img/sponsors/fontfont.png" /></a>
+				<a href="http://beta.typecastapp.com/" title="Typecast"><img class="typecast" alt="Typecast" src="img/sponsors/typecast.png" /></a>
 			</div>
 			<div class="media-partners">
 				<h5><span>Media Partners</span></h5>

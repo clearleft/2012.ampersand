@@ -149,7 +149,7 @@ include("includes/head.php");
                     <th class="time"><time class="dtstart" title="2012-06-15T19:30:00">19.30</time> &ndash; <time class="dtend" >Late</time></th>
                     <td >
                     	<div>
-                    		<h3 class="summary">A<em class="swsh">f</em>ter-Part<em class="swsh">y</em></h3>
+                    		<h3 class="summary">A<em class="swsh">f</em>ter-Part<em class="swsh">y</em><span>Hosted by Typekit</span></h3>
                     		<p class="vcard"><a href="location" class="fn url">Above Audio</a></p>	
                    		</div>
                    	</td>
