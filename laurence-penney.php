@@ -12,10 +12,10 @@ include("includes/head.php");
 	<article class="section session clearfix">
 		
 		<hgroup>
-			<h1 id="sessionTitle" >If it don't stick, make it stick</h1>
+			<h1 id="sessionTitle" >If it don&#8217;t stick, make it stick</h1>
 			<h2>Some CSS font stack hackery</h2>
 		</hgroup>
-		<p>The CSS font stack has been around for a long time. It takes care of font fallback, so if Verdana doesn't have Arabic, Arial gets used. But with webfonts, the rules of the game have changed, and the CSS font stack can be used to do some real fun wizardry. I'll show how.</p>
+		<p>The CSS font stack has been around for a long time. It takes care of font fallback, so if Verdana doesn&#8217;t have Arabic, Arial gets used. But with webfonts, the rules of the game have changed, and the CSS font stack can be used to do some real fun wizardry.</p>
 		
 		<aside class="speaker clearfix">
 			<img src="img/laurence-<?php echo $lang; ?>.gif" alt="Laurence Penney" width="185" height="196" />
