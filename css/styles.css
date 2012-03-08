@@ -256,6 +256,10 @@ header .ampersand-logo img {
 	max-width:100%;
 }
 
+header .ampersand-logo a:hover {
+	border: none;
+}
+
 header h1 {
 	font-family: "Trilogy Sans Compressed Heavy", Impact, "HelveticaNeue-CondensedBold", "Futura Condensed ExtraBold", "Arial Narrow", sans-serif;  
 	font-weight:900; 

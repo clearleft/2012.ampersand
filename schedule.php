@@ -96,7 +96,7 @@ include("includes/head.php");
                     		<p class="summary">Type in 20</p>
                     		<h3 class="vcard"><a href="douglas-wilson" class="fn url">Dougla<em class="swsh">s</em> Wilso<em class="swsh">n</em></a><span>Linotype the Film Q&A</span></h3>
                     		<h3 class="vcard"><a href="jason-smith" class="fn url">Jaso<em class="swsh">n</em> Smit<em class="swsh">h</em></a><span>Designing Fonts For Screens</span></h3>
-                    		<h3 class="vcard"><a href="#" class="fn url">Specia<em class="swsh">l</em> Gues<em class="swsh">t</em></a><span>TBC</span></h3>
+                    		<h3 class="vcard"><a href="laurence-penney" class="fn url">Laurenc<em class="swsh">e</em> Penne<em class="swsh">y</em></a><span>CSS font stack hackery</span></h3>
                     	</div>
                     </td>
                 </tr> 
