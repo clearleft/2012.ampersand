@@ -7,7 +7,7 @@
 			<div  class="event-info">
 				<h2 id="description" class="description">The Web Typography<br /><strong>Confere<span class="char8">n</span>ce</strong></h2>
 				<div id="whereWhen">
-					<time datetime="2012-06-15" class="dtstart">15th June 2012,</time>
+					<time datetime="2012-06-15" class="dtstart">15<sup>th</sup> June 2012,</time>
 					<span  class="location">Brighton UK</span>
 				</div>
 			</div>
