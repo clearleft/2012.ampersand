@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+sup {
+  font-size: smaller;
+}
+
 /* Clearfix */
 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
