@@ -10,6 +10,7 @@
 				<h5><span>Grass Roots Sponsors</span></h5>
 				<a href="http://8faces.com/" title="8 Faces"><img class="8faces" alt="8 Faces" src="img/sponsors/8faces.png" /></a>
 				<a href="http://itunes.apple.com/gb/app/fontcase/id403095673?mt=12" title="Fontcase App"><img class="fontcaseapp" alt="Fontcase" src="img/sponsors/fontcase.png" /></a>
+				<a href="http://www.gridsetapp.com/" title="Gridset"><img class="gridset" alt="Gridset" src="img/sponsors/gridset.png" /></a>
 			</div>
 			<div class="executive">
 				<h5><span>Executive Sponsors</span></h5>
@@ -24,6 +25,7 @@
 				<h5><span>Media Partners</span></h5>
 				<a href="http://www.eyemagazine.com/" title="Eye Magazine"><img class="eye" alt="Eye Magazine" src="img/sponsors/eye.png" /></a>
 				<a href="http://lanyrd.com/2012/ampersand/" title="Lanyrd"><img class="lanyrd" alt="Lanyrd" src="img/sponsors/lanyrd.png" /></a>
+				<a href="http://www.fivesimplesteps.com/" title="Five Simple Steps"><img class="five-simple-steps" alt="Five Simple Steps" src="img/sponsors/five-simple-steps.png" /></a>
 			</div>
 		</div>
 	</section>
