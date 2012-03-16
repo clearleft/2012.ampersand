@@ -18,7 +18,7 @@ include("includes/head.php");
                     <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time></th>
                     <td >
                     	<div>
-                    		<h3 class="summary">Pre-Part<em class="swsh">y</em></h3>
+                    		<h3 class="summary">Pre-Part<em class="swsh">y</em><span>Hosted by MyFonts</span></h3>
                     		<p class="vcard"><a href="location" class="fn url">The Basement</a> (Screening: Linotype the Film)</p>	
                     	</div>
                     </td>
