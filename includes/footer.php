@@ -5,6 +5,7 @@
 			<div class="premiere">
 				<h5><span>Premiere Sponsors</span></h5>
 				<a href="http://fontdeck.com" title="Fontdeck"><img class="fontdeck" alt="Fontdeck" src="img/sponsors/fontdeck.png" /></a>
+				<a href="http://typekit.com" title="Typekit"><img class="typekit" alt="Typekit" src="img/sponsors/typekit.png" /></a>
 			</div>
 			<div class="grass-roots">
 				<h5><span>Grass Roots Sponsors</span></h5>
@@ -14,12 +15,12 @@
 			</div>
 			<div class="executive">
 				<h5><span>Executive Sponsors</span></h5>
-				<a href="http://typekit.com" title="Typekit"><img class="typekit" alt="Typekit" src="img/sponsors/typekit.png" /></a>
 				<a href="http://www.webtype.com/" title="Webtype"><img class="webtype" alt="Webtype" src="img/sponsors/webtype.png"  /></a>
 				<a href="http://www.heartinternet.co.uk/" title="Heart Internet" ><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
 				<a href="http://www.fontshop.com/" title="Fontshop" ><img class="fontshop" alt="FontShop" src="img/sponsors/fontshop.png" /></a>
 				<a href="https://www.fontfont.com/" title="FontFont"><img class="fontfont" alt="FontFont" src="img/sponsors/fontfont.png" /></a>
 				<a href="http://beta.typecastapp.com/" title="Typecast"><img class="typecast" alt="Typecast" src="img/sponsors/typecast.png" /></a>
+				<a href="http://myfonts.com/" title="MyFonts"><img class="myfonts" alt="MyFonts" src="img/sponsors/myfonts.png" /></a>
 			</div>
 			<div class="media-partners">
 				<h5><span>Media Partners</span></h5>
