@@ -769,6 +769,10 @@ article.location .map #map_canvas {
 	margin: 1% 1% 1% 1%;
 }
 
+#map_canvas img {
+	max-width: none;
+}
+
 article.location strong {
 	font-weight: bold;
 }
