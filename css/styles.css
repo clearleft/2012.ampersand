@@ -1145,6 +1145,10 @@ article.session .all-speakers ul li a:hover {
 		margin-left: 3%;
 	}
 	
+	.sponsors .simpleasmilk {
+	float:right;
+}
+	
 	section.sponsors h5 span {
 		padding-left: 0px;
 	}
