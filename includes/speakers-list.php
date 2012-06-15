@@ -1,5 +1,4 @@
-<li class="vcard" ><a class="erik-spiekerman fn" href="/erik-spiekerman">Eri<span class="swsh">k</span> Spiekerman<span class="swsh">n</span></a></li>
-
+			<li class="vcard" ><a class="phil-baines fn" href="/phil-baines">Pro<span class="swsh">f</span>. Phi<span class="swsh">l</span> Baine<span class="swsh">s</span></a></li>
 			<li class="vcard"><a class="jake-archibald fn" href="/jake-archibald"><span class="char1">J</span>ak<span class="swsh">e</span> A<span class="char6">r</span><span class="char7">c</span>hibal<span class="swsh">d</span></a></li>
 			<li class="vcard"><a class="douglas-wilson fn" href="/douglas-wilson">Dougla<span class="swsh">s</span> Wilso<span class="swsh">n</span></a></li>
 			<li class="vcard"><a class="yves-peters fn" href="/yves-peters"><span class="char1">Y</span>ve<span class="swsh">s</span> <span class="char5">P</span>eters</a></li>

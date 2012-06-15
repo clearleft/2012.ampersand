@@ -1,7 +1,7 @@
 <?php include("includes/language-switcher.php");  ?>
 <?php
 $title = "Schedule";
-include("includes/head.php"); 
+include("includes/head.php");
 ?>
 
 <body id="wrapper" class="vevent schedule <?php echo $lang; ?>">
@@ -10,21 +10,21 @@ include("includes/head.php");
 
 	<!-- SCHEDULE -->
 	<article class="section schedule">
-		
+
 		<h2>Ampersand will be a fabulous day of nitty gritty details from experts in font design &amp; development, typesetting &amp; font usage, browser implementations and web design.</h2>
-			
-			<table class="thursday" summary="Ampersand schedule for 14 June 2012">       
+
+			<table class="thursday" summary="Ampersand schedule for 14 June 2012">
                 <tr class="vevent last">
                     <th class="time"><time class="dtstart" title="2012-06-14T19:30:00">Thurs 19.30</time></th>
                     <td >
                     	<div>
                     		<h3 class="summary">Pre-Part<em class="swsh">y</em><span>Hosted by MyFonts</span></h3>
-                    		<p class="vcard"><a href="location" class="fn url">The Basement</a> (Screening: Linotype the Film)</p>	
+                    		<p class="vcard"><a href="location" class="fn url">The Basement</a> (Screening: Linotype the Film)</p>
                     	</div>
                     </td>
                 </tr>
             </table>
-            
+
             <table class="friday" summary="Ampersand schedule for 15 June 2012">
                 <tr class="vevent break">
                     <th class="time"><time class="dtstart" title="2012-06-15T09:00:00">Friday 09.00</time></th>
@@ -48,11 +48,11 @@ include("includes/head.php");
                     <th class="time"><time class="dtstart" title="2012-06-15T10:00:00">10.00</time> &ndash; <time class="dtend" title="2012-06-15T10:45:00">10.45</time></th>
                     <td >
                     	<div>
-                    		<h3 class="vcard"><a href="erik-spiekerman" class="erik-spiekerman fn" >Eri<em class="swsh">k</em> Spiekerman<em class="swsh">n</em></a></h3>
-                    		<p class="summary">Keynote: The State of Web Typography</p>
+                    		<h3 class="vcard"><a href="phil-baines" class="phil-baines fn" >Phi<em class="swsh">l</em> Baine<em class="swsh">s</em></a></h3>
+                    		<p class="summary">Keynote</p>
                     	</div>
                     </td>
-                </tr>                  
+                </tr>
                 <tr class="vevent break">
                     	<th class="time"><time class="dtstart" title="2012-06-15T10:45:00">10.45</time> &ndash; <time class="dtend" title="2012-06-15T11:15:00">11.15</time></th>
                     	<td >
@@ -69,7 +69,7 @@ include("includes/head.php");
                     		<p class="summary">Detail in Web Typography</p>
                     	</div>
                     </td>
-                </tr> 
+                </tr>
                  <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2012-06-15T12:00:00">12.00</time> &ndash; <time class="dtend" title="2012-06-15T12:45:00">12.45</time></th>
                     <td >
@@ -78,7 +78,7 @@ include("includes/head.php");
                     		<p class="summary">Typographic Matchmaking</p>
                     	</div>
                     </td>
-                </tr> 
+                </tr>
                  <tr class="vevent break">
                     	<th class="time"><time class="dtstart" title="2012-06-15T12:45:00">12.45</time> &ndash; <time class="dtend" title="2012-06-15T14:45:00">14.45</time></th>
                     	<td >
@@ -88,7 +88,7 @@ include("includes/head.php");
                    			</div>
                     	<td >
                 </tr>
-                
+
                 <tr class="vevent type-in-20 type-in-20-1">
                     <th class="time"><time class="dtstart" title="2012-06-15T14:45:00">14.45</time> &ndash; <time class="dtend" title="2012-06-15T15:45:00">15.45</time></th>
                     <td >
@@ -99,8 +99,8 @@ include("includes/head.php");
                     		<h3 class="vcard"><a href="laurence-penney" class="fn url">Laurenc<em class="swsh">e</em> Penne<em class="swsh">y</em></a><span>CSS font stack hackery</span></h3>
                     	</div>
                     </td>
-                </tr> 
-                                
+                </tr>
+
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2012-06-15T15:45:00">15.45</time> &ndash; <time class="dtend" title="2012-06-15T16:30:00">16.30</time></th>
                     <td >
@@ -109,8 +109,8 @@ include("includes/head.php");
                     		<p class="summary">On Hinting</p>
                     	</div>
                     </td>
-                </tr> 
-         
+                </tr>
+
                 <tr class="vevent break">
                     <th class="time"><time class="dtstart" title="2012-06-15T16:30:00">16.30</time> &ndash; <time class="dtend" title="2012-06-15T17:00:00">17.00</time></th>
                     <td >
@@ -118,7 +118,7 @@ include("includes/head.php");
                     		<h3 class="vcard">Brea<em class="swsh">k</em></h3>
                     	</div>
                     </td>
-                </tr> 
+                </tr>
                 <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2012-06-15T17:00:00">17.00</time> &ndash; <time class="dtend" title="2012-06-15T17:45:00">17.45</time></th>
                     <td >
@@ -127,7 +127,7 @@ include("includes/head.php");
                     		<p class="summary">In your @font-face</p>
                     	</div>
                     </td>
-                </tr> 
+                </tr>
                  <tr class="vevent">
                     <th class="time"><time class="dtstart" title="2012-06-15T17:45:00">17.45</time> &ndash; <time class="dtend" title="2012-06-15T18:30:00">18.30</time></th>
                     <td >
@@ -136,7 +136,7 @@ include("includes/head.php");
                     		<p class="summary">Enhancing the Future</p>
                     	</div>
                     </td>
-                </tr> 
+                </tr>
 				<tr class="vevent">
                     <th class="time"><time class="dtstart" title="2012-06-15T18:30:00">18.30</time> &ndash; <time class="dtend" title="2012-06-15T18:45:00">18.45</time></th>
                     <td >
@@ -150,22 +150,22 @@ include("includes/head.php");
                     <td >
                     	<div>
                     		<h3 class="summary">A<em class="swsh">f</em>ter-Part<em class="swsh">y</em><span>Hosted by Typekit</span></h3>
-                    		<p class="vcard"><a href="location" class="fn url">Above Audio</a></p>	
+                    		<p class="vcard"><a href="location" class="fn url">Above Audio</a></p>
                    		</div>
                    	</td>
                 </tr>
             </table>
-            
-            
-            
-           
-            
+
+
+
+
+
             <p>Schedule is subject to change.</p>
-		
+
 	</article>
-	
-	
-		
+
+
+
 <?php include("includes/footer.php"); ?>
 
 </body>
