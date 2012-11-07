@@ -27,7 +27,12 @@ include("includes/head.php");
 					<li><a class="website" href="http://www.lucasfonts.com">lucasfonts.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/#!/FontFabrik">@FontFabrik</a></li>
 				</ul>
-			</nav>                                
+			</nav>  
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/07-lucas-de-groot.mp3">Audio (35.5&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>                              
 			
 		</aside>
 		

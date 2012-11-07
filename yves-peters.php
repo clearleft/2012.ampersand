@@ -19,13 +19,18 @@ include("includes/head.php");
 		<aside class="speaker clearfix">
 			<img src="img/yves-<?php echo $lang; ?>.gif" alt="Yves Peters" width="185" height="196" />
 			<h3 class="yves-peters" href="/yves-peters"><span class="char1">Y</span>ve<span class="swsh">s</span> <span class="char5">P</span>eters</h3>
-			<p>A little over six years ago graphic designer Yves Peters started reviewing type in his Bald Condensed column on <a href="http://typographer.org">Typographer.org</a>. In August 2008 he put his graphic design career on the back burner, freeing him to concentrate on his writing and related activities in the digital type business. Yves currently edits The FontFeed, a daily dispatch of recommended fonts, typography techniques, and inspirational examples of digital type at work in the real world; and Unzipped, his blog on the FontShop BeNeLux home page. He regularly speaks at schools and international conferences. Yves also is an accomplished drummer with British/American/Belgian pop/rock bands Troubleman and Rosa Luxe*. His talent for being able to identify most typefaces on sight is utterly useless in daily life.</p>   
+			<p>A little over six years ago graphic designer Yves Peters started reviewing type in his Bald Condensed column on <a href="http://typographer.org">Typographer.org</a>. In August 2008 he put his graphic design career on the back burner, freeing him to concentrate on his writing and related activities in the digital type business. Yves currently edits The FontFeed, a daily dispatch of recommended fonts, typography techniques, and inspirational examples of digital type at work in the real world; and Unzipped, his blog on the FontShop BeNeLux home page. He regularly speaks at schools and international conferences. Yves also is an accomplished drummer with British/American/Belgian pop/rock bands Troubleman and Rosa Luxe*. His talent for being able to identify most typefaces on sight is utterly useless in daily life.</p>
 			<nav >
 				<ul >
 					<li><a class="website" href="http://fontfeed.com/">Fontfeed.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/baldcondensed">@baldcondensed</a></li>
 				</ul>
 			</nav>                                
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/02-yves-peters.mp3">Audio (43.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>
 		</aside>
 		
 		<nav class="all-speakers clearfix">

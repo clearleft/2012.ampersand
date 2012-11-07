@@ -25,7 +25,12 @@ include("includes/head.php");
 					<li><a class="website" href="http://www.elliotjaystocks.com">elliotjaystocks.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/elliotjaystocks">@elliotjaystocks</a></li>
 				</ul>
-			</nav>                                
+			</nav>   
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/09-elliot-jay-stocks.mp3">Audio (28.9&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>                             
 		</aside>
 		
 		<nav class="all-speakers clearfix">

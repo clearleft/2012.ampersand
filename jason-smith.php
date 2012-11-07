@@ -26,7 +26,12 @@ Set up Fontsmith in London in 1999 and became involved with corporate identities
 					<li><a class="website" href="http://www.fontsmith.com">fontsmith.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/fsjason">@fsjason</a></li>
 				</ul>
-			</nav>                                
+			</nav>  
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/05-jason-smith.mp3">Audio (12.8&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>                              
 		</aside>
 		
 		<nav class="all-speakers clearfix">

@@ -27,6 +27,12 @@ include("includes/head.php");
 					<li><a class="twitter" href="http://twitter.com/#!/sarkytype">@sarkytype</a></li>
 				</ul>
 			</nav>
+			
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/01-phil-baines.mp3">Audio (35.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            <a href="http://ampersand.s3.amazonaws.com/2012/slides/phil-baines.pdf">Slides (5.3&nbsp;<abbr class="smcp">Mb PDF</abbr>)</a>
+            </p>
 
 		</aside>
 		<nav class="all-speakers clearfix">

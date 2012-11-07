@@ -43,7 +43,12 @@ include("includes/head.php");
 					<li><a class="website" href="http://www.type-together.com">type-together.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/typetogether">@typetogether</a></li>
 				</ul>
-			</nav>                                
+			</nav>  
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/03-burian-scaglione.mp3">Audio (71.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>                              
 		</aside>
 		
 		<nav class="all-speakers clearfix">

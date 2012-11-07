@@ -26,7 +26,12 @@ include("includes/head.php");
 					<!-- <li><a class="website" href="#">website.com</a></li> -->
 					<!-- <li><a class="twitter" href="#">@twittername</a></li> -->
 				</ul>
-			</nav>                                
+			</nav>   
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/06-laurence-penney.mp3">Audio (15.3&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>                             
 			
 		</aside>
 		<nav class="all-speakers clearfix">

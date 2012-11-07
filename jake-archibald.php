@@ -31,7 +31,12 @@ Outside of the web, he likes the taste of beer, watches Formula One, and likes <
 					<li><a class="website" href="http://www.jakearchibald.com">jakearchibald.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/#!/jaffathecake">@jaffathecake</a></li>
 				</ul>
-			</nav>                                
+			</nav>   
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/08-jake-archibald.mp3">Audio (36.2&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>                             
 			
 		</aside>
 		<nav class="all-speakers clearfix">

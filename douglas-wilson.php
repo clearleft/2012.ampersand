@@ -28,7 +28,12 @@ include("includes/head.php");
 					<li><a class="website" href="http://onpaperwings.com/">onpaperwings.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/#!/realdougwilson">@realdougwilson</a></li>
 				</ul>
-			</nav>                                
+			</nav>   
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/04-douglas-wilson.mp3">Audio (9&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>                             
 			
 		</aside>
 		<nav class="all-speakers clearfix">

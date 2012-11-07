@@ -212,8 +212,17 @@ p strong, address strong {
 	font-family:"TrilogFatfacExperSubseRegula", Georgia, serif; font-weight: bold;
 }
 
+.smcp {
+	font-size: 85%;
+}
+
 .oldie .swsh {
 	font-style:normal;
+}
+
+.audio {
+	clear: left;
+	padding-top: 20px;
 }
 
 a.jake-archibald .char1 {	letter-spacing: -0.1em;	}
