@@ -18,7 +18,12 @@ include("includes/head.php");
 		<h2>We finally have the ability to serve custom fonts to all popular browsers. However, as with everything browser-based, to succeed with web fonts we must navigate a minefield of gotchas and peculiarities between browsers, devices, and operating systems.</h2>
 
 <p>Although fonts are a design asset, this talk will be deeply technical. We’ll look at what goes into a font file and how you can optimize font files for rendering and download performance, investigate common performance pitfalls made by most font delivery networks, and explore legal problems connected with font usage.</p>
-		
+		  
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/08-jake-archibald.mp3">Audio (36.2&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>
 			
 		<aside class="speaker clearfix">
 			<img src="img/jake-<?php echo $lang; ?>.gif" alt="Jake Archibald" width="185" height="196" />
@@ -31,12 +36,7 @@ Outside of the web, he likes the taste of beer, watches Formula One, and likes <
 					<li><a class="website" href="http://www.jakearchibald.com">jakearchibald.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/#!/jaffathecake">@jaffathecake</a></li>
 				</ul>
-			</nav>   
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/08-jake-archibald.mp3">Audio (36.2&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            Slides to come
-            </p>                             
+			</nav>                              
 			
 		</aside>
 		<nav class="all-speakers clearfix">

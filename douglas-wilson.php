@@ -17,7 +17,10 @@ include("includes/head.php");
 		</hgroup>
 		<p>Directed by Doug Wilson, the film is a feature-length documentary centred around the Linotype type casting machine. Called the &ldquo;Eighth Wonder of the World&rdquo; by Thomas Edison, it revolutionised printing and society. The film tells the surprisingly emotional story of the people connected to the Linotype and how it impacted the world. &ldquo;Linotype: The Film&rdquo; will be screened exclusively for Ampersand attendees at the <a href="/location">pre-party</a> and during the conference lunch break.</p>
 		
-		<p>Douglas will be on stage for 20 minutes to take your questions. Please email or tweet your questions to <a href="http://twitter.com/ampersandconf" style="-webkit-hyphens:none; -moz-hyphens:none; -ms-hyphens:none; hyphens:none">@ampersandconf</a> now or during the conference.</p>
+		<p>Douglas will be on stage for 20 minutes to take your questions. Please email or tweet your questions to <a href="http://twitter.com/ampersandconf" style="-webkit-hyphens:none; -moz-hyphens:none; -ms-hyphens:none; hyphens:none">@ampersandconf</a> now or during the conference.</p>  
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/04-douglas-wilson.mp3">Audio (9&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+            </p>
 		
 		<aside class="speaker clearfix">
 			<img src="img/doug-<?php echo $lang; ?>.gif" alt="Douglas Wilson" width="185" height="196" />
@@ -28,12 +31,7 @@ include("includes/head.php");
 					<li><a class="website" href="http://onpaperwings.com/">onpaperwings.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/#!/realdougwilson">@realdougwilson</a></li>
 				</ul>
-			</nav>   
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/04-douglas-wilson.mp3">Audio (9&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            Slides to come
-            </p>                             
+			</nav>                              
 			
 		</aside>
 		<nav class="all-speakers clearfix">

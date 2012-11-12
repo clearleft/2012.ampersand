@@ -15,7 +15,12 @@ include("includes/head.php");
 			<h1 id="sessionTitle" >If it don&#8217;t stick, make it stick</h1>
 			<h2>Some CSS font stack hackery</h2>
 		</hgroup>
-		<p>The CSS font stack has been around for a long time. It takes care of font fallback, so if Verdana doesn&#8217;t have Arabic, Arial gets used. But with webfonts, the rules of the game have changed, and the CSS font stack can be used to do some real fun wizardry.</p>
+		<p>The CSS font stack has been around for a long time. It takes care of font fallback, so if Verdana doesn&#8217;t have Arabic, Arial gets used. But with webfonts, the rules of the game have changed, and the CSS font stack can be used to do some real fun wizardry.</p> 
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/06-laurence-penney.mp3">Audio (15.3&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>   
 		
 		<aside class="speaker clearfix">
 			<img src="img/laurence-<?php echo $lang; ?>.gif" alt="Laurence Penney" width="185" height="196" />
@@ -26,12 +31,7 @@ include("includes/head.php");
 					<!-- <li><a class="website" href="#">website.com</a></li> -->
 					<!-- <li><a class="twitter" href="#">@twittername</a></li> -->
 				</ul>
-			</nav>   
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/06-laurence-penney.mp3">Audio (15.3&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            Slides to come
-            </p>                             
+			</nav>                            
 			
 		</aside>
 		<nav class="all-speakers clearfix">

@@ -14,7 +14,12 @@ include("includes/head.php");
 		
 		<h1 id="sessionTitle" >Detail in Web Typography.</h1>
 		<h2>For too long web designers had to make do with makeshift solutions for certain typesetting challenges.</h2>
-		<p>Thanks to recent developments in web typography we now have an increased control over the appearance of text on the internet. However this also means we have to get (re)acquainted with the rules in typography. This talk gives an overview of the do's and don't's and offers practical solutions to common problems.</p>
+		<p>Thanks to recent developments in web typography we now have an increased control over the appearance of text on the internet. However this also means we have to get (re)acquainted with the rules in typography. This talk gives an overview of the do's and don't's and offers practical solutions to common problems.</p>                                
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/02-yves-peters.mp3">Audio (43.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>
 		
 		<aside class="speaker clearfix">
 			<img src="img/yves-<?php echo $lang; ?>.gif" alt="Yves Peters" width="185" height="196" />
@@ -25,12 +30,7 @@ include("includes/head.php");
 					<li><a class="website" href="http://fontfeed.com/">Fontfeed.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/baldcondensed">@baldcondensed</a></li>
 				</ul>
-			</nav>                                
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/02-yves-peters.mp3">Audio (43.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            Slides to come
-            </p>
+			</nav>
 		</aside>
 		
 		<nav class="all-speakers clearfix">

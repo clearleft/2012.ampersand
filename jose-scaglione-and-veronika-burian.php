@@ -18,7 +18,12 @@ include("includes/head.php");
 		
 		<p>When starting a new project, one of the many tasks a designer encounters, is the selection of typefaces. Choosing and combining type families appropiately is crucial to the success of a project. In this context, the new typographic possibilities in the field of web design, and the broader use of mobile devices have created exiting challenges for the daily work of designers, developers and typographers.</p>
 		
-		<p>This presentation deals with such fundamental issues and offers guidance on how to approach the delicate matter of love and hate relationships that often exist between typefaces. The discussion is illustrated with examples of &ldquo;typographic couples&rdquo;, both good and bad.</p>
+		<p>This presentation deals with such fundamental issues and offers guidance on how to approach the delicate matter of love and hate relationships that often exist between typefaces. The discussion is illustrated with examples of &ldquo;typographic couples&rdquo;, both good and bad.</p> 
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/03-burian-scaglione.mp3">Audio (71.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>  
 		
 		<aside class="speaker clearfix">
 			<img src="img/jose-<?php echo $lang; ?>.gif" alt="José Scaglione" width="185" height="196" />
@@ -43,12 +48,7 @@ include("includes/head.php");
 					<li><a class="website" href="http://www.type-together.com">type-together.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/typetogether">@typetogether</a></li>
 				</ul>
-			</nav>  
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/03-burian-scaglione.mp3">Audio (71.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            Slides to come
-            </p>                              
+			</nav>                             
 		</aside>
 		
 		<nav class="all-speakers clearfix">

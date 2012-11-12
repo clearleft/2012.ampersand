@@ -13,7 +13,12 @@ include("includes/head.php");
 		
 		<hgroup>
 			<h1 id="sessionTitle" class="no-rule">On Hinting.</h1>
-		<hgroup>
+		<hgroup>  
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/07-lucas-de-groot.mp3">Audio (35.5&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>  
 		
 		<aside class="speaker clearfix">
 			<img src="img/lucas-<?php echo $lang; ?>.gif" alt="Luc(as) de Groot" width="185" height="196" />
@@ -27,12 +32,7 @@ include("includes/head.php");
 					<li><a class="website" href="http://www.lucasfonts.com">lucasfonts.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/#!/FontFabrik">@FontFabrik</a></li>
 				</ul>
-			</nav>  
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/07-lucas-de-groot.mp3">Audio (35.5&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            Slides to come
-            </p>                              
+			</nav>                            
 			
 		</aside>
 		

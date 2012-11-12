@@ -15,7 +15,12 @@ include("includes/head.php");
 			<h1 id="sessionTitle" class="no-rule">Enhancing the Future.</h1>
 		</hgroup>
 		
-		
+		  
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/09-elliot-jay-stocks.mp3">Audio (28.9&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            Slides to come
+            </p>  
 		<aside class="speaker clearfix">
 			<img src="img/elliot-<?php echo $lang; ?>.gif" alt="Elliot Jay Stocks" width="185" height="196" />
 			<h3>Ellio<span class="swsh">t</span> Ja<span class="swsh">y</span> Stock<span class="swsh">s</span></h3>
@@ -25,12 +30,7 @@ include("includes/head.php");
 					<li><a class="website" href="http://www.elliotjaystocks.com">elliotjaystocks.com</a></li>
 					<li><a class="twitter" href="http://twitter.com/elliotjaystocks">@elliotjaystocks</a></li>
 				</ul>
-			</nav>   
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/09-elliot-jay-stocks.mp3">Audio (28.9&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            Slides to come
-            </p>                             
+			</nav>                            
 		</aside>
 		
 		<nav class="all-speakers clearfix">

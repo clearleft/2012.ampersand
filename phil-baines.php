@@ -14,6 +14,12 @@ include("includes/head.php");
 		<hgroup>
 			<h1 id="sessionTitle" class="no-rule">Keynote.</h1>
 		</hgroup>
+			
+			<p class="audio">
+            <a href="http://ampersand.s3.amazonaws.com/2012/audio/01-phil-baines.mp3">Audio (35.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
+             ·
+            <a href="http://ampersand.s3.amazonaws.com/2012/slides/phil-baines.pdf">Slides (5.3&nbsp;<abbr class="smcp">Mb PDF</abbr>)</a>
+            </p>
 
 		<aside class="speaker clearfix">
 			<img src="img/phil-<?php echo $lang; ?>.gif" alt="Phil Baines" width="185" height="196" />
@@ -27,12 +33,6 @@ include("includes/head.php");
 					<li><a class="twitter" href="http://twitter.com/#!/sarkytype">@sarkytype</a></li>
 				</ul>
 			</nav>
-			
-			<p class="audio">
-            <a href="http://ampersand.s3.amazonaws.com/2012/audio/01-phil-baines.mp3">Audio (35.1&nbsp;<abbr class="smcp">Mb</abbr>)</a>
-             ·
-            <a href="http://ampersand.s3.amazonaws.com/2012/slides/phil-baines.pdf">Slides (5.3&nbsp;<abbr class="smcp">Mb PDF</abbr>)</a>
-            </p>
 
 		</aside>
 		<nav class="all-speakers clearfix">
