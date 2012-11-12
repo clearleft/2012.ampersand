@@ -22,7 +22,7 @@ include("includes/head.php");
 			<p class="audio">
             <a href="http://ampersand.s3.amazonaws.com/2012/audio/08-jake-archibald.mp3">Audio (36.2&nbsp;<abbr class="smcp">Mb</abbr>)</a>
              ·
-            Slides to come
+            <a href="http://www.slideshare.net/jaffathecake/in-your-fontface">Slideshare</a>
             </p>
 			
 		<aside class="speaker clearfix">
