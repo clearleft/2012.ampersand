@@ -19,7 +19,7 @@ include("includes/head.php");
 			<p class="audio">
             <a href="http://ampersand.s3.amazonaws.com/2012/audio/09-elliot-jay-stocks.mp3">Audio (28.9&nbsp;<abbr class="smcp">Mb</abbr>)</a>
              ·
-            Slides to come
+            <a href="http://ampersand.s3.amazonaws.com/2012/slides/elliotjaystocks_ampersand.pdf">Slides (16.3&nbsp;<abbr class="smcp">Mb PDF</abbr>)</a>
             </p>  
 		<aside class="speaker clearfix">
 			<img src="img/elliot-<?php echo $lang; ?>.gif" alt="Elliot Jay Stocks" width="185" height="196" />
