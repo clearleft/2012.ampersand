@@ -17,7 +17,7 @@
 			<div class="executive">
 				<h5><span>Executive Sponsors</span></h5>
 				<a href="http://www.webtype.com/" title="Webtype"><img class="webtype" alt="Webtype" src="img/sponsors/webtype.png"  /></a>
-				<a href="http://www.heartinternet.co.uk/" title="Heart Internet" ><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
+				<a href="http://www.heartinternet.co.uk/" title="Heart Internet" rel="nofollow"><img class="heart-internet" alt="Heart Internet" src="img/sponsors/heartinternet.png" /></a>
 				<a href="http://www.fontshop.com/" title="Fontshop" ><img class="fontshop" alt="FontShop" src="img/sponsors/fontshop.png" /></a>
 				<a href="https://www.fontfont.com/" title="FontFont"><img class="fontfont" alt="FontFont" src="img/sponsors/fontfont.png" /></a>
 				<a href="http://beta.typecastapp.com/" title="Typecast"><img class="typecast" alt="Typecast" src="img/sponsors/typecast.png" /></a>
