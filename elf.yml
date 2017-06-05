@@ -1,6 +1,6 @@
-repository: git@github.com:clearleft/ampersand-2012.git
+repository: git@github.com:clearleft/2012.ampersand.git
 
 deploy:
   branch: master
-  server: ampersand.clearleft.host
+  server: events.clearleft.host
   domain: 2012.ampersandconf.com
